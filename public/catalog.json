@@ -1,0 +1,6815 @@
+{
+  "generatedAt": "2026-08-25T14:47:19.793288+00:00",
+  "source": "PIC-Designer/PIC_library@main:pdk",
+  "count": 280,
+  "designs": [
+    {
+      "id": "released.SiN200.SiN200_780nm_TE_strip_GC",
+      "name": "SiN200_780nm_TE_strip_GC",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 10,
+      "function": "SiN200_780nm_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_780nm_TE_strip_1x2_MMI",
+      "name": "SiN200_780nm_TE_strip_1x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 17,
+      "function": "SiN200_780nm_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_780nm_TE_strip_2x2_MMI",
+      "name": "SiN200_780nm_TE_strip_2x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 23,
+      "function": "SiN200_780nm_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_780nm_TE_strip_waveguide",
+      "name": "SiN200_780nm_TE_strip_waveguide",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 29,
+      "function": "SiN200_780nm_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_638nm_TE_strip_GC",
+      "name": "SiN200_638nm_TE_strip_GC",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 35,
+      "function": "SiN200_638nm_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_638nm_TE_strip_1x2_MMI",
+      "name": "SiN200_638nm_TE_strip_1x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 42,
+      "function": "SiN200_638nm_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_638nm_TE_strip_2x2_MMI",
+      "name": "SiN200_638nm_TE_strip_2x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 48,
+      "function": "SiN200_638nm_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_638nm_TE_strip_waveguide",
+      "name": "SiN200_638nm_TE_strip_waveguide",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 54,
+      "function": "SiN200_638nm_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_520nm_TE_strip_GC",
+      "name": "SiN200_520nm_TE_strip_GC",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 60,
+      "function": "SiN200_520nm_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_520nm_TE_strip_1x2_MMI",
+      "name": "SiN200_520nm_TE_strip_1x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 67,
+      "function": "SiN200_520nm_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_520nm_TE_strip_2x2_MMI",
+      "name": "SiN200_520nm_TE_strip_2x2_MMI",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 73,
+      "function": "SiN200_520nm_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_520nm_TE_strip_waveguide",
+      "name": "SiN200_520nm_TE_strip_waveguide",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 79,
+      "function": "SiN200_520nm_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_Institution",
+      "name": "SiN200_Institution",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 85,
+      "function": "SiN200_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN200.SiN200_heater",
+      "name": "SiN200_heater",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "line": 91,
+      "function": "SiN200_heater",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_TE_strip_GC",
+      "name": "SiN300_cband_TE_strip_GC",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 10,
+      "function": "SiN300_cband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_TE_strip_1x2_MMI",
+      "name": "SiN300_cband_TE_strip_1x2_MMI",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 17,
+      "function": "SiN300_cband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_TE_strip_2x2_MMI",
+      "name": "SiN300_cband_TE_strip_2x2_MMI",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 23,
+      "function": "SiN300_cband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_TE_strip_90deg_bend",
+      "name": "SiN300_cband_TE_strip_90deg_bend",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 29,
+      "function": "SiN300_cband_TE_strip_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_TE_strip_waveguide",
+      "name": "SiN300_cband_TE_strip_waveguide",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 35,
+      "function": "SiN300_cband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_oband_TE_strip_GC",
+      "name": "SiN300_oband_TE_strip_GC",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 41,
+      "function": "SiN300_oband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_oband_TE_strip_1x2_MMI",
+      "name": "SiN300_oband_TE_strip_1x2_MMI",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 47,
+      "function": "SiN300_oband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_oband_TE_strip_2x2_MMI",
+      "name": "SiN300_oband_TE_strip_2x2_MMI",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 53,
+      "function": "SiN300_oband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_oband_TE_strip_90deg_bend",
+      "name": "SiN300_oband_TE_strip_90deg_bend",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 59,
+      "function": "SiN300_oband_TE_strip_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_oband_TE_strip_waveguide",
+      "name": "SiN300_oband_TE_strip_waveguide",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 65,
+      "function": "SiN300_oband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_cband_PHIX_Packaging_Template",
+      "name": "SiN300_cband_PHIX_Packaging_Template",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Packaging Template",
+      "variant": [
+        "PHIX"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 70,
+      "function": "SiN300_cband_PHIX_Packaging_Template",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_Institution",
+      "name": "SiN300_Institution",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 75,
+      "function": "SiN300_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_heater",
+      "name": "SiN300_heater",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 81,
+      "function": "SiN300_heater",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_PD_FCI300B1_Plain",
+      "name": "SiN300_PD_FCI300B1_Plain",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Plain"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 87,
+      "function": "SiN300_PD_FCI300B1_Plain",
+      "parameters": []
+    },
+    {
+      "id": "released.SiN300.SiN300_PD_FCI300B1_Integrated",
+      "name": "SiN300_PD_FCI300B1_Integrated",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Integrated"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "line": 93,
+      "function": "SiN300_PD_FCI300B1_Integrated",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_GC",
+      "name": "SOI220_cband_TE_rib_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 12,
+      "function": "SOI220_cband_TE_rib_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_1x2_MMI",
+      "name": "SOI220_cband_TE_rib_1x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 19,
+      "function": "SOI220_cband_TE_rib_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_2x2_MMI",
+      "name": "SOI220_cband_TE_rib_2x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 25,
+      "function": "SOI220_cband_TE_rib_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_90deg_bend",
+      "name": "SOI220_cband_TE_rib_90deg_bend",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 31,
+      "function": "SOI220_cband_TE_rib_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_crossing",
+      "name": "SOI220_cband_TE_rib_crossing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 37,
+      "function": "SOI220_cband_TE_rib_crossing",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_MM2SM_taper",
+      "name": "SOI220_cband_TE_rib_MM2SM_taper",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Mode Converter",
+      "variant": [
+        "taper"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 44,
+      "function": "SOI220_cband_TE_rib_MM2SM_taper",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_MZI",
+      "name": "SOI220_cband_TE_rib_MZI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MZI",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 50,
+      "function": "SOI220_cband_TE_rib_MZI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_waveguide",
+      "name": "SOI220_cband_TE_rib_waveguide",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 56,
+      "function": "SOI220_cband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_GC",
+      "name": "SOI220_cband_TE_strip_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 62,
+      "function": "SOI220_cband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 69,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 77,
+      "function": "SOI220_cband_TE_strip_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 85,
+      "function": "SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib_apodized_GC_v1p0",
+      "name": "SOI220_cband_TE_rib_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 93,
+      "function": "SOI220_cband_TE_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "ebl"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 102,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_1x2_MMI",
+      "name": "SOI220_cband_TE_strip_1x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 111,
+      "function": "SOI220_cband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_2x2_MMI",
+      "name": "SOI220_cband_TE_strip_2x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 117,
+      "function": "SOI220_cband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_1x2_Ysplitter",
+      "name": "SOI220_cband_TE_strip_1x2_Ysplitter",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Y Splitter",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 123,
+      "function": "SOI220_cband_TE_strip_1x2_Ysplitter",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_90deg_bend",
+      "name": "SOI220_cband_TE_strip_90deg_bend",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 129,
+      "function": "SOI220_cband_TE_strip_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_crossing",
+      "name": "SOI220_cband_TE_strip_crossing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 135,
+      "function": "SOI220_cband_TE_strip_crossing",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_MM2SM_taper",
+      "name": "SOI220_cband_TE_strip_MM2SM_taper",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Mode Converter",
+      "variant": [
+        "taper"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 142,
+      "function": "SOI220_cband_TE_strip_MM2SM_taper",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_MZI",
+      "name": "SOI220_cband_TE_strip_MZI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MZI",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 148,
+      "function": "SOI220_cband_TE_strip_MZI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_rib2strip_taper",
+      "name": "SOI220_cband_TE_rib2strip_taper",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Unspecified",
+      "deviceType": "Other",
+      "variant": [
+        "rib2strip",
+        "taper"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 155,
+      "function": "SOI220_cband_TE_rib2strip_taper",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_TE_strip_waveguide",
+      "name": "SOI220_cband_TE_strip_waveguide",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 161,
+      "function": "SOI220_cband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_GC",
+      "name": "SOI220_oband_TE_rib_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 167,
+      "function": "SOI220_oband_TE_rib_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_1x2_MMI",
+      "name": "SOI220_oband_TE_rib_1x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 174,
+      "function": "SOI220_oband_TE_rib_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_2x2_MMI",
+      "name": "SOI220_oband_TE_rib_2x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 180,
+      "function": "SOI220_oband_TE_rib_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_crossing",
+      "name": "SOI220_oband_TE_rib_crossing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 186,
+      "function": "SOI220_oband_TE_rib_crossing",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_waveguide",
+      "name": "SOI220_oband_TE_rib_waveguide",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 193,
+      "function": "SOI220_oband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_GC",
+      "name": "SOI220_oband_TE_strip_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 199,
+      "function": "SOI220_oband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
+      "name": "SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 206,
+      "function": "SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_apodized_GC_v1p0",
+      "name": "SOI220_oband_TE_strip_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 214,
+      "function": "SOI220_oband_TE_strip_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 222,
+      "function": "SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_rib_apodized_GC_v1p0",
+      "name": "SOI220_oband_TE_rib_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 230,
+      "function": "SOI220_oband_TE_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_1x2_MMI",
+      "name": "SOI220_oband_TE_strip_1x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 240,
+      "function": "SOI220_oband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_2x2_MMI",
+      "name": "SOI220_oband_TE_strip_2x2_MMI",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 246,
+      "function": "SOI220_oband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_1x2_Ysplitter",
+      "name": "SOI220_oband_TE_strip_1x2_Ysplitter",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Y Splitter",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 252,
+      "function": "SOI220_oband_TE_strip_1x2_Ysplitter",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_90deg_bend",
+      "name": "SOI220_oband_TE_strip_90deg_bend",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 258,
+      "function": "SOI220_oband_TE_strip_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_crossing",
+      "name": "SOI220_oband_TE_strip_crossing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 264,
+      "function": "SOI220_oband_TE_strip_crossing",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_oband_TE_strip_waveguide",
+      "name": "SOI220_oband_TE_strip_waveguide",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 271,
+      "function": "SOI220_oband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_heater",
+      "name": "SOI220_heater",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 277,
+      "function": "SOI220_heater",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_heater_with_isolation",
+      "name": "SOI220_heater_with_isolation",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [
+        "with",
+        "isolation"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 282,
+      "function": "SOI220_heater_with_isolation",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_Full_Packaging_Template",
+      "name": "SOI220_cband_Full_Packaging_Template",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Packaging Template",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 288,
+      "function": "SOI220_cband_Full_Packaging_Template",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_cband_PHIX_Packaging_Template",
+      "name": "SOI220_cband_PHIX_Packaging_Template",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Packaging Template",
+      "variant": [
+        "PHIX"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 293,
+      "function": "SOI220_cband_PHIX_Packaging_Template",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Full_Institution",
+      "name": "SOI220_Full_Institution",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 298,
+      "function": "SOI220_Full_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Full_Institution_intergrated_LD",
+      "name": "SOI220_Full_Institution_intergrated_LD",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full",
+        "intergrated",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 304,
+      "function": "SOI220_Full_Institution_intergrated_LD",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_and_GC",
+      "name": "SOI220_Full_Institution_Integrated_LD_and_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Full",
+        "Institution",
+        "Integrated",
+        "LD",
+        "and"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 314,
+      "function": "SOI220_Full_Institution_Integrated_LD_and_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_or_GC",
+      "name": "SOI220_Full_Institution_Integrated_LD_or_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Full",
+        "Institution",
+        "Integrated",
+        "LD",
+        "or"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 325,
+      "function": "SOI220_Full_Institution_Integrated_LD_or_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Half_Institution",
+      "name": "SOI220_Half_Institution",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Half"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 336,
+      "function": "SOI220_Half_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD",
+      "name": "SOI220_Half_Institution_Integrated_LD",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Half",
+        "Integrated",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 342,
+      "function": "SOI220_Half_Institution_Integrated_LD",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_and_GC",
+      "name": "SOI220_Half_Institution_Integrated_LD_and_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Half",
+        "Institution",
+        "Integrated",
+        "LD",
+        "and"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 352,
+      "function": "SOI220_Half_Institution_Integrated_LD_and_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_Half_Institution_integrate_LD_or_GC",
+      "name": "SOI220_Half_Institution_integrate_LD_or_GC",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Half",
+        "Institution",
+        "integrate",
+        "LD",
+        "or"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 363,
+      "function": "SOI220_Half_Institution_integrate_LD_or_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_PD_FCI300B1_Plain",
+      "name": "SOI220_PD_FCI300B1_Plain",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Plain"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 374,
+      "function": "SOI220_PD_FCI300B1_Plain",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220.SOI220_PD_FCI300B1_Integrated",
+      "name": "SOI220_PD_FCI300B1_Integrated",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Integrated"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "line": 380,
+      "function": "SOI220_PD_FCI300B1_Integrated",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220active.SOI220_cband_TE_rib_Defect_Detector",
+      "name": "SOI220_cband_TE_rib_Defect_Detector",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Photodetector",
+      "variant": [
+        "Defect"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "line": 15,
+      "function": "SOI220_cband_TE_rib_Defect_Detector",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220active.SOI220_cband_TE_rib_MZM",
+      "name": "SOI220_cband_TE_rib_MZM",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MZI",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "line": 21,
+      "function": "SOI220_cband_TE_rib_MZM",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220active.SOI220_oband_TE_rib_Defect_Detector",
+      "name": "SOI220_oband_TE_rib_Defect_Detector",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Photodetector",
+      "variant": [
+        "Defect"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "line": 28,
+      "function": "SOI220_oband_TE_rib_Defect_Detector",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI220active.SOI220_oband_TE_rib_MZM",
+      "name": "SOI220_oband_TE_rib_MZM",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MZI",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "line": 34,
+      "function": "SOI220_oband_TE_rib_MZM",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_strip_GC",
+      "name": "SOI340_cband_TE_strip_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 10,
+      "function": "SOI340_cband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_strip_1x2_MMI",
+      "name": "SOI340_cband_TE_strip_1x2_MMI",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 17,
+      "function": "SOI340_cband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_strip_2x2_MMI",
+      "name": "SOI340_cband_TE_strip_2x2_MMI",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 23,
+      "function": "SOI340_cband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_strip_MZI",
+      "name": "SOI340_cband_TE_strip_MZI",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MZI",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 29,
+      "function": "SOI340_cband_TE_strip_MZI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_strip_waveguide",
+      "name": "SOI340_cband_TE_strip_waveguide",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 36,
+      "function": "SOI340_cband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_rib2strip_taper",
+      "name": "SOI340_cband_TE_rib2strip_taper",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Unspecified",
+      "deviceType": "Other",
+      "variant": [
+        "rib2strip",
+        "taper"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 42,
+      "function": "SOI340_cband_TE_rib2strip_taper",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_rib_90deg_bend",
+      "name": "SOI340_cband_TE_rib_90deg_bend",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 48,
+      "function": "SOI340_cband_TE_rib_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_TE_rib_waveguide",
+      "name": "SOI340_cband_TE_rib_waveguide",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 54,
+      "function": "SOI340_cband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_oband_TE_strip_GC",
+      "name": "SOI340_oband_TE_strip_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 60,
+      "function": "SOI340_oband_TE_strip_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_oband_TE_strip_1x2_MMI",
+      "name": "SOI340_oband_TE_strip_1x2_MMI",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 67,
+      "function": "SOI340_oband_TE_strip_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_oband_TE_strip_2x2_MMI",
+      "name": "SOI340_oband_TE_strip_2x2_MMI",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 73,
+      "function": "SOI340_oband_TE_strip_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_oband_TE_strip_waveguide",
+      "name": "SOI340_oband_TE_strip_waveguide",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 79,
+      "function": "SOI340_oband_TE_strip_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_heater",
+      "name": "SOI340_heater",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 86,
+      "function": "SOI340_heater",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_heater_with_isolation",
+      "name": "SOI340_heater_with_isolation",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [
+        "with",
+        "isolation"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 91,
+      "function": "SOI340_heater_with_isolation",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_cband_Full_Packaging_Template",
+      "name": "SOI340_cband_Full_Packaging_Template",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Packaging Template",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 97,
+      "function": "SOI340_cband_Full_Packaging_Template",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Full_Institution",
+      "name": "SOI340_Full_Institution",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 103,
+      "function": "SOI340_Full_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Full_Institution_intergrated_LD",
+      "name": "SOI340_Full_Institution_intergrated_LD",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full",
+        "intergrated",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 109,
+      "function": "SOI340_Full_Institution_intergrated_LD",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Full_Institution_intergrate_LD_and_GC",
+      "name": "SOI340_Full_Institution_intergrate_LD_and_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Full",
+        "Institution",
+        "intergrate",
+        "LD",
+        "and"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 119,
+      "function": "SOI340_Full_Institution_intergrate_LD_and_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Full_Institution_intergrate_LD_or_GC",
+      "name": "SOI340_Full_Institution_intergrate_LD_or_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Full",
+        "Institution",
+        "intergrate",
+        "LD",
+        "or"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 130,
+      "function": "SOI340_Full_Institution_intergrate_LD_or_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Half_Institution",
+      "name": "SOI340_Half_Institution",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Half"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 141,
+      "function": "SOI340_Half_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Half_Institution_intergrated_LD",
+      "name": "SOI340_Half_Institution_intergrated_LD",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Half",
+        "intergrated",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 147,
+      "function": "SOI340_Half_Institution_intergrated_LD",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Half_Institution_intergrate_LD_and_GC",
+      "name": "SOI340_Half_Institution_intergrate_LD_and_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Half",
+        "Institution",
+        "intergrate",
+        "LD",
+        "and"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 157,
+      "function": "SOI340_Half_Institution_intergrate_LD_and_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_Half_Institution_intergrate_LD_or_GC",
+      "name": "SOI340_Half_Institution_intergrate_LD_or_GC",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Half",
+        "Institution",
+        "intergrate",
+        "LD",
+        "or"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 168,
+      "function": "SOI340_Half_Institution_intergrate_LD_or_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_PD_FCI300B1_Plain",
+      "name": "SOI340_PD_FCI300B1_Plain",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Plain"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 179,
+      "function": "SOI340_PD_FCI300B1_Plain",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI340.SOI340_PD_FCI300B1_Integrated",
+      "name": "SOI340_PD_FCI300B1_Integrated",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Integrated"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "line": 185,
+      "function": "SOI340_PD_FCI300B1_Integrated",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_TE_rib_GC",
+      "name": "SOI500_cband_TE_rib_GC",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 8,
+      "function": "SOI500_cband_TE_rib_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_TE_rib_1x2_MMI",
+      "name": "SOI500_cband_TE_rib_1x2_MMI",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 15,
+      "function": "SOI500_cband_TE_rib_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_TE_rib_2x2_MMI",
+      "name": "SOI500_cband_TE_rib_2x2_MMI",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 21,
+      "function": "SOI500_cband_TE_rib_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_TE_rib_90deg_bend",
+      "name": "SOI500_cband_TE_rib_90deg_bend",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 27,
+      "function": "SOI500_cband_TE_rib_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_TE_rib_waveguide",
+      "name": "SOI500_cband_TE_rib_waveguide",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 33,
+      "function": "SOI500_cband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_heater",
+      "name": "SOI500_heater",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Heater",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 40,
+      "function": "SOI500_heater",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_cband_Full_Packaging_Template",
+      "name": "SOI500_cband_Full_Packaging_Template",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Packaging Template",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 46,
+      "function": "SOI500_cband_Full_Packaging_Template",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_Full_Institution",
+      "name": "SOI500_Full_Institution",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 52,
+      "function": "SOI500_Full_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_Full_Institution_with_LD_GC",
+      "name": "SOI500_Full_Institution_with_LD_GC",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "Full",
+        "Institution",
+        "with",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 58,
+      "function": "SOI500_Full_Institution_with_LD_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_Full_Institution_with_LD",
+      "name": "SOI500_Full_Institution_with_LD",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Full",
+        "with",
+        "LD"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 69,
+      "function": "SOI500_Full_Institution_with_LD",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_Half_Institution",
+      "name": "SOI500_Half_Institution",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [
+        "Half"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 79,
+      "function": "SOI500_Half_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_PD_FCI300B1_Plain",
+      "name": "SOI500_PD_FCI300B1_Plain",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Plain"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 85,
+      "function": "SOI500_PD_FCI300B1_Plain",
+      "parameters": []
+    },
+    {
+      "id": "released.SOI500.SOI500_PD_FCI300B1_Integrated",
+      "name": "SOI500_PD_FCI300B1_Integrated",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Photodetector",
+      "variant": [
+        "FCI300B1",
+        "Integrated"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "line": 91,
+      "function": "SOI500_PD_FCI300B1_Integrated",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_GC",
+      "name": "StudentSOI_cband_TE_rib_GC",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 9,
+      "function": "StudentSOI_cband_TE_rib_GC",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_1x2_MMI",
+      "name": "StudentSOI_cband_TE_rib_1x2_MMI",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 18,
+      "function": "StudentSOI_cband_TE_rib_1x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_2x2_MMI",
+      "name": "StudentSOI_cband_TE_rib_2x2_MMI",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 24,
+      "function": "StudentSOI_cband_TE_rib_2x2_MMI",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_waveguide",
+      "name": "StudentSOI_cband_TE_rib_waveguide",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 30,
+      "function": "StudentSOI_cband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_90deg_bend",
+      "name": "StudentSOI_cband_TE_rib_90deg_bend",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 36,
+      "function": "StudentSOI_cband_TE_rib_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_cband_TE_rib_crossing",
+      "name": "StudentSOI_cband_TE_rib_crossing",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 42,
+      "function": "StudentSOI_cband_TE_rib_crossing",
+      "parameters": []
+    },
+    {
+      "id": "released.SOIStudent.StudentSOI_Institution",
+      "name": "StudentSOI_Institution",
+      "platform": "StudentSOI",
+      "material": "SOI",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "line": 49,
+      "function": "StudentSOI_Institution",
+      "parameters": []
+    },
+    {
+      "id": "released.TFLN300.tfln_concentric_rings",
+      "name": "tfln_concentric_rings",
+      "platform": "tfln",
+      "material": "TFLN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Other",
+      "variant": [
+        "concentric",
+        "rings"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 12,
+      "function": "tfln_concentric_rings",
+      "parameters": [
+        {
+          "name": "centre_radius",
+          "annotation": "float",
+          "default": "1.0",
+          "required": false
+        },
+        {
+          "name": "start_gap",
+          "annotation": "float",
+          "default": "0.15",
+          "required": false
+        },
+        {
+          "name": "end_gap",
+          "annotation": "float",
+          "default": "0.5",
+          "required": false
+        },
+        {
+          "name": "gap_increment",
+          "annotation": "float",
+          "default": "0.05",
+          "required": false
+        },
+        {
+          "name": "start_width",
+          "annotation": "float",
+          "default": "0.15",
+          "required": false
+        },
+        {
+          "name": "end_width",
+          "annotation": "float",
+          "default": "1.1",
+          "required": false
+        },
+        {
+          "name": "width_increment",
+          "annotation": "float",
+          "default": "0.05",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.tfln_cdsem_lines",
+      "name": "tfln_cdsem_lines",
+      "platform": "tfln",
+      "material": "TFLN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Other",
+      "variant": [
+        "cdsem",
+        "lines"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 40,
+      "function": "tfln_cdsem_lines",
+      "parameters": [
+        {
+          "name": "line_length",
+          "annotation": "float",
+          "default": "100.0",
+          "required": false
+        },
+        {
+          "name": "line_width",
+          "annotation": "float",
+          "default": "10.0",
+          "required": false
+        },
+        {
+          "name": "line_gap",
+          "annotation": "float",
+          "default": "20.0",
+          "required": false
+        },
+        {
+          "name": "num_lines",
+          "annotation": "int",
+          "default": "10",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.tfln_axes_arrows",
+      "name": "tfln_axes_arrows",
+      "platform": "tfln",
+      "material": "TFLN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Other",
+      "variant": [
+        "axes",
+        "arrows"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 54,
+      "function": "tfln_axes_arrows",
+      "parameters": [
+        {
+          "name": "arrow_length",
+          "annotation": "float",
+          "default": "100.0",
+          "required": false
+        },
+        {
+          "name": "arrow_width",
+          "annotation": "float",
+          "default": "50.0",
+          "required": false
+        },
+        {
+          "name": "arrow_head_size",
+          "annotation": "float",
+          "default": "100.0",
+          "required": false
+        },
+        {
+          "name": "x_label",
+          "annotation": "str",
+          "default": "'O'",
+          "required": false
+        },
+        {
+          "name": "y_label",
+          "annotation": "str",
+          "default": "'E'",
+          "required": false
+        },
+        {
+          "name": "label_size",
+          "annotation": "float | None",
+          "default": "None",
+          "required": false
+        },
+        {
+          "name": "label_layer",
+          "annotation": null,
+          "default": "layers['NFO']",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pE",
+      "name": "TFLN300_cband_TE_rib_oprop_GC_v1pE",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "oprop"
+      ],
+      "version": "1.E",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 109,
+      "function": "TFLN300_cband_TE_rib_oprop_GC_v1pE",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pB",
+      "name": "TFLN300_cband_TE_rib_oprop_GC_v1pB",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "oprop"
+      ],
+      "version": "1.B",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 127,
+      "function": "TFLN300_cband_TE_rib_oprop_GC_v1pB",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_apodised_GC_compact_v1p0",
+      "name": "TFLN300_cband_TE_rib_oprop_apodised_GC_compact_v1p0",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "oprop",
+        "apodised",
+        "compact"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 144,
+      "function": "TFLN300_cband_TE_rib_oprop_apodised_GC_compact_v1p0",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_apodised_GC_v1p0",
+      "name": "TFLN300_cband_TE_rib_oprop_apodised_GC_v1p0",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "oprop",
+        "apodised"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 163,
+      "function": "TFLN300_cband_TE_rib_oprop_apodised_GC_v1p0",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_apodised_GC_compact_v1p0",
+      "name": "TFLN300_cband_TE_rib_eprop_apodised_GC_compact_v1p0",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "eprop",
+        "apodised",
+        "compact"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 182,
+      "function": "TFLN300_cband_TE_rib_eprop_apodised_GC_compact_v1p0",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_apodised_GC_v1p0",
+      "name": "TFLN300_cband_TE_rib_eprop_apodised_GC_v1p0",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "eprop",
+        "apodised"
+      ],
+      "version": "1.0",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 200,
+      "function": "TFLN300_cband_TE_rib_eprop_apodised_GC_v1p0",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_GC_v1pE",
+      "name": "TFLN300_cband_TE_rib_eprop_GC_v1pE",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "eprop"
+      ],
+      "version": "1.E",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 218,
+      "function": "TFLN300_cband_TE_rib_eprop_GC_v1pE",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_1x2_MMI",
+      "name": "TFLN300_cband_TE_rib_oprop_1x2_MMI",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "oprop",
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 236,
+      "function": "TFLN300_cband_TE_rib_oprop_1x2_MMI",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_1x2_MMI",
+      "name": "TFLN300_cband_TE_rib_eprop_1x2_MMI",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "eprop",
+        "1x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 251,
+      "function": "TFLN300_cband_TE_rib_eprop_1x2_MMI",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_2x2_MMI",
+      "name": "TFLN300_cband_TE_rib_oprop_2x2_MMI",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "oprop",
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 265,
+      "function": "TFLN300_cband_TE_rib_oprop_2x2_MMI",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_2x2_MMI",
+      "name": "TFLN300_cband_TE_rib_eprop_2x2_MMI",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "eprop",
+        "2x2"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 279,
+      "function": "TFLN300_cband_TE_rib_eprop_2x2_MMI",
+      "parameters": [
+        {
+          "name": "label_axes",
+          "annotation": "bool",
+          "default": "True",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_90deg_bend",
+      "name": "TFLN300_cband_TE_rib_90deg_bend",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Bend",
+      "variant": [
+        "90°"
+      ],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 293,
+      "function": "TFLN300_cband_TE_rib_90deg_bend",
+      "parameters": []
+    },
+    {
+      "id": "released.TFLN300.TFLN300_cband_TE_rib_waveguide",
+      "name": "TFLN300_cband_TE_rib_waveguide",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Waveguide",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 299,
+      "function": "TFLN300_cband_TE_rib_waveguide",
+      "parameters": []
+    },
+    {
+      "id": "released.TFLN300.TFLN300_Institution",
+      "name": "TFLN300_Institution",
+      "platform": "TFLN300",
+      "material": "TFLN",
+      "wavelength": "Unspecified",
+      "wavelengthNm": null,
+      "mode": "Unspecified",
+      "crossSection": "Unspecified",
+      "deviceType": "Institution Layout",
+      "variant": [],
+      "version": "—",
+      "status": "released",
+      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "line": 306,
+      "function": "TFLN300_Institution",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_v0p0",
+      "name": "SiN200_780nm_TM_strip_GC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 13,
+      "function": "SiN200_780nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_v0p1",
+      "name": "SiN200_780nm_TM_strip_GC_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 19,
+      "function": "SiN200_780nm_TM_strip_GC_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_1x2_MMI_v0p0",
+      "name": "SiN200_780nm_TM_strip_1x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 25,
+      "function": "SiN200_780nm_TM_strip_1x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_2x2_MMI_v0p0",
+      "name": "SiN200_780nm_TM_strip_2x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 30,
+      "function": "SiN200_780nm_TM_strip_2x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_dual_strip_inverse_EC_v0p0",
+      "name": "SiN200_780nm_dual_strip_inverse_EC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "inverse"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 35,
+      "function": "SiN200_780nm_dual_strip_inverse_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_dual_strip_trident_EC_HCF_v0p0",
+      "name": "SiN200_780nm_dual_strip_trident_EC_HCF_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "trident",
+        "HCF"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 39,
+      "function": "SiN200_780nm_dual_strip_trident_EC_HCF_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TE_strip_Crossing_v0p0",
+      "name": "SiN200_780nm_TE_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 44,
+      "function": "SiN200_780nm_TE_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_Crossing_v0p0",
+      "name": "SiN200_780nm_TM_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 50,
+      "function": "SiN200_780nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_GC_v0p0",
+      "name": "SiN200_638nm_TM_strip_GC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 59,
+      "function": "SiN200_638nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_1x2_MMI_v0p0",
+      "name": "SiN200_638nm_TM_strip_1x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 66,
+      "function": "SiN200_638nm_TM_strip_1x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_2x2_MMI_v0p0",
+      "name": "SiN200_638nm_TM_strip_2x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 71,
+      "function": "SiN200_638nm_TM_strip_2x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_dual_strip_inverse_EC_v0p0",
+      "name": "SiN200_638nm_dual_strip_inverse_EC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "inverse"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 76,
+      "function": "SiN200_638nm_dual_strip_inverse_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_dual_strip_trident_EC_HCF_v0p0",
+      "name": "SiN200_638nm_dual_strip_trident_EC_HCF_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "trident",
+        "HCF"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 80,
+      "function": "SiN200_638nm_dual_strip_trident_EC_HCF_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TE_strip_Crossing_v0p0",
+      "name": "SiN200_638nm_TE_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 85,
+      "function": "SiN200_638nm_TE_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_Crossing_v0p0",
+      "name": "SiN200_638nm_TM_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 91,
+      "function": "SiN200_638nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_GC_v0p0",
+      "name": "SiN200_520nm_TM_strip_GC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 100,
+      "function": "SiN200_520nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_1x2_MMI_v0p0",
+      "name": "SiN200_520nm_TM_strip_1x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 107,
+      "function": "SiN200_520nm_TM_strip_1x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_2x2_MMI_v0p0",
+      "name": "SiN200_520nm_TM_strip_2x2_MMI_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 112,
+      "function": "SiN200_520nm_TM_strip_2x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_dual_strip_inverse_EC_v0p0",
+      "name": "SiN200_520nm_dual_strip_inverse_EC_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "inverse"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 117,
+      "function": "SiN200_520nm_dual_strip_inverse_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_dual_strip_trident_EC_HCF_v0p0",
+      "name": "SiN200_520nm_dual_strip_trident_EC_HCF_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "trident",
+        "HCF"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 121,
+      "function": "SiN200_520nm_dual_strip_trident_EC_HCF_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TE_strip_Crossing_v0p0",
+      "name": "SiN200_520nm_TE_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 126,
+      "function": "SiN200_520nm_TE_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_Crossing_v0p0",
+      "name": "SiN200_520nm_TM_strip_Crossing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN200.py",
+      "line": 132,
+      "function": "SiN200_520nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 12,
+      "function": "SiN300_cband_TE_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 20,
+      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v1p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_v1p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 29,
+      "function": "SiN300_cband_TE_strip_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 37,
+      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TM_strip_Crossing_v0p0",
+      "name": "SiN300_cband_TM_strip_Crossing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 45,
+      "function": "SiN300_cband_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_dual_strip_inverse_EC_v0p0",
+      "name": "SiN300_cband_dual_strip_inverse_EC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "inverse"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 54,
+      "function": "SiN300_cband_dual_strip_inverse_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_dual_strip_trident_EC_v0p0",
+      "name": "SiN300_cband_dual_strip_trident_EC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "trident"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 59,
+      "function": "SiN300_cband_dual_strip_trident_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_dual_strip_dielectric_EC_v0p0",
+      "name": "SiN300_cband_dual_strip_dielectric_EC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "dielectric"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 64,
+      "function": "SiN300_cband_dual_strip_dielectric_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TE_strip_apodized_GC_v0p0",
+      "name": "SiN300_oband_TE_strip_apodized_GC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 73,
+      "function": "SiN300_oband_TE_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "name": "SiN300_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 81,
+      "function": "SiN300_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TM_strip_Crossing_v0p0",
+      "name": "SiN300_oband_TM_strip_Crossing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300.py",
+      "line": 89,
+      "function": "SiN300_oband_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300onSOI220.SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
+      "name": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
+      "platform": "SiNonSOI",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Interlayer Coupler",
+      "variant": [
+        "coupler"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "line": 10,
+      "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
+      "name": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
+      "platform": "SiNonSOI",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Interlayer Coupler",
+      "variant": [
+        "coupler"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "line": 15,
+      "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300onSOI220.SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
+      "name": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
+      "platform": "SiNonSOI",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Interlayer Coupler",
+      "variant": [
+        "coupler"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "line": 23,
+      "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
+      "name": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
+      "platform": "SiNonSOI",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Interlayer Coupler",
+      "variant": [
+        "coupler"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "line": 28,
+      "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
+      "name": "SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
+      "platform": "SiNonSOI",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Interlayer Coupler",
+      "variant": [
+        "coupler"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "line": 34,
+      "function": "SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 15,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 23,
+      "function": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_cband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 31,
+      "function": "SOI220_cband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_rib_apodized_GC_EBL_v1p0",
+      "name": "SOI220_cband_TE_rib_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 39,
+      "function": "SOI220_cband_TE_rib_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_cband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 49,
+      "function": "SOI220_cband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_EBL_v1p0",
+      "name": "SOI220_cband_TM_strip_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 57,
+      "function": "SOI220_cband_TM_strip_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_cband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 65,
+      "function": "SOI220_cband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_EBL_v1p0",
+      "name": "SOI220_cband_TM_rib_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 73,
+      "function": "SOI220_cband_TM_rib_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_oband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 83,
+      "function": "SOI220_oband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_strip_apodized_GC_EBL_v1p0",
+      "name": "SOI220_oband_TE_strip_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 91,
+      "function": "SOI220_oband_TE_strip_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_oband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 99,
+      "function": "SOI220_oband_TE_rib_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_rib_apodized_GC_EBL_v1p0",
+      "name": "SOI220_oband_TE_rib_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 107,
+      "function": "SOI220_oband_TE_rib_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_oband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 117,
+      "function": "SOI220_oband_TM_strip_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TM_strip_apodized_GC_EBL_v1p0",
+      "name": "SOI220_oband_TM_strip_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 125,
+      "function": "SOI220_oband_TM_strip_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "name": "SOI220_oband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 133,
+      "function": "SOI220_oband_TM_rib_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TM_rib_apodized_GC_EBL_v1p0",
+      "name": "SOI220_oband_TM_rib_apodized_GC_EBL_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 141,
+      "function": "SOI220_oband_TM_rib_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_focusing_v1p0",
+      "name": "SOI220_cband_TM_strip_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 154,
+      "function": "SOI220_cband_TM_strip_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_v1p0",
+      "name": "SOI220_cband_TM_strip_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 165,
+      "function": "SOI220_cband_TM_strip_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI220_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 176,
+      "function": "SOI220_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_v1p0",
+      "name": "SOI220_cband_TM_rib_apodized_GC_v1p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 187,
+      "function": "SOI220_cband_TM_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p1",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p1",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 199,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p1",
+      "name": "SOI220_cband_TE_strip_apodized_GC_v1p1",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 209,
+      "function": "SOI220_cband_TE_strip_apodized_GC_v1p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p2",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p2",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.2",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 221,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p2",
+      "name": "SOI220_cband_TE_strip_apodized_GC_v1p2",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.2",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 231,
+      "function": "SOI220_cband_TE_strip_apodized_GC_v1p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p2",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p2",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.2",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 243,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_EBL_v1p2",
+      "name": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p2",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.2",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 253,
+      "function": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p3",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p3",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.3",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 265,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p3",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p3",
+      "name": "SOI220_cband_TE_strip_apodized_GC_v1p3",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.3",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 275,
+      "function": "SOI220_cband_TE_strip_apodized_GC_v1p3",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v2p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_v2p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "2.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 287,
+      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v2p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v2p0",
+      "name": "SOI220_cband_TE_strip_apodized_GC_v2p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "2.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 297,
+      "function": "SOI220_cband_TE_strip_apodized_GC_v2p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_inverse_EC_v0p0",
+      "name": "SOI220_cband_dual_strip_inverse_EC_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "inverse"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 311,
+      "function": "SOI220_cband_dual_strip_inverse_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_octopus_EC_v0p0",
+      "name": "SOI220_cband_dual_strip_octopus_EC_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "octopus"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 316,
+      "function": "SOI220_cband_dual_strip_octopus_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_trident_EC_v0p0",
+      "name": "SOI220_cband_dual_strip_trident_EC_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "trident"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 321,
+      "function": "SOI220_cband_dual_strip_trident_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_dielectric_EC_v0p0",
+      "name": "SOI220_cband_dual_strip_dielectric_EC_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "dielectric"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 326,
+      "function": "SOI220_cband_dual_strip_dielectric_EC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_nanobridge_PBS_v0p0",
+      "name": "SOI220_cband_dual_strip_nanobridge_PBS_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Polarisation Rotator/Splitter",
+      "variant": [
+        "nanobridge"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 335,
+      "function": "SOI220_cband_dual_strip_nanobridge_PBS_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_dual_strip_md_PBRS_v0p0",
+      "name": "SOI220_cband_dual_strip_md_PBRS_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "DUAL",
+      "crossSection": "Dual",
+      "deviceType": "Polarisation Rotator/Splitter",
+      "variant": [
+        "md"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 340,
+      "function": "SOI220_cband_dual_strip_md_PBRS_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_1x2_MMI_v0p0",
+      "name": "SOI220_cband_TM_strip_1x2_MMI_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 347,
+      "function": "SOI220_cband_TM_strip_1x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_2x2_MMI_v0p0",
+      "name": "SOI220_cband_TM_strip_2x2_MMI_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 353,
+      "function": "SOI220_cband_TM_strip_2x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_1x4_MMI_v0p0",
+      "name": "SOI220_cband_TM_strip_1x4_MMI_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 359,
+      "function": "SOI220_cband_TM_strip_1x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TM_strip_2x4_MMI_v0p0",
+      "name": "SOI220_cband_TM_strip_2x4_MMI_v0p0",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 365,
+      "function": "SOI220_cband_TM_strip_2x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_strip_GC_focusing",
+      "name": "SOI220_oband_TE_strip_GC_focusing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 373,
+      "function": "SOI220_oband_TE_strip_GC_focusing",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_oband_TE_rib_GC_focusing",
+      "name": "SOI220_oband_TE_rib_GC_focusing",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 379,
+      "function": "SOI220_oband_TE_rib_GC_focusing",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI220.SOI220_cband_TE_strip_MZI_filter",
+      "name": "SOI220_cband_TE_strip_MZI_filter",
+      "platform": "SOI220",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MZI",
+      "variant": [
+        "filter"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI220.py",
+      "line": 385,
+      "function": "SOI220_cband_TE_strip_MZI_filter",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "name": "SOI340_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 15,
+      "function": "SOI340_cband_TE_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_v0p0",
+      "name": "SOI340_cband_TE_strip_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 26,
+      "function": "SOI340_cband_TE_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_focusing_v0p0",
+      "name": "SOI340_cband_TE_rib_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 34,
+      "function": "SOI340_cband_TE_rib_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_v0p0",
+      "name": "SOI340_cband_TE_rib_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 42,
+      "function": "SOI340_cband_TE_rib_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "name": "SOI340_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 52,
+      "function": "SOI340_oband_TE_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_v0p0",
+      "name": "SOI340_oband_TE_strip_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 60,
+      "function": "SOI340_oband_TE_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_focusing_v0p0",
+      "name": "SOI340_oband_TE_rib_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 68,
+      "function": "SOI340_oband_TE_rib_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_v0p0",
+      "name": "SOI340_oband_TE_rib_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 76,
+      "function": "SOI340_oband_TE_rib_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "name": "SOI340_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 86,
+      "function": "SOI340_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_v0p0",
+      "name": "SOI340_cband_TM_strip_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 94,
+      "function": "SOI340_cband_TM_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_focusing_v0p0",
+      "name": "SOI340_cband_TM_rib_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 102,
+      "function": "SOI340_cband_TM_rib_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_v0p0",
+      "name": "SOI340_cband_TM_rib_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 110,
+      "function": "SOI340_cband_TM_rib_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "name": "SOI340_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 120,
+      "function": "SOI340_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_v0p0",
+      "name": "SOI340_oband_TM_strip_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 128,
+      "function": "SOI340_oband_TM_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_focusing_v0p0",
+      "name": "SOI340_oband_TM_rib_apodized_GC_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 136,
+      "function": "SOI340_oband_TM_rib_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_v0p0",
+      "name": "SOI340_oband_TM_rib_apodized_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 144,
+      "function": "SOI340_oband_TM_rib_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_cband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 156,
+      "function": "SOI340_cband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_EBL_v0p0",
+      "name": "SOI340_cband_TE_strip_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 164,
+      "function": "SOI340_cband_TE_strip_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_cband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 172,
+      "function": "SOI340_cband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_EBL_v0p0",
+      "name": "SOI340_cband_TE_rib_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 180,
+      "function": "SOI340_cband_TE_rib_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_cband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 190,
+      "function": "SOI340_cband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_EBL_v0p0",
+      "name": "SOI340_cband_TM_strip_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 198,
+      "function": "SOI340_cband_TM_strip_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_cband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 206,
+      "function": "SOI340_cband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_EBL_v0p0",
+      "name": "SOI340_cband_TM_rib_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 214,
+      "function": "SOI340_cband_TM_rib_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_oband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 224,
+      "function": "SOI340_oband_TE_strip_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_EBL_v0p0",
+      "name": "SOI340_oband_TE_strip_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 232,
+      "function": "SOI340_oband_TE_strip_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_oband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 240,
+      "function": "SOI340_oband_TE_rib_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_EBL_v0p0",
+      "name": "SOI340_oband_TE_rib_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 248,
+      "function": "SOI340_oband_TE_rib_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_oband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 258,
+      "function": "SOI340_oband_TM_strip_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_EBL_v0p0",
+      "name": "SOI340_oband_TM_strip_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 266,
+      "function": "SOI340_oband_TM_strip_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "name": "SOI340_oband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 274,
+      "function": "SOI340_oband_TM_rib_apodized_GC_EBL_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_EBL_v0p0",
+      "name": "SOI340_oband_TM_rib_apodized_GC_EBL_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 282,
+      "function": "SOI340_oband_TM_rib_apodized_GC_EBL_v0p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_GC_v0p0",
+      "name": "SOI340_cband_TE_rib_GC_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 292,
+      "function": "SOI340_cband_TE_rib_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_1x2_MMI_v0p0",
+      "name": "SOI340_cband_TE_rib_1x2_MMI_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 301,
+      "function": "SOI340_cband_TE_rib_1x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_2x2_MMI_v0p0",
+      "name": "SOI340_cband_TE_rib_2x2_MMI_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 307,
+      "function": "SOI340_cband_TE_rib_2x2_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_1x4_MMI_v0p0",
+      "name": "SOI340_cband_TE_strip_1x4_MMI_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 313,
+      "function": "SOI340_cband_TE_strip_1x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_2x4_MMI_v0p0",
+      "name": "SOI340_cband_TE_strip_2x4_MMI_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 319,
+      "function": "SOI340_cband_TE_strip_2x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_Crossing_v0p0",
+      "name": "SOI340_cband_TE_rib_Crossing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 325,
+      "function": "SOI340_cband_TE_rib_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_rib_Crossing_v0p1",
+      "name": "SOI340_cband_TE_rib_Crossing_v0p1",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 332,
+      "function": "SOI340_cband_TE_rib_Crossing_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_Crossing_v0p0",
+      "name": "SOI340_cband_TE_strip_Crossing_v0p0",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 339,
+      "function": "SOI340_cband_TE_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI340.SOI340_cband_TE_strip_Crossing_v0p1",
+      "name": "SOI340_cband_TE_strip_Crossing_v0p1",
+      "platform": "SOI340",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.1",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI340.py",
+      "line": 346,
+      "function": "SOI340_cband_TE_strip_Crossing_v0p1",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI500_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 13,
+      "function": "SOI500_cband_TE_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TE_rib_apodized_GC_v1p0",
+      "name": "SOI500_cband_TE_rib_apodized_GC_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 21,
+      "function": "SOI500_cband_TE_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI500_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 30,
+      "function": "SOI500_cband_TM_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TM_rib_apodized_GC_v1p0",
+      "name": "SOI500_cband_TM_rib_apodized_GC_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 38,
+      "function": "SOI500_cband_TM_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_oband_TM_rib_apodized_GC_focusing_v1p0",
+      "name": "SOI500_oband_TM_rib_apodized_GC_focusing_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 47,
+      "function": "SOI500_oband_TM_rib_apodized_GC_focusing_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_oband_TM_rib_apodized_GC_v1p0",
+      "name": "SOI500_oband_TM_rib_apodized_GC_v1p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 55,
+      "function": "SOI500_oband_TM_rib_apodized_GC_v1p0",
+      "parameters": [
+        {
+          "name": "labelled",
+          "annotation": null,
+          "default": "False",
+          "required": false
+        },
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TE_rib_1x4_MMI_v0p0",
+      "name": "SOI500_cband_TE_rib_1x4_MMI_v0p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 67,
+      "function": "SOI500_cband_TE_rib_1x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TM_rib_1x4_MMI_v0p0",
+      "name": "SOI500_cband_TM_rib_1x4_MMI_v0p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "1x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 73,
+      "function": "SOI500_cband_TM_rib_1x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TE_rib_2x4_MMI_v0p0",
+      "name": "SOI500_cband_TE_rib_2x4_MMI_v0p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 79,
+      "function": "SOI500_cband_TE_rib_2x4_MMI_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SOI500.SOI500_cband_TM_rib_2x4_MMI_v0p0",
+      "name": "SOI500_cband_TM_rib_2x4_MMI_v0p0",
+      "platform": "SOI500",
+      "material": "SOI",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Rib",
+      "deviceType": "MMI",
+      "variant": [
+        "2x4"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": ".reference-library/pdk/developing/SOI500.py",
+      "line": 85,
+      "function": "SOI500_cband_TM_rib_2x4_MMI_v0p0",
+      "parameters": []
+    }
+  ]
+}
