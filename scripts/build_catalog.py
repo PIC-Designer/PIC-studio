@@ -115,8 +115,40 @@ def parameters(node: ast.FunctionDef) -> list[dict]:
     return result
 
 
+def called_function(node: ast.AST) -> str | None:
+    """Return the base function called by a registry value such as foo().dup()."""
+    while isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
+        node = node.func.value
+    if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
+        return node.func.id
+    return None
+
+
+def registered_cornerstone_functions(root: Path) -> set[str]:
+    """Read the public component registries without importing or executing the PDK."""
+    registry = root / "cornerstone" / "components_in_platform.py"
+    text = prefer_first_conflict_side(registry.read_text(encoding="utf-8"))
+    tree = ast.parse(text, filename=str(registry))
+    registered: set[str] = set()
+    for node in tree.body:
+        if not isinstance(node, ast.Assign):
+            continue
+        registry_name = next(
+            (target.id for target in node.targets if isinstance(target, ast.Name)),
+            "",
+        )
+        if not registry_name.endswith("_lib") or not isinstance(node.value, ast.Dict):
+            continue
+        for value in node.value.values:
+            function_name = called_function(value)
+            if function_name and function_name not in IGNORE_FUNCTIONS:
+                registered.add(function_name)
+    return registered
+
+
 def scan(root: Path) -> list[dict]:
     designs = []
+    cornerstone_functions = registered_cornerstone_functions(root)
     for status_dir, status in ((root / "cornerstone", "released"), (root / "developing", "developing")):
         if not status_dir.exists():
             continue
@@ -137,13 +169,15 @@ def scan(root: Path) -> list[dict]:
                     continue
                 if node.name.startswith("_") or node.name in IGNORE_FUNCTIONS:
                     continue
+                if status == "released" and node.name not in cornerstone_functions:
+                    continue
                 metadata = parse_name(node.name, source.stem)
                 designs.append({
                     "id": f"{status}.{source.stem}.{node.name}",
                     "name": node.name,
                     **metadata,
                     "status": status,
-                    "source": source.relative_to(root.parent.parent).as_posix(),
+                    "source": source.relative_to(root.parent).as_posix(),
                     "line": node.lineno,
                     "function": node.name,
                     "parameters": parameters(node),

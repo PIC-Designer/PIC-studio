@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-25T14:47:19.793288+00:00",
+  "generatedAt": "2026-08-30T15:37:07.026863+00:00",
   "source": "PIC-Designer/PIC_library@main:pdk",
-  "count": 280,
+  "count": 297,
   "designs": [
     {
       "id": "released.SiN200.SiN200_780nm_TE_strip_GC",
@@ -16,7 +16,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 10,
       "function": "SiN200_780nm_TE_strip_GC",
       "parameters": []
@@ -36,7 +36,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 17,
       "function": "SiN200_780nm_TE_strip_1x2_MMI",
       "parameters": []
@@ -56,7 +56,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 23,
       "function": "SiN200_780nm_TE_strip_2x2_MMI",
       "parameters": []
@@ -74,7 +74,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 29,
       "function": "SiN200_780nm_TE_strip_waveguide",
       "parameters": []
@@ -92,7 +92,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 35,
       "function": "SiN200_638nm_TE_strip_GC",
       "parameters": []
@@ -112,7 +112,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 42,
       "function": "SiN200_638nm_TE_strip_1x2_MMI",
       "parameters": []
@@ -132,7 +132,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 48,
       "function": "SiN200_638nm_TE_strip_2x2_MMI",
       "parameters": []
@@ -150,7 +150,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 54,
       "function": "SiN200_638nm_TE_strip_waveguide",
       "parameters": []
@@ -168,7 +168,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 60,
       "function": "SiN200_520nm_TE_strip_GC",
       "parameters": []
@@ -188,7 +188,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 67,
       "function": "SiN200_520nm_TE_strip_1x2_MMI",
       "parameters": []
@@ -208,7 +208,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 73,
       "function": "SiN200_520nm_TE_strip_2x2_MMI",
       "parameters": []
@@ -226,7 +226,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 79,
       "function": "SiN200_520nm_TE_strip_waveguide",
       "parameters": []
@@ -244,7 +244,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 85,
       "function": "SiN200_Institution",
       "parameters": []
@@ -262,7 +262,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN200.py",
+      "source": "pdk/cornerstone/SiN200.py",
       "line": 91,
       "function": "SiN200_heater",
       "parameters": []
@@ -280,7 +280,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 10,
       "function": "SiN300_cband_TE_strip_GC",
       "parameters": []
@@ -300,7 +300,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 17,
       "function": "SiN300_cband_TE_strip_1x2_MMI",
       "parameters": []
@@ -320,7 +320,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 23,
       "function": "SiN300_cband_TE_strip_2x2_MMI",
       "parameters": []
@@ -340,7 +340,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 29,
       "function": "SiN300_cband_TE_strip_90deg_bend",
       "parameters": []
@@ -358,7 +358,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 35,
       "function": "SiN300_cband_TE_strip_waveguide",
       "parameters": []
@@ -376,7 +376,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 41,
       "function": "SiN300_oband_TE_strip_GC",
       "parameters": []
@@ -396,7 +396,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 47,
       "function": "SiN300_oband_TE_strip_1x2_MMI",
       "parameters": []
@@ -416,7 +416,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 53,
       "function": "SiN300_oband_TE_strip_2x2_MMI",
       "parameters": []
@@ -436,7 +436,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 59,
       "function": "SiN300_oband_TE_strip_90deg_bend",
       "parameters": []
@@ -454,29 +454,9 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 65,
       "function": "SiN300_oband_TE_strip_waveguide",
-      "parameters": []
-    },
-    {
-      "id": "released.SiN300.SiN300_cband_PHIX_Packaging_Template",
-      "name": "SiN300_cband_PHIX_Packaging_Template",
-      "platform": "SiN300",
-      "material": "SiN",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Packaging Template",
-      "variant": [
-        "PHIX"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
-      "line": 70,
-      "function": "SiN300_cband_PHIX_Packaging_Template",
       "parameters": []
     },
     {
@@ -492,7 +472,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 75,
       "function": "SiN300_Institution",
       "parameters": []
@@ -510,7 +490,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 81,
       "function": "SiN300_heater",
       "parameters": []
@@ -531,7 +511,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 87,
       "function": "SiN300_PD_FCI300B1_Plain",
       "parameters": []
@@ -552,7 +532,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SiN300.py",
+      "source": "pdk/cornerstone/SiN300.py",
       "line": 93,
       "function": "SiN300_PD_FCI300B1_Integrated",
       "parameters": []
@@ -570,7 +550,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 12,
       "function": "SOI220_cband_TE_rib_GC",
       "parameters": []
@@ -590,7 +570,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 19,
       "function": "SOI220_cband_TE_rib_1x2_MMI",
       "parameters": []
@@ -610,7 +590,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 25,
       "function": "SOI220_cband_TE_rib_2x2_MMI",
       "parameters": []
@@ -630,7 +610,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 31,
       "function": "SOI220_cband_TE_rib_90deg_bend",
       "parameters": []
@@ -648,7 +628,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 37,
       "function": "SOI220_cband_TE_rib_crossing",
       "parameters": []
@@ -668,7 +648,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 44,
       "function": "SOI220_cband_TE_rib_MM2SM_taper",
       "parameters": []
@@ -686,7 +666,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 50,
       "function": "SOI220_cband_TE_rib_MZI",
       "parameters": []
@@ -704,7 +684,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 56,
       "function": "SOI220_cband_TE_rib_waveguide",
       "parameters": []
@@ -722,7 +702,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 62,
       "function": "SOI220_cband_TE_strip_GC",
       "parameters": []
@@ -743,120 +723,9 @@
       ],
       "version": "1.0",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 69,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p0",
-      "name": "SOI220_cband_TE_strip_apodized_GC_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "TE",
-      "crossSection": "Strip",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 77,
-      "function": "SOI220_cband_TE_strip_apodized_GC_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
-      "name": "SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "TE",
-      "crossSection": "Rib",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized",
-        "focusing"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 85,
-      "function": "SOI220_cband_TE_rib_apodized_GC_focusing_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_cband_TE_rib_apodized_GC_v1p0",
-      "name": "SOI220_cband_TE_rib_apodized_GC_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "TE",
-      "crossSection": "Rib",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 93,
-      "function": "SOI220_cband_TE_rib_apodized_GC_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
-      "name": "SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "TE",
-      "crossSection": "Strip",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized",
-        "focusing",
-        "ebl"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 102,
-      "function": "SOI220_cband_TE_strip_apodized_GC_focusing_ebl",
       "parameters": [
         {
           "name": "**kwargs",
@@ -881,7 +750,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 111,
       "function": "SOI220_cband_TE_strip_1x2_MMI",
       "parameters": []
@@ -901,7 +770,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 117,
       "function": "SOI220_cband_TE_strip_2x2_MMI",
       "parameters": []
@@ -921,7 +790,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 123,
       "function": "SOI220_cband_TE_strip_1x2_Ysplitter",
       "parameters": []
@@ -941,7 +810,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 129,
       "function": "SOI220_cband_TE_strip_90deg_bend",
       "parameters": []
@@ -959,7 +828,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 135,
       "function": "SOI220_cband_TE_strip_crossing",
       "parameters": []
@@ -979,7 +848,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 142,
       "function": "SOI220_cband_TE_strip_MM2SM_taper",
       "parameters": []
@@ -997,7 +866,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 148,
       "function": "SOI220_cband_TE_strip_MZI",
       "parameters": []
@@ -1018,7 +887,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 155,
       "function": "SOI220_cband_TE_rib2strip_taper",
       "parameters": []
@@ -1036,7 +905,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 161,
       "function": "SOI220_cband_TE_strip_waveguide",
       "parameters": []
@@ -1054,7 +923,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 167,
       "function": "SOI220_oband_TE_rib_GC",
       "parameters": []
@@ -1074,7 +943,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 174,
       "function": "SOI220_oband_TE_rib_1x2_MMI",
       "parameters": []
@@ -1094,7 +963,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 180,
       "function": "SOI220_oband_TE_rib_2x2_MMI",
       "parameters": []
@@ -1112,7 +981,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 186,
       "function": "SOI220_oband_TE_rib_crossing",
       "parameters": []
@@ -1130,7 +999,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 193,
       "function": "SOI220_oband_TE_rib_waveguide",
       "parameters": []
@@ -1148,120 +1017,10 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 199,
       "function": "SOI220_oband_TE_strip_GC",
       "parameters": []
-    },
-    {
-      "id": "released.SOI220.SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
-      "name": "SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1310 nm",
-      "wavelengthNm": 1310,
-      "mode": "TE",
-      "crossSection": "Strip",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized",
-        "focusing"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 206,
-      "function": "SOI220_oband_TE_strip_apodized_GC_focusing_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_oband_TE_strip_apodized_GC_v1p0",
-      "name": "SOI220_oband_TE_strip_apodized_GC_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1310 nm",
-      "wavelengthNm": 1310,
-      "mode": "TE",
-      "crossSection": "Strip",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 214,
-      "function": "SOI220_oband_TE_strip_apodized_GC_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
-      "name": "SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1310 nm",
-      "wavelengthNm": 1310,
-      "mode": "TE",
-      "crossSection": "Rib",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized",
-        "focusing"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 222,
-      "function": "SOI220_oband_TE_rib_apodized_GC_focusing_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.SOI220.SOI220_oband_TE_rib_apodized_GC_v1p0",
-      "name": "SOI220_oband_TE_rib_apodized_GC_v1p0",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1310 nm",
-      "wavelengthNm": 1310,
-      "mode": "TE",
-      "crossSection": "Rib",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "apodized"
-      ],
-      "version": "1.0",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 230,
-      "function": "SOI220_oband_TE_rib_apodized_GC_v1p0",
-      "parameters": [
-        {
-          "name": "**kwargs",
-          "annotation": null,
-          "default": null,
-          "required": false
-        }
-      ]
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_1x2_MMI",
@@ -1278,7 +1037,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 240,
       "function": "SOI220_oband_TE_strip_1x2_MMI",
       "parameters": []
@@ -1298,7 +1057,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 246,
       "function": "SOI220_oband_TE_strip_2x2_MMI",
       "parameters": []
@@ -1318,7 +1077,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 252,
       "function": "SOI220_oband_TE_strip_1x2_Ysplitter",
       "parameters": []
@@ -1338,7 +1097,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 258,
       "function": "SOI220_oband_TE_strip_90deg_bend",
       "parameters": []
@@ -1356,7 +1115,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 264,
       "function": "SOI220_oband_TE_strip_crossing",
       "parameters": []
@@ -1374,7 +1133,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 271,
       "function": "SOI220_oband_TE_strip_waveguide",
       "parameters": []
@@ -1392,30 +1151,9 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 277,
       "function": "SOI220_heater",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI220.SOI220_heater_with_isolation",
-      "name": "SOI220_heater_with_isolation",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Heater",
-      "variant": [
-        "with",
-        "isolation"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 282,
-      "function": "SOI220_heater_with_isolation",
       "parameters": []
     },
     {
@@ -1433,29 +1171,9 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 288,
       "function": "SOI220_cband_Full_Packaging_Template",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI220.SOI220_cband_PHIX_Packaging_Template",
-      "name": "SOI220_cband_PHIX_Packaging_Template",
-      "platform": "SOI220",
-      "material": "SOI",
-      "wavelength": "1550 nm",
-      "wavelengthNm": 1550,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Packaging Template",
-      "variant": [
-        "PHIX"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
-      "line": 293,
-      "function": "SOI220_cband_PHIX_Packaging_Template",
       "parameters": []
     },
     {
@@ -1473,14 +1191,14 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 298,
       "function": "SOI220_Full_Institution",
       "parameters": []
     },
     {
-      "id": "released.SOI220.SOI220_Full_Institution_intergrated_LD",
-      "name": "SOI220_Full_Institution_intergrated_LD",
+      "id": "released.SOI220.SOI220_Full_Institution_integrated_LD",
+      "name": "SOI220_Full_Institution_integrated_LD",
       "platform": "SOI220",
       "material": "SOI",
       "wavelength": "Unspecified",
@@ -1490,14 +1208,14 @@
       "deviceType": "Institution Layout",
       "variant": [
         "Full",
-        "intergrated",
+        "integrated",
         "LD"
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 304,
-      "function": "SOI220_Full_Institution_intergrated_LD",
+      "function": "SOI220_Full_Institution_integrated_LD",
       "parameters": []
     },
     {
@@ -1519,7 +1237,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 314,
       "function": "SOI220_Full_Institution_Integrated_LD_and_GC",
       "parameters": []
@@ -1543,7 +1261,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 325,
       "function": "SOI220_Full_Institution_Integrated_LD_or_GC",
       "parameters": []
@@ -1563,7 +1281,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 336,
       "function": "SOI220_Half_Institution",
       "parameters": []
@@ -1585,7 +1303,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 342,
       "function": "SOI220_Half_Institution_Integrated_LD",
       "parameters": []
@@ -1609,14 +1327,14 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 352,
       "function": "SOI220_Half_Institution_Integrated_LD_and_GC",
       "parameters": []
     },
     {
-      "id": "released.SOI220.SOI220_Half_Institution_integrate_LD_or_GC",
-      "name": "SOI220_Half_Institution_integrate_LD_or_GC",
+      "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_or_GC",
+      "name": "SOI220_Half_Institution_Integrated_LD_or_GC",
       "platform": "SOI220",
       "material": "SOI",
       "wavelength": "Unspecified",
@@ -1627,15 +1345,15 @@
       "variant": [
         "Half",
         "Institution",
-        "integrate",
+        "Integrated",
         "LD",
         "or"
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 363,
-      "function": "SOI220_Half_Institution_integrate_LD_or_GC",
+      "function": "SOI220_Half_Institution_Integrated_LD_or_GC",
       "parameters": []
     },
     {
@@ -1654,7 +1372,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 374,
       "function": "SOI220_PD_FCI300B1_Plain",
       "parameters": []
@@ -1675,7 +1393,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220.py",
+      "source": "pdk/cornerstone/SOI220.py",
       "line": 380,
       "function": "SOI220_PD_FCI300B1_Integrated",
       "parameters": []
@@ -1695,7 +1413,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "source": "pdk/cornerstone/SOI220active.py",
       "line": 15,
       "function": "SOI220_cband_TE_rib_Defect_Detector",
       "parameters": []
@@ -1713,7 +1431,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "source": "pdk/cornerstone/SOI220active.py",
       "line": 21,
       "function": "SOI220_cband_TE_rib_MZM",
       "parameters": []
@@ -1733,7 +1451,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "source": "pdk/cornerstone/SOI220active.py",
       "line": 28,
       "function": "SOI220_oband_TE_rib_Defect_Detector",
       "parameters": []
@@ -1751,7 +1469,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI220active.py",
+      "source": "pdk/cornerstone/SOI220active.py",
       "line": 34,
       "function": "SOI220_oband_TE_rib_MZM",
       "parameters": []
@@ -1769,7 +1487,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 10,
       "function": "SOI340_cband_TE_strip_GC",
       "parameters": []
@@ -1789,7 +1507,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 17,
       "function": "SOI340_cband_TE_strip_1x2_MMI",
       "parameters": []
@@ -1809,7 +1527,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 23,
       "function": "SOI340_cband_TE_strip_2x2_MMI",
       "parameters": []
@@ -1827,7 +1545,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 29,
       "function": "SOI340_cband_TE_strip_MZI",
       "parameters": []
@@ -1845,7 +1563,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 36,
       "function": "SOI340_cband_TE_strip_waveguide",
       "parameters": []
@@ -1866,7 +1584,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 42,
       "function": "SOI340_cband_TE_rib2strip_taper",
       "parameters": []
@@ -1886,7 +1604,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 48,
       "function": "SOI340_cband_TE_rib_90deg_bend",
       "parameters": []
@@ -1904,7 +1622,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 54,
       "function": "SOI340_cband_TE_rib_waveguide",
       "parameters": []
@@ -1922,7 +1640,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 60,
       "function": "SOI340_oband_TE_strip_GC",
       "parameters": []
@@ -1942,7 +1660,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 67,
       "function": "SOI340_oband_TE_strip_1x2_MMI",
       "parameters": []
@@ -1962,7 +1680,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 73,
       "function": "SOI340_oband_TE_strip_2x2_MMI",
       "parameters": []
@@ -1980,7 +1698,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 79,
       "function": "SOI340_oband_TE_strip_waveguide",
       "parameters": []
@@ -1998,7 +1716,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 86,
       "function": "SOI340_heater",
       "parameters": []
@@ -2019,7 +1737,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 91,
       "function": "SOI340_heater_with_isolation",
       "parameters": []
@@ -2039,7 +1757,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
+      "source": "pdk/cornerstone/SOI340.py",
       "line": 97,
       "function": "SOI340_cband_Full_Packaging_Template",
       "parameters": []
@@ -2059,79 +1777,9 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 103,
+      "source": "pdk/cornerstone/SOI340.py",
+      "line": 107,
       "function": "SOI340_Full_Institution",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Full_Institution_intergrated_LD",
-      "name": "SOI340_Full_Institution_intergrated_LD",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Institution Layout",
-      "variant": [
-        "Full",
-        "intergrated",
-        "LD"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 109,
-      "function": "SOI340_Full_Institution_intergrated_LD",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Full_Institution_intergrate_LD_and_GC",
-      "name": "SOI340_Full_Institution_intergrate_LD_and_GC",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Full",
-        "Institution",
-        "intergrate",
-        "LD",
-        "and"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 119,
-      "function": "SOI340_Full_Institution_intergrate_LD_and_GC",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Full_Institution_intergrate_LD_or_GC",
-      "name": "SOI340_Full_Institution_intergrate_LD_or_GC",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Full",
-        "Institution",
-        "intergrate",
-        "LD",
-        "or"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 130,
-      "function": "SOI340_Full_Institution_intergrate_LD_or_GC",
       "parameters": []
     },
     {
@@ -2149,79 +1797,9 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 141,
+      "source": "pdk/cornerstone/SOI340.py",
+      "line": 145,
       "function": "SOI340_Half_Institution",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Half_Institution_intergrated_LD",
-      "name": "SOI340_Half_Institution_intergrated_LD",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Institution Layout",
-      "variant": [
-        "Half",
-        "intergrated",
-        "LD"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 147,
-      "function": "SOI340_Half_Institution_intergrated_LD",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Half_Institution_intergrate_LD_and_GC",
-      "name": "SOI340_Half_Institution_intergrate_LD_and_GC",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Half",
-        "Institution",
-        "intergrate",
-        "LD",
-        "and"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 157,
-      "function": "SOI340_Half_Institution_intergrate_LD_and_GC",
-      "parameters": []
-    },
-    {
-      "id": "released.SOI340.SOI340_Half_Institution_intergrate_LD_or_GC",
-      "name": "SOI340_Half_Institution_intergrate_LD_or_GC",
-      "platform": "SOI340",
-      "material": "SOI",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Half",
-        "Institution",
-        "intergrate",
-        "LD",
-        "or"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 168,
-      "function": "SOI340_Half_Institution_intergrate_LD_or_GC",
       "parameters": []
     },
     {
@@ -2240,8 +1818,8 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 179,
+      "source": "pdk/cornerstone/SOI340.py",
+      "line": 183,
       "function": "SOI340_PD_FCI300B1_Plain",
       "parameters": []
     },
@@ -2261,8 +1839,8 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI340.py",
-      "line": 185,
+      "source": "pdk/cornerstone/SOI340.py",
+      "line": 189,
       "function": "SOI340_PD_FCI300B1_Integrated",
       "parameters": []
     },
@@ -2279,7 +1857,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 8,
       "function": "SOI500_cband_TE_rib_GC",
       "parameters": []
@@ -2299,7 +1877,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 15,
       "function": "SOI500_cband_TE_rib_1x2_MMI",
       "parameters": []
@@ -2319,7 +1897,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 21,
       "function": "SOI500_cband_TE_rib_2x2_MMI",
       "parameters": []
@@ -2339,7 +1917,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 27,
       "function": "SOI500_cband_TE_rib_90deg_bend",
       "parameters": []
@@ -2357,7 +1935,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 33,
       "function": "SOI500_cband_TE_rib_waveguide",
       "parameters": []
@@ -2375,7 +1953,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 40,
       "function": "SOI500_heater",
       "parameters": []
@@ -2395,7 +1973,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 46,
       "function": "SOI500_cband_Full_Packaging_Template",
       "parameters": []
@@ -2415,7 +1993,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 52,
       "function": "SOI500_Full_Institution",
       "parameters": []
@@ -2438,7 +2016,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 58,
       "function": "SOI500_Full_Institution_with_LD_GC",
       "parameters": []
@@ -2460,7 +2038,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 69,
       "function": "SOI500_Full_Institution_with_LD",
       "parameters": []
@@ -2480,7 +2058,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 79,
       "function": "SOI500_Half_Institution",
       "parameters": []
@@ -2501,7 +2079,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 85,
       "function": "SOI500_PD_FCI300B1_Plain",
       "parameters": []
@@ -2522,7 +2100,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOI500.py",
+      "source": "pdk/cornerstone/SOI500.py",
       "line": 91,
       "function": "SOI500_PD_FCI300B1_Integrated",
       "parameters": []
@@ -2540,7 +2118,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 9,
       "function": "StudentSOI_cband_TE_rib_GC",
       "parameters": []
@@ -2560,7 +2138,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 18,
       "function": "StudentSOI_cband_TE_rib_1x2_MMI",
       "parameters": []
@@ -2580,7 +2158,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 24,
       "function": "StudentSOI_cband_TE_rib_2x2_MMI",
       "parameters": []
@@ -2598,7 +2176,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 30,
       "function": "StudentSOI_cband_TE_rib_waveguide",
       "parameters": []
@@ -2618,7 +2196,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 36,
       "function": "StudentSOI_cband_TE_rib_90deg_bend",
       "parameters": []
@@ -2636,7 +2214,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 42,
       "function": "StudentSOI_cband_TE_rib_crossing",
       "parameters": []
@@ -2654,184 +2232,10 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/SOIStudent.py",
+      "source": "pdk/cornerstone/SOIStudent.py",
       "line": 49,
       "function": "StudentSOI_Institution",
       "parameters": []
-    },
-    {
-      "id": "released.TFLN300.tfln_concentric_rings",
-      "name": "tfln_concentric_rings",
-      "platform": "tfln",
-      "material": "TFLN",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Other",
-      "variant": [
-        "concentric",
-        "rings"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
-      "line": 12,
-      "function": "tfln_concentric_rings",
-      "parameters": [
-        {
-          "name": "centre_radius",
-          "annotation": "float",
-          "default": "1.0",
-          "required": false
-        },
-        {
-          "name": "start_gap",
-          "annotation": "float",
-          "default": "0.15",
-          "required": false
-        },
-        {
-          "name": "end_gap",
-          "annotation": "float",
-          "default": "0.5",
-          "required": false
-        },
-        {
-          "name": "gap_increment",
-          "annotation": "float",
-          "default": "0.05",
-          "required": false
-        },
-        {
-          "name": "start_width",
-          "annotation": "float",
-          "default": "0.15",
-          "required": false
-        },
-        {
-          "name": "end_width",
-          "annotation": "float",
-          "default": "1.1",
-          "required": false
-        },
-        {
-          "name": "width_increment",
-          "annotation": "float",
-          "default": "0.05",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.TFLN300.tfln_cdsem_lines",
-      "name": "tfln_cdsem_lines",
-      "platform": "tfln",
-      "material": "TFLN",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Other",
-      "variant": [
-        "cdsem",
-        "lines"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
-      "line": 40,
-      "function": "tfln_cdsem_lines",
-      "parameters": [
-        {
-          "name": "line_length",
-          "annotation": "float",
-          "default": "100.0",
-          "required": false
-        },
-        {
-          "name": "line_width",
-          "annotation": "float",
-          "default": "10.0",
-          "required": false
-        },
-        {
-          "name": "line_gap",
-          "annotation": "float",
-          "default": "20.0",
-          "required": false
-        },
-        {
-          "name": "num_lines",
-          "annotation": "int",
-          "default": "10",
-          "required": false
-        }
-      ]
-    },
-    {
-      "id": "released.TFLN300.tfln_axes_arrows",
-      "name": "tfln_axes_arrows",
-      "platform": "tfln",
-      "material": "TFLN",
-      "wavelength": "Unspecified",
-      "wavelengthNm": null,
-      "mode": "Unspecified",
-      "crossSection": "Unspecified",
-      "deviceType": "Other",
-      "variant": [
-        "axes",
-        "arrows"
-      ],
-      "version": "—",
-      "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
-      "line": 54,
-      "function": "tfln_axes_arrows",
-      "parameters": [
-        {
-          "name": "arrow_length",
-          "annotation": "float",
-          "default": "100.0",
-          "required": false
-        },
-        {
-          "name": "arrow_width",
-          "annotation": "float",
-          "default": "50.0",
-          "required": false
-        },
-        {
-          "name": "arrow_head_size",
-          "annotation": "float",
-          "default": "100.0",
-          "required": false
-        },
-        {
-          "name": "x_label",
-          "annotation": "str",
-          "default": "'O'",
-          "required": false
-        },
-        {
-          "name": "y_label",
-          "annotation": "str",
-          "default": "'E'",
-          "required": false
-        },
-        {
-          "name": "label_size",
-          "annotation": "float | None",
-          "default": "None",
-          "required": false
-        },
-        {
-          "name": "label_layer",
-          "annotation": null,
-          "default": "layers['NFO']",
-          "required": false
-        }
-      ]
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pE",
@@ -2848,7 +2252,7 @@
       ],
       "version": "1.E",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 109,
       "function": "TFLN300_cband_TE_rib_oprop_GC_v1pE",
       "parameters": [
@@ -2881,7 +2285,7 @@
       ],
       "version": "1.B",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 127,
       "function": "TFLN300_cband_TE_rib_oprop_GC_v1pB",
       "parameters": [
@@ -2916,7 +2320,7 @@
       ],
       "version": "1.0",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 144,
       "function": "TFLN300_cband_TE_rib_oprop_apodised_GC_compact_v1p0",
       "parameters": [
@@ -2950,7 +2354,7 @@
       ],
       "version": "1.0",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 163,
       "function": "TFLN300_cband_TE_rib_oprop_apodised_GC_v1p0",
       "parameters": [
@@ -2985,7 +2389,7 @@
       ],
       "version": "1.0",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 182,
       "function": "TFLN300_cband_TE_rib_eprop_apodised_GC_compact_v1p0",
       "parameters": [
@@ -3019,7 +2423,7 @@
       ],
       "version": "1.0",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 200,
       "function": "TFLN300_cband_TE_rib_eprop_apodised_GC_v1p0",
       "parameters": [
@@ -3052,7 +2456,7 @@
       ],
       "version": "1.E",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 218,
       "function": "TFLN300_cband_TE_rib_eprop_GC_v1pE",
       "parameters": [
@@ -3086,7 +2490,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 236,
       "function": "TFLN300_cband_TE_rib_oprop_1x2_MMI",
       "parameters": [
@@ -3120,7 +2524,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 251,
       "function": "TFLN300_cband_TE_rib_eprop_1x2_MMI",
       "parameters": [
@@ -3154,7 +2558,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 265,
       "function": "TFLN300_cband_TE_rib_oprop_2x2_MMI",
       "parameters": [
@@ -3188,7 +2592,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 279,
       "function": "TFLN300_cband_TE_rib_eprop_2x2_MMI",
       "parameters": [
@@ -3215,7 +2619,7 @@
       ],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 293,
       "function": "TFLN300_cband_TE_rib_90deg_bend",
       "parameters": []
@@ -3233,7 +2637,7 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 299,
       "function": "TFLN300_cband_TE_rib_waveguide",
       "parameters": []
@@ -3251,9 +2655,29 @@
       "variant": [],
       "version": "—",
       "status": "released",
-      "source": ".reference-library/pdk/cornerstone/TFLN300.py",
+      "source": "pdk/cornerstone/TFLN300.py",
       "line": 306,
       "function": "TFLN300_Institution",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TE_strip_GC_focusing",
+      "name": "SiN200_780nm_TE_strip_GC_focusing",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 13,
+      "function": "SiN200_780nm_TE_strip_GC_focusing",
       "parameters": []
     },
     {
@@ -3269,9 +2693,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 13,
+      "source": "pdk/developing/SiN200.py",
+      "line": 20,
       "function": "SiN200_780nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_focusing_v0p0",
+      "name": "SiN200_780nm_TM_strip_GC_focusing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 26,
+      "function": "SiN200_780nm_TM_strip_GC_focusing_v0p0",
       "parameters": []
     },
     {
@@ -3287,8 +2731,8 @@
       "variant": [],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 19,
+      "source": "pdk/developing/SiN200.py",
+      "line": 32,
       "function": "SiN200_780nm_TM_strip_GC_v0p1",
       "parameters": []
     },
@@ -3307,8 +2751,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 25,
+      "source": "pdk/developing/SiN200.py",
+      "line": 39,
       "function": "SiN200_780nm_TM_strip_1x2_MMI_v0p0",
       "parameters": []
     },
@@ -3327,10 +2771,118 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 30,
+      "source": "pdk/developing/SiN200.py",
+      "line": 44,
       "function": "SiN200_780nm_TM_strip_2x2_MMI_v0p0",
       "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TE_strip_1x2_MMI_v0p1",
+      "name": "SiN200_780nm_TE_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 49,
+      "function": "SiN200_780nm_TE_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TE_strip_2x2_MMI_v0p1",
+      "name": "SiN200_780nm_TE_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 55,
+      "function": "SiN200_780nm_TE_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_1x2_MMI_v0p1",
+      "name": "SiN200_780nm_TM_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 61,
+      "function": "SiN200_780nm_TM_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_780nm_TM_strip_2x2_MMI_v0p1",
+      "name": "SiN200_780nm_TM_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "780 nm",
+      "wavelengthNm": 780,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 67,
+      "function": "SiN200_780nm_TM_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
     },
     {
       "id": "developing.SiN200.SiN200_780nm_dual_strip_inverse_EC_v0p0",
@@ -3347,8 +2899,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 35,
+      "source": "pdk/developing/SiN200.py",
+      "line": 74,
       "function": "SiN200_780nm_dual_strip_inverse_EC_v0p0",
       "parameters": [
         {
@@ -3375,8 +2927,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 39,
+      "source": "pdk/developing/SiN200.py",
+      "line": 78,
       "function": "SiN200_780nm_dual_strip_trident_EC_HCF_v0p0",
       "parameters": [
         {
@@ -3400,8 +2952,8 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 44,
+      "source": "pdk/developing/SiN200.py",
+      "line": 83,
       "function": "SiN200_780nm_TE_strip_Crossing_v0p0",
       "parameters": []
     },
@@ -3418,9 +2970,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 50,
+      "source": "pdk/developing/SiN200.py",
+      "line": 89,
       "function": "SiN200_780nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TE_strip_GC_focusing",
+      "name": "SiN200_638nm_TE_strip_GC_focusing",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 98,
+      "function": "SiN200_638nm_TE_strip_GC_focusing",
       "parameters": []
     },
     {
@@ -3436,9 +3008,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 59,
+      "source": "pdk/developing/SiN200.py",
+      "line": 105,
       "function": "SiN200_638nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_GC_focusing_v0p0",
+      "name": "SiN200_638nm_TM_strip_GC_focusing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 111,
+      "function": "SiN200_638nm_TM_strip_GC_focusing_v0p0",
       "parameters": []
     },
     {
@@ -3456,8 +3048,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 66,
+      "source": "pdk/developing/SiN200.py",
+      "line": 118,
       "function": "SiN200_638nm_TM_strip_1x2_MMI_v0p0",
       "parameters": []
     },
@@ -3476,10 +3068,118 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 71,
+      "source": "pdk/developing/SiN200.py",
+      "line": 123,
       "function": "SiN200_638nm_TM_strip_2x2_MMI_v0p0",
       "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TE_strip_1x2_MMI_v0p1",
+      "name": "SiN200_638nm_TE_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 129,
+      "function": "SiN200_638nm_TE_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TE_strip_2x2_MMI_v0p1",
+      "name": "SiN200_638nm_TE_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 135,
+      "function": "SiN200_638nm_TE_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_1x2_MMI_v0p1",
+      "name": "SiN200_638nm_TM_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 141,
+      "function": "SiN200_638nm_TM_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_638nm_TM_strip_2x2_MMI_v0p1",
+      "name": "SiN200_638nm_TM_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "638 nm",
+      "wavelengthNm": 638,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 147,
+      "function": "SiN200_638nm_TM_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
     },
     {
       "id": "developing.SiN200.SiN200_638nm_dual_strip_inverse_EC_v0p0",
@@ -3496,8 +3196,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 76,
+      "source": "pdk/developing/SiN200.py",
+      "line": 154,
       "function": "SiN200_638nm_dual_strip_inverse_EC_v0p0",
       "parameters": [
         {
@@ -3524,8 +3224,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 80,
+      "source": "pdk/developing/SiN200.py",
+      "line": 158,
       "function": "SiN200_638nm_dual_strip_trident_EC_HCF_v0p0",
       "parameters": [
         {
@@ -3549,8 +3249,8 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 85,
+      "source": "pdk/developing/SiN200.py",
+      "line": 163,
       "function": "SiN200_638nm_TE_strip_Crossing_v0p0",
       "parameters": []
     },
@@ -3567,9 +3267,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 91,
+      "source": "pdk/developing/SiN200.py",
+      "line": 169,
       "function": "SiN200_638nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TE_strip_GC_focusing",
+      "name": "SiN200_520nm_TE_strip_GC_focusing",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "—",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 178,
+      "function": "SiN200_520nm_TE_strip_GC_focusing",
       "parameters": []
     },
     {
@@ -3585,9 +3305,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 100,
+      "source": "pdk/developing/SiN200.py",
+      "line": 185,
       "function": "SiN200_520nm_TM_strip_GC_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_GC_focusing_v0p0",
+      "name": "SiN200_520nm_TM_strip_GC_focusing_v0p0",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 191,
+      "function": "SiN200_520nm_TM_strip_GC_focusing_v0p0",
       "parameters": []
     },
     {
@@ -3605,8 +3345,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 107,
+      "source": "pdk/developing/SiN200.py",
+      "line": 198,
       "function": "SiN200_520nm_TM_strip_1x2_MMI_v0p0",
       "parameters": []
     },
@@ -3625,10 +3365,118 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 112,
+      "source": "pdk/developing/SiN200.py",
+      "line": 203,
       "function": "SiN200_520nm_TM_strip_2x2_MMI_v0p0",
       "parameters": []
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TE_strip_1x2_MMI_v0p1",
+      "name": "SiN200_520nm_TE_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 209,
+      "function": "SiN200_520nm_TE_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TE_strip_2x2_MMI_v0p1",
+      "name": "SiN200_520nm_TE_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 215,
+      "function": "SiN200_520nm_TE_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_1x2_MMI_v0p1",
+      "name": "SiN200_520nm_TM_strip_1x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 221,
+      "function": "SiN200_520nm_TM_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN200.SiN200_520nm_TM_strip_2x2_MMI_v0p1",
+      "name": "SiN200_520nm_TM_strip_2x2_MMI_v0p1",
+      "platform": "SiN200",
+      "material": "SiN",
+      "wavelength": "520 nm",
+      "wavelengthNm": 520,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN200.py",
+      "line": 227,
+      "function": "SiN200_520nm_TM_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
     },
     {
       "id": "developing.SiN200.SiN200_520nm_dual_strip_inverse_EC_v0p0",
@@ -3645,8 +3493,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 117,
+      "source": "pdk/developing/SiN200.py",
+      "line": 234,
       "function": "SiN200_520nm_dual_strip_inverse_EC_v0p0",
       "parameters": [
         {
@@ -3673,8 +3521,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 121,
+      "source": "pdk/developing/SiN200.py",
+      "line": 238,
       "function": "SiN200_520nm_dual_strip_trident_EC_HCF_v0p0",
       "parameters": [
         {
@@ -3698,8 +3546,8 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 126,
+      "source": "pdk/developing/SiN200.py",
+      "line": 243,
       "function": "SiN200_520nm_TE_strip_Crossing_v0p0",
       "parameters": []
     },
@@ -3716,9 +3564,29 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN200.py",
-      "line": 132,
+      "source": "pdk/developing/SiN200.py",
+      "line": 249,
       "function": "SiN200_520nm_TM_strip_Crossing_v0p0",
+      "parameters": []
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_GC_focusing_v0p0",
+      "name": "SiN300_cband_TE_strip_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 12,
+      "function": "SiN300_cband_TE_strip_GC_focusing_v0p0",
       "parameters": []
     },
     {
@@ -3736,8 +3604,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 12,
+      "source": "pdk/developing/SiN300.py",
+      "line": 19,
       "function": "SiN300_cband_TE_strip_apodized_GC_v0p0",
       "parameters": [
         {
@@ -3764,8 +3632,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 20,
+      "source": "pdk/developing/SiN300.py",
+      "line": 27,
       "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p0",
       "parameters": [
         {
@@ -3777,23 +3645,23 @@
       ]
     },
     {
-      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v1p0",
-      "name": "SiN300_cband_TE_strip_apodized_GC_v1p0",
+      "id": "developing.SiN300.SiN300_cband_TM_strip_apodized_GC_v0p0",
+      "name": "SiN300_cband_TM_strip_apodized_GC_v0p0",
       "platform": "SiN300",
       "material": "SiN",
       "wavelength": "1550 nm",
       "wavelengthNm": 1550,
-      "mode": "TE",
+      "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
       "variant": [
         "apodized"
       ],
-      "version": "1.0",
+      "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 29,
-      "function": "SiN300_cband_TE_strip_apodized_GC_v1p0",
+      "source": "pdk/developing/SiN300.py",
+      "line": 36,
+      "function": "SiN300_cband_TM_strip_apodized_GC_v0p0",
       "parameters": [
         {
           "name": "**kwargs",
@@ -3804,8 +3672,63 @@
       ]
     },
     {
-      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
-      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "id": "developing.SiN300.SiN300_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "name": "SiN300_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 44,
+      "function": "SiN300_cband_TM_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p1",
+      "name": "SiN300_cband_TE_strip_apodized_GC_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 54,
+      "function": "SiN300_cband_TE_strip_apodized_GC_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p1",
+      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p1",
       "platform": "SiN300",
       "material": "SiN",
       "wavelength": "1550 nm",
@@ -3817,11 +3740,11 @@
         "apodized",
         "focusing"
       ],
-      "version": "1.0",
+      "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 37,
-      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v1p0",
+      "source": "pdk/developing/SiN300.py",
+      "line": 62,
+      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p1",
       "parameters": [
         {
           "name": "**kwargs",
@@ -3830,6 +3753,136 @@
           "required": false
         }
       ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p2",
+      "name": "SiN300_cband_TE_strip_apodized_GC_v0p2",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.2",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 71,
+      "function": "SiN300_cband_TE_strip_apodized_GC_v0p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p2",
+      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p2",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.2",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 79,
+      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_v0p2",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 88,
+      "function": "SiN300_cband_TE_strip_apodized_GC_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "name": "SiN300_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing",
+        "EBL"
+      ],
+      "version": "1.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 96,
+      "function": "SiN300_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_Crossing_v0p0",
+      "name": "SiN300_cband_TE_strip_Crossing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 105,
+      "function": "SiN300_cband_TE_strip_Crossing_v0p0",
+      "parameters": []
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_Crossing_v0p0",
@@ -3844,10 +3897,91 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 45,
+      "source": "pdk/developing/SiN300.py",
+      "line": 111,
       "function": "SiN300_cband_TM_strip_Crossing_v0p0",
       "parameters": []
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TM_strip_1x2_MMI_v0p0",
+      "name": "SiN300_cband_TM_strip_1x2_MMI_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 118,
+      "function": "SiN300_cband_TM_strip_1x2_MMI_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TM_strip_1x2_MMI_v0p1",
+      "name": "SiN300_cband_TM_strip_1x2_MMI_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 124,
+      "function": "SiN300_cband_TM_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_1x2_MMI_v0p1",
+      "name": "SiN300_cband_TE_strip_1x2_MMI_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 131,
+      "function": "SiN300_cband_TE_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
     },
     {
       "id": "developing.SiN300.SiN300_cband_dual_strip_inverse_EC_v0p0",
@@ -3864,8 +3998,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 54,
+      "source": "pdk/developing/SiN300.py",
+      "line": 140,
       "function": "SiN300_cband_dual_strip_inverse_EC_v0p0",
       "parameters": [
         {
@@ -3891,8 +4025,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 59,
+      "source": "pdk/developing/SiN300.py",
+      "line": 145,
       "function": "SiN300_cband_dual_strip_trident_EC_v0p0",
       "parameters": [
         {
@@ -3918,8 +4052,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 64,
+      "source": "pdk/developing/SiN300.py",
+      "line": 150,
       "function": "SiN300_cband_dual_strip_dielectric_EC_v0p0",
       "parameters": [
         {
@@ -3929,6 +4063,53 @@
           "required": false
         }
       ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_cband_TE_strip_octopus_EC_v0p1",
+      "name": "SiN300_cband_TE_strip_octopus_EC_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1550 nm",
+      "wavelengthNm": 1550,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Edge Coupler",
+      "variant": [
+        "octopus"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 156,
+      "function": "SiN300_cband_TE_strip_octopus_EC_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TE_strip_GC_focusing_v0p0",
+      "name": "SiN300_oband_TE_strip_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 165,
+      "function": "SiN300_oband_TE_strip_GC_focusing_v0p0",
+      "parameters": []
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_apodized_GC_v0p0",
@@ -3945,8 +4126,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 73,
+      "source": "pdk/developing/SiN300.py",
+      "line": 171,
       "function": "SiN300_oband_TE_strip_apodized_GC_v0p0",
       "parameters": [
         {
@@ -3973,8 +4154,8 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 81,
+      "source": "pdk/developing/SiN300.py",
+      "line": 179,
       "function": "SiN300_oband_TE_strip_apodized_GC_focusing_v0p0",
       "parameters": [
         {
@@ -3984,6 +4165,79 @@
           "required": false
         }
       ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TM_strip_apodized_GC_v0p0",
+      "name": "SiN300_oband_TM_strip_apodized_GC_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 188,
+      "function": "SiN300_oband_TM_strip_apodized_GC_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "name": "SiN300_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "Grating Coupler",
+      "variant": [
+        "apodized",
+        "focusing"
+      ],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 196,
+      "function": "SiN300_oband_TM_strip_apodized_GC_focusing_v0p0",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TE_strip_Crossing_v0p0",
+      "name": "SiN300_oband_TE_strip_Crossing_v0p0",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "Crossing",
+      "variant": [],
+      "version": "0.0",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 205,
+      "function": "SiN300_oband_TE_strip_Crossing_v0p0",
+      "parameters": []
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_Crossing_v0p0",
@@ -3998,10 +4252,91 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300.py",
-      "line": 89,
+      "source": "pdk/developing/SiN300.py",
+      "line": 211,
       "function": "SiN300_oband_TM_strip_Crossing_v0p0",
       "parameters": []
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TE_strip_1x2_MMI_v0p1",
+      "name": "SiN300_oband_TE_strip_1x2_MMI_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TE",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 218,
+      "function": "SiN300_oband_TE_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TM_strip_1x2_MMI_v0p1",
+      "name": "SiN300_oband_TM_strip_1x2_MMI_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "1x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 225,
+      "function": "SiN300_oband_TM_strip_1x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "developing.SiN300.SiN300_oband_TM_strip_2x2_MMI_v0p1",
+      "name": "SiN300_oband_TM_strip_2x2_MMI_v0p1",
+      "platform": "SiN300",
+      "material": "SiN",
+      "wavelength": "1310 nm",
+      "wavelengthNm": 1310,
+      "mode": "TM",
+      "crossSection": "Strip",
+      "deviceType": "MMI",
+      "variant": [
+        "2x2"
+      ],
+      "version": "0.1",
+      "status": "developing",
+      "source": "pdk/developing/SiN300.py",
+      "line": 232,
+      "function": "SiN300_oband_TM_strip_2x2_MMI_v0p1",
+      "parameters": [
+        {
+          "name": "**kwargs",
+          "annotation": null,
+          "default": null,
+          "required": false
+        }
+      ]
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
@@ -4018,7 +4353,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "source": "pdk/developing/SiN300onSOI220.py",
       "line": 10,
       "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
       "parameters": []
@@ -4038,7 +4373,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "source": "pdk/developing/SiN300onSOI220.py",
       "line": 15,
       "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
       "parameters": []
@@ -4058,7 +4393,7 @@
       ],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "source": "pdk/developing/SiN300onSOI220.py",
       "line": 23,
       "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
       "parameters": []
@@ -4078,7 +4413,7 @@
       ],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "source": "pdk/developing/SiN300onSOI220.py",
       "line": 28,
       "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
       "parameters": []
@@ -4098,7 +4433,7 @@
       ],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SiN300onSOI220.py",
+      "source": "pdk/developing/SiN300onSOI220.py",
       "line": 34,
       "function": "SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
       "parameters": []
@@ -4120,7 +4455,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 15,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4148,7 +4483,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 23,
       "function": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4177,7 +4512,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 31,
       "function": "SOI220_cband_TE_rib_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4205,7 +4540,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 39,
       "function": "SOI220_cband_TE_rib_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4234,7 +4569,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 49,
       "function": "SOI220_cband_TM_strip_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4262,7 +4597,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 57,
       "function": "SOI220_cband_TM_strip_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4291,7 +4626,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 65,
       "function": "SOI220_cband_TM_rib_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4319,7 +4654,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 73,
       "function": "SOI220_cband_TM_rib_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4348,7 +4683,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 83,
       "function": "SOI220_oband_TE_strip_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4376,7 +4711,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 91,
       "function": "SOI220_oband_TE_strip_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4405,7 +4740,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 99,
       "function": "SOI220_oband_TE_rib_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4433,7 +4768,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 107,
       "function": "SOI220_oband_TE_rib_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4462,7 +4797,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 117,
       "function": "SOI220_oband_TM_strip_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4490,7 +4825,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 125,
       "function": "SOI220_oband_TM_strip_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4519,7 +4854,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 133,
       "function": "SOI220_oband_TM_rib_apodized_GC_focusing_EBL_v1p0",
       "parameters": [
@@ -4547,7 +4882,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 141,
       "function": "SOI220_oband_TM_rib_apodized_GC_EBL_v1p0",
       "parameters": [
@@ -4575,7 +4910,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 154,
       "function": "SOI220_cband_TM_strip_apodized_GC_focusing_v1p0",
       "parameters": [
@@ -4608,7 +4943,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 165,
       "function": "SOI220_cband_TM_strip_apodized_GC_v1p0",
       "parameters": [
@@ -4642,7 +4977,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 176,
       "function": "SOI220_cband_TM_rib_apodized_GC_focusing_v1p0",
       "parameters": [
@@ -4675,7 +5010,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 187,
       "function": "SOI220_cband_TM_rib_apodized_GC_v1p0",
       "parameters": [
@@ -4709,7 +5044,7 @@
       ],
       "version": "1.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 199,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p1",
       "parameters": [
@@ -4736,7 +5071,7 @@
       ],
       "version": "1.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 209,
       "function": "SOI220_cband_TE_strip_apodized_GC_v1p1",
       "parameters": [
@@ -4764,7 +5099,7 @@
       ],
       "version": "1.2",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 221,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p2",
       "parameters": [
@@ -4791,7 +5126,7 @@
       ],
       "version": "1.2",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 231,
       "function": "SOI220_cband_TE_strip_apodized_GC_v1p2",
       "parameters": [
@@ -4820,7 +5155,7 @@
       ],
       "version": "1.2",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 243,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p2",
       "parameters": [
@@ -4848,7 +5183,7 @@
       ],
       "version": "1.2",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 253,
       "function": "SOI220_cband_TE_strip_apodized_GC_EBL_v1p2",
       "parameters": [
@@ -4876,7 +5211,7 @@
       ],
       "version": "1.3",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 265,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v1p3",
       "parameters": [
@@ -4903,7 +5238,7 @@
       ],
       "version": "1.3",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 275,
       "function": "SOI220_cband_TE_strip_apodized_GC_v1p3",
       "parameters": [
@@ -4931,7 +5266,7 @@
       ],
       "version": "2.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 287,
       "function": "SOI220_cband_TE_strip_apodized_GC_focusing_v2p0",
       "parameters": [
@@ -4958,7 +5293,7 @@
       ],
       "version": "2.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 297,
       "function": "SOI220_cband_TE_strip_apodized_GC_v2p0",
       "parameters": [
@@ -4985,7 +5320,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 311,
       "function": "SOI220_cband_dual_strip_inverse_EC_v0p0",
       "parameters": [
@@ -5012,7 +5347,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 316,
       "function": "SOI220_cband_dual_strip_octopus_EC_v0p0",
       "parameters": [
@@ -5039,7 +5374,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 321,
       "function": "SOI220_cband_dual_strip_trident_EC_v0p0",
       "parameters": [
@@ -5066,7 +5401,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 326,
       "function": "SOI220_cband_dual_strip_dielectric_EC_v0p0",
       "parameters": [
@@ -5093,7 +5428,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 335,
       "function": "SOI220_cband_dual_strip_nanobridge_PBS_v0p0",
       "parameters": [
@@ -5120,7 +5455,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 340,
       "function": "SOI220_cband_dual_strip_md_PBRS_v0p0",
       "parameters": [
@@ -5147,7 +5482,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 347,
       "function": "SOI220_cband_TM_strip_1x2_MMI_v0p0",
       "parameters": []
@@ -5167,7 +5502,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 353,
       "function": "SOI220_cband_TM_strip_2x2_MMI_v0p0",
       "parameters": []
@@ -5187,7 +5522,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 359,
       "function": "SOI220_cband_TM_strip_1x4_MMI_v0p0",
       "parameters": []
@@ -5207,7 +5542,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 365,
       "function": "SOI220_cband_TM_strip_2x4_MMI_v0p0",
       "parameters": []
@@ -5227,7 +5562,7 @@
       ],
       "version": "—",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 373,
       "function": "SOI220_oband_TE_strip_GC_focusing",
       "parameters": []
@@ -5247,7 +5582,7 @@
       ],
       "version": "—",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 379,
       "function": "SOI220_oband_TE_rib_GC_focusing",
       "parameters": []
@@ -5267,7 +5602,7 @@
       ],
       "version": "—",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI220.py",
+      "source": "pdk/developing/SOI220.py",
       "line": 385,
       "function": "SOI220_cband_TE_strip_MZI_filter",
       "parameters": []
@@ -5288,7 +5623,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 15,
       "function": "SOI340_cband_TE_strip_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5321,7 +5656,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 26,
       "function": "SOI340_cband_TE_strip_apodized_GC_v0p0",
       "parameters": [
@@ -5355,7 +5690,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 34,
       "function": "SOI340_cband_TE_rib_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5388,7 +5723,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 42,
       "function": "SOI340_cband_TE_rib_apodized_GC_v0p0",
       "parameters": [
@@ -5422,7 +5757,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 52,
       "function": "SOI340_oband_TE_strip_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5455,7 +5790,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 60,
       "function": "SOI340_oband_TE_strip_apodized_GC_v0p0",
       "parameters": [
@@ -5489,7 +5824,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 68,
       "function": "SOI340_oband_TE_rib_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5522,7 +5857,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 76,
       "function": "SOI340_oband_TE_rib_apodized_GC_v0p0",
       "parameters": [
@@ -5556,7 +5891,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 86,
       "function": "SOI340_cband_TM_strip_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5589,7 +5924,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 94,
       "function": "SOI340_cband_TM_strip_apodized_GC_v0p0",
       "parameters": [
@@ -5623,7 +5958,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 102,
       "function": "SOI340_cband_TM_rib_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5656,7 +5991,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 110,
       "function": "SOI340_cband_TM_rib_apodized_GC_v0p0",
       "parameters": [
@@ -5690,7 +6025,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 120,
       "function": "SOI340_oband_TM_strip_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5723,7 +6058,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 128,
       "function": "SOI340_oband_TM_strip_apodized_GC_v0p0",
       "parameters": [
@@ -5757,7 +6092,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 136,
       "function": "SOI340_oband_TM_rib_apodized_GC_focusing_v0p0",
       "parameters": [
@@ -5790,7 +6125,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 144,
       "function": "SOI340_oband_TM_rib_apodized_GC_v0p0",
       "parameters": [
@@ -5825,7 +6160,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 156,
       "function": "SOI340_cband_TE_strip_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -5859,7 +6194,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 164,
       "function": "SOI340_cband_TE_strip_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -5894,7 +6229,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 172,
       "function": "SOI340_cband_TE_rib_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -5928,7 +6263,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 180,
       "function": "SOI340_cband_TE_rib_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -5963,7 +6298,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 190,
       "function": "SOI340_cband_TM_strip_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -5997,7 +6332,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 198,
       "function": "SOI340_cband_TM_strip_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6032,7 +6367,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 206,
       "function": "SOI340_cband_TM_rib_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -6066,7 +6401,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 214,
       "function": "SOI340_cband_TM_rib_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6101,7 +6436,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 224,
       "function": "SOI340_oband_TE_strip_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -6135,7 +6470,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 232,
       "function": "SOI340_oband_TE_strip_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6170,7 +6505,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 240,
       "function": "SOI340_oband_TE_rib_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -6204,7 +6539,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 248,
       "function": "SOI340_oband_TE_rib_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6239,7 +6574,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 258,
       "function": "SOI340_oband_TM_strip_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -6273,7 +6608,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 266,
       "function": "SOI340_oband_TM_strip_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6308,7 +6643,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 274,
       "function": "SOI340_oband_TM_rib_apodized_GC_EBL_focusing_v0p0",
       "parameters": [
@@ -6342,7 +6677,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 282,
       "function": "SOI340_oband_TM_rib_apodized_GC_EBL_v0p0",
       "parameters": [
@@ -6373,7 +6708,7 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 292,
       "function": "SOI340_cband_TE_rib_GC_v0p0",
       "parameters": []
@@ -6393,7 +6728,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 301,
       "function": "SOI340_cband_TE_rib_1x2_MMI_v0p0",
       "parameters": []
@@ -6413,7 +6748,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 307,
       "function": "SOI340_cband_TE_rib_2x2_MMI_v0p0",
       "parameters": []
@@ -6433,7 +6768,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 313,
       "function": "SOI340_cband_TE_strip_1x4_MMI_v0p0",
       "parameters": []
@@ -6453,7 +6788,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 319,
       "function": "SOI340_cband_TE_strip_2x4_MMI_v0p0",
       "parameters": []
@@ -6471,7 +6806,7 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 325,
       "function": "SOI340_cband_TE_rib_Crossing_v0p0",
       "parameters": []
@@ -6489,7 +6824,7 @@
       "variant": [],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 332,
       "function": "SOI340_cband_TE_rib_Crossing_v0p1",
       "parameters": []
@@ -6507,7 +6842,7 @@
       "variant": [],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 339,
       "function": "SOI340_cband_TE_strip_Crossing_v0p0",
       "parameters": []
@@ -6525,7 +6860,7 @@
       "variant": [],
       "version": "0.1",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI340.py",
+      "source": "pdk/developing/SOI340.py",
       "line": 346,
       "function": "SOI340_cband_TE_strip_Crossing_v0p1",
       "parameters": []
@@ -6546,7 +6881,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 13,
       "function": "SOI500_cband_TE_rib_apodized_GC_focusing_v1p0",
       "parameters": [
@@ -6579,7 +6914,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 21,
       "function": "SOI500_cband_TE_rib_apodized_GC_v1p0",
       "parameters": [
@@ -6613,7 +6948,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 30,
       "function": "SOI500_cband_TM_rib_apodized_GC_focusing_v1p0",
       "parameters": [
@@ -6646,7 +6981,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 38,
       "function": "SOI500_cband_TM_rib_apodized_GC_v1p0",
       "parameters": [
@@ -6680,7 +7015,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 47,
       "function": "SOI500_oband_TM_rib_apodized_GC_focusing_v1p0",
       "parameters": [
@@ -6713,7 +7048,7 @@
       ],
       "version": "1.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 55,
       "function": "SOI500_oband_TM_rib_apodized_GC_v1p0",
       "parameters": [
@@ -6746,7 +7081,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 67,
       "function": "SOI500_cband_TE_rib_1x4_MMI_v0p0",
       "parameters": []
@@ -6766,7 +7101,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 73,
       "function": "SOI500_cband_TM_rib_1x4_MMI_v0p0",
       "parameters": []
@@ -6786,7 +7121,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 79,
       "function": "SOI500_cband_TE_rib_2x4_MMI_v0p0",
       "parameters": []
@@ -6806,7 +7141,7 @@
       ],
       "version": "0.0",
       "status": "developing",
-      "source": ".reference-library/pdk/developing/SOI500.py",
+      "source": "pdk/developing/SOI500.py",
       "line": 85,
       "function": "SOI500_cband_TM_rib_2x4_MMI_v0p0",
       "parameters": []

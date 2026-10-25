@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "catalog": "python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json",
+    "chip-catalog": "python scripts/build_chip_catalog.py --source .reference-library --registry data/chip_uid_registry.json --output public/chip_catalog.json",
+    "previews": "python scripts/build_previews.py --catalog public/catalog.json --library .reference-library --output public/previews",
+    "check:layouts": "python scripts/check_layout_formats.py public",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
@@ -13,7 +16,7 @@
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "vite": "latest",
-    "typescript": "latest",
+    "typescript": "5.9.3",
     "react": "latest",
     "react-dom": "latest",
     "lucide-react": "latest"

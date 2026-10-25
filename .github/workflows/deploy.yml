@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-  schedule:
-    - cron: '17 3 * * *'
 
 permissions:
   contents: read
@@ -19,20 +17,31 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PIC_LIBRARY_TOKEN: ${{ secrets.PIC_LIBRARY_TOKEN }}
     steps:
       - name: Checkout PIC Studio
         uses: actions/checkout@v4
 
       - name: Checkout private PIC library
+        if: ${{ env.PIC_LIBRARY_TOKEN != '' }}
         uses: actions/checkout@v4
         with:
           repository: PIC-Designer/PIC_library
-          token: ${{ secrets.PIC_LIBRARY_TOKEN }}
+          token: ${{ env.PIC_LIBRARY_TOKEN }}
           path: .reference-library
           fetch-depth: 1
 
       - name: Build design catalogue
+        if: ${{ env.PIC_LIBRARY_TOKEN != '' }}
         run: python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json
+
+      - name: Build test-chip catalogue
+        if: ${{ env.PIC_LIBRARY_TOKEN != '' }}
+        run: python scripts/build_chip_catalog.py --source .reference-library --registry data/chip_uid_registry.json --output public/chip_catalog.json
+
+      - name: Enforce OAS-only layout artifacts
+        run: python scripts/check_layout_formats.py public
 
       - name: Set up pnpm
         uses: pnpm/action-setup@v4

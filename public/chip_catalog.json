@@ -1,0 +1,335 @@
+{
+  "source": "PIC-Designer/PIC_library@main:0_*",
+  "count": 9,
+  "excluded": [
+    "0_dummy_dies"
+  ],
+  "staleRegistryEntries": [],
+  "designs": [
+    {
+      "uid": "5ISEUYES3GXBYJGL",
+      "platform": "SiN200",
+      "ioType": "Both",
+      "wavelengths": [
+        "520",
+        "638",
+        "780"
+      ],
+      "chipType": "CT",
+      "name": "SiN200_Both_520+638+780_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202608 MPW3 testchip",
+      "status": "Imported",
+      "source": "0_SiN200_dies/202608_MPW3_testchip.py",
+      "entrypoints": [
+        "gc_DOEs",
+        "main_TE",
+        "main_TM"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "4XGH6B8W4UNUUXQP",
+      "platform": "SiN300",
+      "ioType": "Both",
+      "wavelengths": [
+        "O",
+        "C"
+      ],
+      "chipType": "CT",
+      "name": "SiN300_Both_O+C_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202608 MPW13 testchip",
+      "status": "Imported",
+      "source": "0_SiN300_dies/202608_MPW13_testchip.py",
+      "entrypoints": [
+        "inverse_ec_DOE",
+        "trident_ec_DOE",
+        "pid_octopus_ec_DOE",
+        "dielectirc_match_ec_DOE",
+        "cband_gc_DOEs",
+        "ring_resonator_DOEs",
+        "main_cband"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "HGNQ1KMD3A5ATRQY",
+      "platform": "SOI220",
+      "ioType": "GC",
+      "wavelengths": [
+        "O",
+        "C"
+      ],
+      "chipType": "CT",
+      "name": "SOI220_GC_O+C_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202501 MPW46 testbench MRR",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202501_MPW46_testbench_MRR.py",
+      "entrypoints": [
+        "MRR_params_sweep",
+        "mrr_reflector",
+        "Topcell"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "HEG8VDSZX09ALLQA",
+      "platform": "SOI220",
+      "ioType": "Both",
+      "wavelengths": [
+        "O",
+        "C"
+      ],
+      "chipType": "CT",
+      "name": "SOI220_Both_O+C_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202603 EBL testchip",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202603_EBL_testchip.py",
+      "entrypoints": [
+        "loopback_gc",
+        "loopback_ec",
+        "oband_gc",
+        "DWDM_oband_dense",
+        "vernier_mrr",
+        "standard_group",
+        "ring_group",
+        "propagation_loss_testunit",
+        "wg_filter",
+        "ring_filter",
+        "cornerstone_positive",
+        "metalens",
+        "main"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "SV59I8ZSII30O0UG",
+      "platform": "SOI220",
+      "ioType": "GC",
+      "wavelengths": [
+        "C"
+      ],
+      "chipType": "DEMO",
+      "name": "SOI220_GC_C_DEMO_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202603 MPW48 demochip",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202603_MPW48_demochip.py",
+      "entrypoints": [
+        "trench_game",
+        "std_component",
+        "ECL_cell",
+        "ECL_params",
+        "self_injection",
+        "TE_filter_test",
+        "TM_filter_test",
+        "TE_TM_ring",
+        "PBS_playground",
+        "PBRS_playground",
+        "main"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "5WES2FSFXAV9I6RL",
+      "platform": "SOI220",
+      "ioType": "Both",
+      "wavelengths": [
+        "O",
+        "C"
+      ],
+      "chipType": "CT",
+      "name": "SOI220_Both_O+C_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202603 MPW48 testchips",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202603_MPW48_testchips.py",
+      "entrypoints": [
+        "inverse_ec_DOE",
+        "octopus_ec_DOE",
+        "trident_ec_DOE",
+        "dielectric_ec_DOE",
+        "edge_coupler_boundries",
+        "propagation_loss_testunit",
+        "ring_resonator_testunit",
+        "PBS_testunit",
+        "PBRS_testunit",
+        "tooth_correction",
+        "gc_v1p1_DOE",
+        "gc_v1p2_DOE",
+        "gc_v1p3_DOE",
+        "grating_coupler_testunit",
+        "grating_coupler_backloop_testunit",
+        "switching_tree_demo",
+        "main_chip_1",
+        "main_chip_2"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "17O7NN8TGBQ7WDVY",
+      "platform": "SOI220",
+      "ioType": "GC",
+      "wavelengths": [
+        "O"
+      ],
+      "chipType": "OTS",
+      "name": "SOI220_GC_O_OTS_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202603 offtheshelf",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202603_offtheshelf.py",
+      "entrypoints": [
+        "spiral_rib",
+        "spiral_racetrace",
+        "two_type_mzi",
+        "ref_waveguides",
+        "std_waveguides",
+        "params_sweep",
+        "params_ring_radius",
+        "params_ring_gap",
+        "params_dc_gap",
+        "grabed_logo",
+        "grabed_packaging",
+        "main"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "H75KT51C5CQRJNUM",
+      "platform": "SOI220",
+      "ioType": "GC",
+      "wavelengths": [
+        "C"
+      ],
+      "chipType": "DEMO",
+      "name": "SOI220_GC_C_DEMO_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "demo",
+      "status": "Imported",
+      "source": "0_SOI220_dies/demo.py",
+      "entrypoints": [
+        "gc_test",
+        "run_test_bits"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    },
+    {
+      "uid": "FF8NB5KY5NCNPI2C",
+      "platform": "SOI340",
+      "ioType": "Both",
+      "wavelengths": [
+        "O",
+        "C"
+      ],
+      "chipType": "CT",
+      "name": "SOI340_Both_O+C_CT_20260814",
+      "createdDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "description": "202604 MPW49 testchips",
+      "status": "Imported",
+      "source": "0_SOI340_dies/202604_MPW49_testchips.py",
+      "entrypoints": [
+        "mmi1_params_sweep",
+        "mmi2_params_sweep",
+        "cross_test1",
+        "cross_test2",
+        "std_comps",
+        "main"
+      ],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "2026-08-14",
+          "change": "Imported from PIC_library"
+        }
+      ]
+    }
+  ]
+}

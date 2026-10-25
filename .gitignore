@@ -2,6 +2,11 @@ node_modules/
 dist/
 .vite/
 .reference-library/
+.preview-venv/
 *.tsbuildinfo
 .env*
 !.env.example
+
+# PIC Studio publishes OAS/OASIS layouts only.
+*.gds
+*.gdsii
