@@ -61,6 +61,13 @@ incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
 All six values are case-folded before hashing, so differences such as
 `Grating Coupler` and `grating coupleR` produce the same UID.
 
+The generated UID is permanent after its first assignment. The registry locks
+it to the source path and that file's one-based `MAIN` block position, so later
+metadata or comment edits do not renumber an existing chip. Registry entries
+are retained when a source is temporarily removed, allowing the same path and
+block position to recover its original UID when restored. To represent a new
+chip identity, add a new source record instead of repurposing an existing one.
+
 An optional, case-insensitive `COMMENTS` field belongs to its nearest preceding
 `MAIN` block. It is shown on that imported chip card as a short introduction,
 but it is deliberately excluded from the UID identity and changing it never

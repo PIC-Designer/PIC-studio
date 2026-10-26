@@ -18,6 +18,7 @@ FIELD_PATTERN = re.compile(
 UID_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 UID_LENGTH = 13
 PLACEHOLDER_UID = "PLACEHOLDER"
+UID_PATTERN = re.compile(rf"^[{UID_ALPHABET}]{{{UID_LENGTH}}}$")
 
 
 def canonical_field(name: str) -> str:
@@ -97,11 +98,29 @@ def uid_for(block: dict[str, str]) -> str:
     return encode_base36(value).rjust(UID_LENGTH, "0")
 
 
+def locked_uid_for(
+    registry_records: dict[str, dict], key: str, block: dict[str, str], complete: bool
+) -> str | None:
+    """Reuse a record's first valid UID; generate only when it has none yet."""
+    if not complete:
+        return None
+    existing_uid = registry_records.get(key, {}).get("uid")
+    if isinstance(existing_uid, str) and UID_PATTERN.fullmatch(existing_uid):
+        return existing_uid
+    return uid_for(block)
+
+
 def split_wavelengths(value: str) -> list[str]:
     return [item.strip() for item in value.split(",") if item.strip()]
 
 
-def record_for(source: Path, relative: str, block: dict[str, str], index: int) -> dict:
+def record_for(
+    source: Path,
+    relative: str,
+    block: dict[str, str],
+    index: int,
+    locked_uid: str | None = None,
+) -> dict:
     missing = [field for field in FIELD_ORDER if not block.get(field)]
     complete = not missing
     main_entry = block.get("MAIN", "")
@@ -113,7 +132,7 @@ def record_for(source: Path, relative: str, block: dict[str, str], index: int) -
     comments = block.get("COMMENTS", "")
     values = [platform, wavelengths_text, io_type, chip_type, created, main_entry]
     return {
-        "uid": uid_for(block) if complete else PLACEHOLDER_UID,
+        "uid": (locked_uid or uid_for(block)) if complete else PLACEHOLDER_UID,
         "uidStatus": "generated" if complete else "placeholder",
         "platform": platform or "Unknown",
         "ioType": io_type or "Unknown",
@@ -151,8 +170,30 @@ def main() -> None:
     args = parser.parse_args()
     library = args.source.resolve()
     designs: list[dict] = []
-    registry_records: dict[str, dict] = {}
-    generated_uids: dict[str, str] = {}
+    existing_payload = (
+        json.loads(args.registry.read_text(encoding="utf-8"))
+        if args.registry.exists()
+        else {}
+    )
+    existing_records = existing_payload.get("records", {})
+    if not isinstance(existing_records, dict):
+        raise SystemExit("UID registry records must be a JSON object")
+    # The registry is append-only: inactive entries retain their UID so that a
+    # temporarily removed file receives the same UID if it returns later.
+    registry_records: dict[str, dict] = {
+        key: {**value, "active": False}
+        for key, value in existing_records.items()
+        if isinstance(value, dict)
+    }
+    reserved_uids: dict[str, str] = {}
+    active_uids: dict[str, str] = {}
+    for key, value in registry_records.items():
+        locked_uid = value.get("uid")
+        if isinstance(locked_uid, str) and UID_PATTERN.fullmatch(locked_uid):
+            previous = reserved_uids.get(locked_uid)
+            if previous and previous != key:
+                raise SystemExit(f"UID collision in registry: {locked_uid} is shared by {previous} and {key}")
+            reserved_uids[locked_uid] = key
 
     for directory in sorted(library.glob("0_*")):
         if not directory.is_dir() or directory.name.lower() == "0_dummy_dies":
@@ -164,32 +205,41 @@ def main() -> None:
                 continue
             blocks = parse_header(text) or [{}]
             for index, block in enumerate(blocks, start=1):
-                record = record_for(source, relative, block, index)
-                key = record["recordKey"]
+                key = f"{relative}#header-{index}"
+                complete = all(block.get(field) for field in FIELD_ORDER)
+                locked_uid = locked_uid_for(existing_records, key, block, complete)
+                record = record_for(source, relative, block, index, locked_uid)
                 designs.append(record)
+                previous_entry = registry_records.get(key, {})
                 registry_records[key] = {
-                    "uid": None if record["uidStatus"] == "placeholder" else record["uid"],
+                    # Preserve an already assigned UID even while an edited
+                    # header is temporarily incomplete and shown as placeholder.
+                    "uid": record["uid"] if complete else previous_entry.get("uid"),
                     "identity": {field: block.get(field, "") for field in FIELD_ORDER},
                     "missingMetadata": record["missingMetadata"],
                     "comments": record["comments"],
+                    "active": True,
                 }
                 if record["uidStatus"] == "generated":
-                    previous = generated_uids.get(record["uid"])
+                    previous = reserved_uids.get(record["uid"])
                     if previous and previous != key:
                         raise SystemExit(f"UID collision: {record['uid']} is shared by {previous} and {key}")
-                    generated_uids[record["uid"]] = key
+                    reserved_uids[record["uid"]] = key
+                    active_uids[record["uid"]] = key
 
     registry_payload = {
-        "version": 2,
+        "version": 3,
         "uidLength": UID_LENGTH,
         "algorithm": "sha256-base36-13",
+        "lockingKey": "source-path+header-index",
+        "lockedAfterFirstAssignment": True,
         "factors": list(FIELD_ORDER),
         "records": registry_records,
     }
     payload = {
         "source": "PIC-Designer/PIC_library@main:0_*",
         "count": len(designs),
-        "generatedUidCount": len(generated_uids),
+        "generatedUidCount": len(active_uids),
         "placeholderCount": sum(item["uidStatus"] == "placeholder" for item in designs),
         "excluded": ["0_dummy_dies"],
         "uidLength": UID_LENGTH,
@@ -202,7 +252,7 @@ def main() -> None:
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(
         f"Wrote {len(designs)} test-chip records to {args.output} "
-        f"({len(generated_uids)} generated UIDs, {payload['placeholderCount']} placeholders)"
+        f"({len(active_uids)} generated UIDs, {payload['placeholderCount']} placeholders)"
     )
 
 

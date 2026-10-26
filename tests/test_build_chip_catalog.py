@@ -55,6 +55,33 @@ class ChipHeaderTests(unittest.TestCase):
         changed = dict(block, MAIN="main_TM()")
         self.assertNotEqual(MODULE.uid_for(block), MODULE.uid_for(changed))
 
+    def test_existing_record_uid_is_locked_when_header_changes(self):
+        original = {
+            "MAIN": "main()",
+            "PLATFORM": "SiN200",
+            "WAVELENGTHS": "520nm",
+            "IOS": "Edge Coupler",
+            "TYPE": "demo chip",
+            "CREATE DATA": "10/2026",
+        }
+        key = "0_SiN200_dies/demo.py#header-1"
+        assigned_uid = MODULE.uid_for(original)
+        registry = {key: {"uid": assigned_uid, "identity": original}}
+        changed = dict(original, PLATFORM="SOI220", WAVELENGTHS="cband")
+
+        self.assertNotEqual(assigned_uid, MODULE.uid_for(changed))
+        self.assertEqual(
+            assigned_uid,
+            MODULE.locked_uid_for(registry, key, changed, complete=True),
+        )
+
+    def test_incomplete_header_keeps_lock_reserved_but_displays_placeholder(self):
+        key = "0_SiN200_dies/demo.py#header-1"
+        assigned_uid = "123456789ABCD"
+        registry = {key: {"uid": assigned_uid}}
+
+        self.assertIsNone(MODULE.locked_uid_for(registry, key, {}, complete=False))
+
     def test_uid_values_are_case_insensitive(self):
         block = {
             "MAIN": "main_TE()",
