@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T21:18:54.300449+00:00",
+  "generatedAt": "2026-10-26T21:32:23.239952+00:00",
   "source": "PIC-Designer/PIC_library@main:pdk",
   "count": 297,
   "designs": [
@@ -298,7 +298,7 @@
       "line": 85,
       "function": "SiN200_Institution",
       "parameters": [],
-      "uid": "A6L2222U2227P"
+      "uid": "A6L2222G2226H"
     },
     {
       "id": "released.SiN200.SiN200_heater",
@@ -574,7 +574,7 @@
       "line": 75,
       "function": "SiN300_Institution",
       "parameters": [],
-      "uid": "AAL2222U2226F"
+      "uid": "AAL2222G2226U"
     },
     {
       "id": "released.SiN300.SiN300_heater",
@@ -791,7 +791,7 @@
       "line": 44,
       "function": "SOI220_cband_TE_rib_MM2SM_taper",
       "parameters": [],
-      "uid": "AJP2222WE226Z"
+      "uid": "AJP2222UE226M"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_MZI",
@@ -1035,7 +1035,7 @@
       "line": 142,
       "function": "SOI220_cband_TE_strip_MM2SM_taper",
       "parameters": [],
-      "uid": "AJP2222WE226Z"
+      "uid": "AJP2222UE226M"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_MZI",
@@ -1083,7 +1083,7 @@
       "line": 155,
       "function": "SOI220_cband_TE_rib2strip_taper",
       "parameters": [],
-      "uid": "AJP2223JCA26U"
+      "uid": "AJP2222YCA278"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_waveguide",
@@ -1451,7 +1451,7 @@
       "line": 298,
       "function": "SOI220_Full_Institution",
       "parameters": [],
-      "uid": "AJL7J22U2227M"
+      "uid": "AJL7J22G2227S"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_integrated_LD",
@@ -1481,7 +1481,7 @@
       "line": 304,
       "function": "SOI220_Full_Institution_integrated_LD",
       "parameters": [],
-      "uid": "AJL7J23UJC26J"
+      "uid": "AJL7J234JC27B"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_and_GC",
@@ -1513,7 +1513,7 @@
       "line": 314,
       "function": "SOI220_Full_Institution_Integrated_LD_and_GC",
       "parameters": [],
-      "uid": "AJL7J23UJC46F"
+      "uid": "AJL7J234JC47L"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_or_GC",
@@ -1545,7 +1545,7 @@
       "line": 325,
       "function": "SOI220_Full_Institution_Integrated_LD_or_GC",
       "parameters": [],
-      "uid": "AJL7J23UJC46F"
+      "uid": "AJL7J234JC47L"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution",
@@ -1570,7 +1570,7 @@
       "line": 336,
       "function": "SOI220_Half_Institution",
       "parameters": [],
-      "uid": "AJL9J22U2226B"
+      "uid": "AJL9J22G2226N"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD",
@@ -1600,7 +1600,7 @@
       "line": 342,
       "function": "SOI220_Half_Institution_Integrated_LD",
       "parameters": [],
-      "uid": "AJL9J23UJC264"
+      "uid": "AJL9J234JC26P"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_and_GC",
@@ -1632,7 +1632,7 @@
       "line": 352,
       "function": "SOI220_Half_Institution_Integrated_LD_and_GC",
       "parameters": [],
-      "uid": "AJL9J23UJC46X"
+      "uid": "AJL9J234JC47B"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_or_GC",
@@ -1664,7 +1664,7 @@
       "line": 363,
       "function": "SOI220_Half_Institution_Integrated_LD_or_GC",
       "parameters": [],
-      "uid": "AJL9J23UJC46X"
+      "uid": "AJL9J234JC47B"
     },
     {
       "id": "released.SOI220.SOI220_PD_FCI300B1_Plain",
@@ -1764,7 +1764,7 @@
       "line": 21,
       "function": "SOI220_cband_TE_rib_MZM",
       "parameters": [],
-      "uid": "AJP2223N2226H"
+      "uid": "AJP2223222269"
     },
     {
       "id": "released.SOI220active.SOI220_oband_TE_rib_Defect_Detector",
@@ -1810,7 +1810,7 @@
       "line": 34,
       "function": "SOI220_oband_TE_rib_MZM",
       "parameters": [],
-      "uid": "AJT2223N2227U"
+      "uid": "AJT2223222274"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_GC",
@@ -1950,7 +1950,7 @@
       "line": 42,
       "function": "SOI340_cband_TE_rib2strip_taper",
       "parameters": [],
-      "uid": "ANP2223JCA27A"
+      "uid": "ANP2222YCA26B"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_rib_90deg_bend",
@@ -2186,7 +2186,7 @@
       "line": 107,
       "function": "SOI340_Full_Institution",
       "parameters": [],
-      "uid": "ANL7J22U2227E"
+      "uid": "ANL7J22G2227N"
     },
     {
       "id": "released.SOI340.SOI340_Half_Institution",
@@ -2211,7 +2211,7 @@
       "line": 145,
       "function": "SOI340_Half_Institution",
       "parameters": [],
-      "uid": "ANL9J22U22274"
+      "uid": "ANL9J22G2227D"
     },
     {
       "id": "released.SOI340.SOI340_PD_FCI300B1_Plain",
@@ -2453,7 +2453,7 @@
       "line": 52,
       "function": "SOI500_Full_Institution",
       "parameters": [],
-      "uid": "ASL7J22U2227E"
+      "uid": "ASL7J22G2227J"
     },
     {
       "id": "released.SOI500.SOI500_Full_Institution_with_LD_GC",
@@ -2485,7 +2485,7 @@
       "line": 58,
       "function": "SOI500_Full_Institution_with_LD_GC",
       "parameters": [],
-      "uid": "ASL7J23ULC46F"
+      "uid": "ASL7J234LC46E"
     },
     {
       "id": "released.SOI500.SOI500_Full_Institution_with_LD",
@@ -2515,7 +2515,7 @@
       "line": 69,
       "function": "SOI500_Full_Institution_with_LD",
       "parameters": [],
-      "uid": "ASL7J23ULC27W"
+      "uid": "ASL7J234LC278"
     },
     {
       "id": "released.SOI500.SOI500_Half_Institution",
@@ -2540,7 +2540,7 @@
       "line": 79,
       "function": "SOI500_Half_Institution",
       "parameters": [],
-      "uid": "ASL9J22U2226D"
+      "uid": "ASL9J22G2226M"
     },
     {
       "id": "released.SOI500.SOI500_PD_FCI300B1_Plain",
@@ -2753,7 +2753,7 @@
       "line": 49,
       "function": "StudentSOI_Institution",
       "parameters": [],
-      "uid": "AWL2222U2227F"
+      "uid": "AWL2222G2226E"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pE",
@@ -3254,7 +3254,7 @@
       "line": 306,
       "function": "TFLN300_Institution",
       "parameters": [],
-      "uid": "B2L2222U2227Q"
+      "uid": "B2L2222G2227F"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TE_strip_GC_focusing",

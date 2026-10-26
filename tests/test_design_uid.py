@@ -1,4 +1,6 @@
 import importlib.util
+import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -17,7 +19,7 @@ def sample(**overrides):
         "wavelength": "780 nm",
         "mode": "TE",
         "prefixes": ["Fast"],
-        "deviceType": "Grating Coupler",
+        "deviceType": "GratingCoupler1D",
         "suffixes": ["Apodized"],
         "version": "1.0",
     }
@@ -48,7 +50,7 @@ class DesignUidTests(unittest.TestCase):
         original = sample()
         changed = sample(
             platform="sin200", wavelength="780 NM", mode="te",
-            prefixes=["FAST"], deviceType="grating coupler",
+            prefixes=["FAST"], deviceType="gratingcoupler1d",
             suffixes=["APODIZED"], version="1.0",
         )
         codebook = self.codebook(original)
@@ -72,13 +74,31 @@ class DesignUidTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "checksum"):
             MODULE.decode_uid(codebook, uid[:-1] + replacement)
 
-    def test_component_alias_slots_decode_but_encoding_uses_first_slot(self):
-        design = sample(deviceType="MMI", prefixes=[], suffixes=[])
-        codebook = self.codebook(design)
-        codebook["fields"]["component"].append("MMI")
-        uid = MODULE.encode_uid(codebook, design)
-        self.assertEqual(MODULE.decode_uid(codebook, uid)["deviceType"], "MMI")
-        self.assertEqual(MODULE._field_codes(codebook, design)[6], 1)
+    def test_every_codebook_field_is_case_insensitive(self):
+        original = sample()
+        codebook = self.codebook(original)
+        sizes = {name: len(values) for name, values in codebook["fields"].items()}
+        changed_case = {
+            **original,
+            "platform": "sIn200",
+            "wavelength": "780 NM",
+            "mode": "te",
+            "prefixes": ["fAST"],
+            "deviceType": "gRATINGcOUPLER1d",
+            "suffixes": ["aPODIZED"],
+        }
+        MODULE.update_codebook(codebook, [changed_case])
+        self.assertEqual({name: len(values) for name, values in codebook["fields"].items()}, sizes)
+        self.assertEqual(MODULE.encode_uid(codebook, original), MODULE.encode_uid(codebook, changed_case))
+
+    def test_component_table_rejects_case_insensitive_duplicates(self):
+        codebook = self.codebook(sample())
+        codebook["fields"]["component"].append("gRATINGcOUPLER1d")
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as directory:
+            path = Path(directory) / "codebook.json"
+            path.write_text(json.dumps(codebook), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "duplicate canonical values"):
+                MODULE.load_codebook(path)
 
 
 if __name__ == "__main__":

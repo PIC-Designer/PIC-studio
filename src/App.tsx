@@ -205,16 +205,13 @@ function CodebookModal({ onClose }: { onClose: () => void }) {
         <button className="drawer-close" onClick={onClose} aria-label="Close UID codebook"><X size={20} /></button>
         <span className="eyebrow">{uidCodebook.scheme}</span>
         <h2>UID codebook</h2>
-        <p>Read-only numeric assignments used by the reversible 13-character Design UID. Duplicate component values are historical decoding aliases.</p>
+        <p>Read-only numeric assignments used by the reversible 13-character Design UID. All values are matched case-insensitively.</p>
         <div className="codebook-fields">
           {fields.map(([name, values]) => (
             <section className={`codebook-field ${name === 'component' ? 'wide' : ''}`} key={name}>
               <header><strong>{CODEBOOK_LABELS[name] ?? name}</strong><span>{Math.max(0, values.length - 1)} values</span></header>
               <div className="codebook-rows">
-                {values.map((value, index) => {
-                  const firstIndex = value ? values.findIndex((entry) => entry.toLocaleLowerCase() === value.toLocaleLowerCase()) : index
-                  return <div key={`${index}-${value}`}><code>{index}</code><span>{value || 'Empty'}</span>{firstIndex !== index && <em>alias of {firstIndex}</em>}</div>
-                })}
+                {values.map((value, index) => <div key={`${index}-${value}`}><code>{index}</code><span>{value || 'Empty'}</span></div>)}
               </div>
             </section>
           ))}
