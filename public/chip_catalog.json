@@ -1,8 +1,8 @@
 {
   "source": "PIC-Designer/PIC_library@main:0_*",
   "count": 12,
-  "generatedUidCount": 2,
-  "placeholderCount": 10,
+  "generatedUidCount": 12,
+  "placeholderCount": 0,
   "excluded": [
     "0_dummy_dies"
   ],
@@ -81,372 +81,309 @@
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "JTZ5TZYCY84BE",
+      "uidStatus": "generated",
+      "platform": "SiN200",
+      "ioType": "Edge Coupler",
       "wavelengths": [
-        "Unknown"
+        "520nm",
+        "638nm"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202610_hcf_demochip",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "demo chip",
+      "main": "playground()",
+      "name": "SiN200_520nm, 638nm_Edge Coupler_demo chip_10/2026_playground()",
+      "createdDate": "10/2026",
+      "lastUpdated": "10/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Demonstrative chip for Hollow-core-fiber interconnect with vis-SiN-PIC by using DOE Edge coupler.",
+      "description": "Demonstrative chip for Hollow-core-fiber interconnect with vis-SiN-PIC by using DOE Edge coupler.",
+      "status": "Imported",
       "source": "0_SiN200_dies/202610_hcf_demochip.py",
       "recordKey": "0_SiN200_dies/202610_hcf_demochip.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "10/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "RAI08RATTCPUH",
+      "uidStatus": "generated",
+      "platform": "SiN300",
+      "ioType": "Grating Coupler, Edge Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband",
+        "0band"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202608_MPW13_testchip",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main_cband()",
+      "name": "SiN300_cband, 0band_Grating Coupler, Edge Coupler_test chip_08/2026_main_cband()",
+      "createdDate": "08/2026",
+      "lastUpdated": "08/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Test chip with inversely designed Grating Coupler, Waveguide Crossing, 1X2 MMI and 2x2 MMI For oband and cband wavelengths.",
+      "description": "Test chip with inversely designed Grating Coupler, Waveguide Crossing, 1X2 MMI and 2x2 MMI For oband and cband wavelengths.",
+      "status": "Imported",
       "source": "0_SiN300_dies/202608_MPW13_testchip.py",
       "recordKey": "0_SiN300_dies/202608_MPW13_testchip.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "08/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "TEE49LJ4178SA",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband",
+        "0band"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202501_MPW46_testbench_MRR",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "Topcell()",
+      "name": "SOI220_cband, 0band_Grating Coupler_test chip_01/2025_Topcell()",
+      "createdDate": "01/2025",
+      "lastUpdated": "01/2025",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Test chip oband twin-MRR and 16 * 200GHz DWDM system by using MRRs. Cband MRR reflectors are demonstrated with parameter sweeping.",
+      "description": "Test chip oband twin-MRR and 16 * 200GHz DWDM system by using MRRs. Cband MRR reflectors are demonstrated with parameter sweeping.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202501_MPW46_testbench_MRR.py",
       "recordKey": "0_SOI220_dies/202501_MPW46_testbench_MRR.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "01/2025",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "Q79JHSKHH17Q9",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler, Edge Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband",
+        "oband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202603_EBL_testchip",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main()",
+      "name": "SOI220_cband, oband_Grating Coupler, Edge Coupler_test chip_03/2026_main()",
+      "createdDate": "03/2026",
+      "lastUpdated": "03/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Ebeam lithographic based test chip with loopback grating coupler and edge coupler array.",
+      "description": "Ebeam lithographic based test chip with loopback grating coupler and edge coupler array.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202603_EBL_testchip.py",
       "recordKey": "0_SOI220_dies/202603_EBL_testchip.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "03/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "R0JMCDY92MCB2",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202603_MPW48_demochip",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main()",
+      "name": "SOI220_cband_Grating Coupler_test chip_03/2026_main()",
+      "createdDate": "03/2026",
+      "lastUpdated": "03/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Laser diode integration with vernier ring tunable system. Rib component with different rib width patterns. PBS and PBRC with mode fiter are employed.",
+      "description": "Laser diode integration with vernier ring tunable system. Rib component with different rib width patterns. PBS and PBRC with mode fiter are employed.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202603_MPW48_demochip.py",
       "recordKey": "0_SOI220_dies/202603_MPW48_demochip.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "03/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "YHT0KFEBHG89P",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler, Edge Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202603_MPW48_testchips",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main_chip_1()",
+      "name": "SOI220_cband_Grating Coupler, Edge Coupler_test chip_03/2026_main_chip_1()",
+      "createdDate": "03/2026",
+      "lastUpdated": "03/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Standard delay lines and ring resonator are used to figure out propagation loss and group index. PBS and PBRC are initialized.",
+      "description": "Standard delay lines and ring resonator are used to figure out propagation loss and group index. PBS and PBRC are initialized.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202603_MPW48_testchips.py",
       "recordKey": "0_SOI220_dies/202603_MPW48_testchips.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "03/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "JNFTRNSL3EC8Y",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler, Edge Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband",
+        "oband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202603_offtheshelf",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "demo chip",
+      "main": "main_chip_2()",
+      "name": "SOI220_cband, oband_Grating Coupler, Edge Coupler_demo chip_03/2026_main_chip_2()",
+      "createdDate": "03/2026",
+      "lastUpdated": "03/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Loopback unit with grating couplers in strip and rib waveguide under cband and oband wavelength conditions.",
+      "description": "Loopback unit with grating couplers in strip and rib waveguide under cband and oband wavelength conditions.",
+      "status": "Imported",
+      "source": "0_SOI220_dies/202603_MPW48_testchips.py",
+      "recordKey": "0_SOI220_dies/202603_MPW48_testchips.py#header-2",
+      "missingMetadata": [],
+      "revisions": [
+        {
+          "revision": "R00",
+          "date": "03/2026",
+          "change": "Imported from PIC_library header"
+        }
+      ]
+    },
+    {
+      "uid": "IRDMUEXCDALR8",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler",
+      "wavelengths": [
+        "cband",
+        "oband"
+      ],
+      "chipType": "off-the-shelf",
+      "main": "main()",
+      "name": "SOI220_cband, oband_Grating Coupler_off-the-shelf_03/2026_main()",
+      "createdDate": "03/2026",
+      "lastUpdated": "03/2026",
+      "currentRevision": "R00",
+      "parentUid": "",
+      "parentRevision": "",
+      "comments": "Cornerstone off-the-shelf chip with all standard component in PIC-library by following the Phix packaging protocol. With 127- and 250-nm pitch loopback grating coupler arrays.",
+      "description": "Cornerstone off-the-shelf chip with all standard component in PIC-library by following the Phix packaging protocol. With 127- and 250-nm pitch loopback grating coupler arrays.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202603_offtheshelf.py",
       "recordKey": "0_SOI220_dies/202603_offtheshelf.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "03/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "IZ7AD2SPRT3AX",
+      "uidStatus": "generated",
+      "platform": "SOI220",
+      "ioType": "Grating Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202610_MPW51_testchips",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main()",
+      "name": "SOI220_cband_Grating Coupler_test chip_10/2026_main()",
+      "createdDate": "10/2026",
+      "lastUpdated": "10/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "Functional test chip with cladding opening cutback and small ring resonator with filament width and offset sweep.",
+      "description": "Functional test chip with cladding opening cutback and small ring resonator with filament width and offset sweep.",
+      "status": "Imported",
       "source": "0_SOI220_dies/202610_MPW51_testchips.py",
       "recordKey": "0_SOI220_dies/202610_MPW51_testchips.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "10/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     },
     {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
+      "uid": "5ZA0DGWWZ88F4",
+      "uidStatus": "generated",
+      "platform": "SOI340",
+      "ioType": "Grating Coupler",
       "wavelengths": [
-        "Unknown"
+        "cband",
+        "oband"
       ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "demo",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
+      "chipType": "test chip",
+      "main": "main()",
+      "name": "SOI340_cband, oband_Grating Coupler_test chip_04/2026_main()",
+      "createdDate": "04/2026",
+      "lastUpdated": "04/2026",
       "currentRevision": "R00",
       "parentUid": "",
       "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
-      "source": "0_SOI220_dies/demo.py",
-      "recordKey": "0_SOI220_dies/demo.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
-      "revisions": [
-        {
-          "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
-        }
-      ]
-    },
-    {
-      "uid": "PLACEHOLDER",
-      "uidStatus": "placeholder",
-      "platform": "Unknown",
-      "ioType": "Unknown",
-      "wavelengths": [
-        "Unknown"
-      ],
-      "chipType": "Unknown",
-      "main": "Unknown",
-      "name": "202604_MPW49_testchips",
-      "createdDate": "Unknown",
-      "lastUpdated": "Unknown",
-      "currentRevision": "R00",
-      "parentUid": "",
-      "parentRevision": "",
-      "comments": "",
-      "description": "Header metadata incomplete: missing MAIN, PLATFORM, WAVELENGTHS, IOS, TYPE, CREATE DATA.",
-      "status": "Incomplete",
+      "comments": "test chip with PID 1x2 MMI, 2x2 MMI and waveguide crossings.",
+      "description": "test chip with PID 1x2 MMI, 2x2 MMI and waveguide crossings.",
+      "status": "Imported",
       "source": "0_SOI340_dies/202604_MPW49_testchips.py",
       "recordKey": "0_SOI340_dies/202604_MPW49_testchips.py#header-1",
-      "missingMetadata": [
-        "MAIN",
-        "PLATFORM",
-        "WAVELENGTHS",
-        "IOS",
-        "TYPE",
-        "CREATE DATA"
-      ],
+      "missingMetadata": [],
       "revisions": [
         {
           "revision": "R00",
-          "date": "Unknown",
-          "change": "Awaiting complete source header"
+          "date": "04/2026",
+          "change": "Imported from PIC_library header"
         }
       ]
     }
