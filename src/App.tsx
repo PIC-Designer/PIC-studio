@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  Activity, ArrowUpRight, Braces, CheckCircle2, ChevronRight, CircuitBoard, Cpu,
+  Activity, ArrowUpRight, Braces, CheckCircle2, ChevronRight, CircuitBoard, Copy, Cpu,
   BookOpen, FlaskConical, GitBranch, Grid2X2, Layers3, Menu, Search, SlidersHorizontal,
   RefreshCw, Sparkles, Waves, X,
 } from 'lucide-react'
@@ -116,8 +116,14 @@ function DesignGlyph({ design }: { design: Design }) {
 }
 
 function DesignCard({ design, onOpen }: { design: Design; onOpen: () => void }) {
+  const copyUid = (event: React.MouseEvent) => {
+    event.stopPropagation()
+    void navigator.clipboard.writeText(design.uid)
+  }
   return (
-    <button className="design-card" onClick={onOpen}>
+    <article className="design-card" role="button" tabIndex={0} onClick={onOpen} onKeyDown={(event) => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpen() }
+    }}>
       <DesignGlyph design={design} />
       <div className="design-card-body">
         <div className="card-topline">
@@ -125,7 +131,7 @@ function DesignCard({ design, onOpen }: { design: Design; onOpen: () => void }) 
           <span className="version">v{design.version}</span>
         </div>
         <h3>{design.name}</h3>
-        <p className="function-name"><code>{`<${design.uid}>`}</code> · {prettify(design.deviceType)}</p>
+        <p className="function-name"><code>{`<${design.uid}>`}</code><button className="uid-copy" title="Copy UID" aria-label={`Copy UID ${design.uid}`} onClick={copyUid}><Copy size={13} /></button><span>· {prettify(design.deviceType)}</span></p>
         <div className="chips">
           <span>{design.wavelength}</span><span>{design.mode}</span><span>{design.crossSection}</span>
         </div>
@@ -134,7 +140,7 @@ function DesignCard({ design, onOpen }: { design: Design; onOpen: () => void }) 
           <span>Inspect <ChevronRight size={15} /></span>
         </div>
       </div>
-    </button>
+    </article>
   )
 }
 
