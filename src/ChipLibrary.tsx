@@ -70,7 +70,7 @@ function UidGenerator({ onClose }: { onClose: () => void }) {
         <label><span>Type</span><input value={chipType} onChange={(event) => setChipType(event.target.value)} placeholder="test chip" /></label>
         <label className="full"><span>Create data</span><input value={createData} onChange={(event) => setCreateData(event.target.value)} placeholder="08/2026" /></label>
       </div>
-      {generatedUid && <div className="name-preview"><span>Generated UID — not saved</span><code>{generatedUid}</code><button type="button" className="copy-generated" onClick={() => navigator.clipboard.writeText(generatedUid)}><Copy size={13} /> Copy</button></div>}
+      {generatedUid && <div className="name-preview"><span>Generated UID — not saved</span><code>{`<${generatedUid}>`}</code><button type="button" className="copy-generated" onClick={() => navigator.clipboard.writeText(generatedUid)}><Copy size={13} /> Copy</button></div>}
       {fields.some((value) => !value.trim()) && <p className="form-error">All six fields are required.</p>}
       <div className="form-actions"><button type="button" onClick={onClose}>Close</button><button className="primary" disabled={fields.some((value) => !value.trim())}><Fingerprint size={16} /> Generate UID</button></div>
     </form>
@@ -96,7 +96,7 @@ export function ChipLibrary() {
   return <section className="content chip-library">
     <div className="chip-hero">
       <div><span className="eyebrow">DESIGN-LEVEL IDENTIFICATION</span><h2>Test chip library</h2><p>Track immutable design identities, revisions and design lineage independently from fabrication runs.</p></div>
-      <div className="uid-example"><span>UID FORMAT</span><strong>A7F29C4D81B6X</strong><small>13 characters · derived from 6 header fields</small></div>
+      <div className="uid-example"><span>UID FORMAT</span><strong>&lt;A7F29C4D81B6X&gt;</strong><small>13 characters · derived from 6 header fields</small></div>
     </div>
     <div className="chip-summary">
       <div><Cpu /><span><strong>{allRecords.length}</strong> chip designs</span></div>
@@ -109,7 +109,7 @@ export function ChipLibrary() {
     </div>
     {filtered.length ? <div className="chip-grid">{filtered.map((record) => <article className="chip-card" key={record.recordKey ?? record.uid}>
       <div className="chip-card-head"><span className={`chip-status ${record.status.toLowerCase()}`}>{record.status}</span><code>{record.currentRevision}</code></div>
-      <div className="uid-row"><strong>{record.uid}</strong>{record.uidStatus !== 'placeholder' && <button title="Copy UID" onClick={() => navigator.clipboard.writeText(record.uid)}><Copy size={14} /></button>}</div>
+      <div className="uid-row"><strong>{`<${record.uid}>`}</strong>{record.uidStatus !== 'placeholder' && <button title="Copy UID" onClick={() => navigator.clipboard.writeText(record.uid)}><Copy size={14} /></button>}</div>
       <p className="chip-name">{record.name}</p>
       <p className="chip-description">{record.description || 'No description supplied.'}</p>
       <div className="chip-tags"><span>MAIN: {record.main}</span><span>{record.platform}</span><span>{record.ioType}</span><span>{record.wavelengths.join('+')}</span><span>{record.chipType}</span></div>

@@ -124,7 +124,7 @@ function DesignCard({ design, onOpen }: { design: Design; onOpen: () => void }) 
           <span className="version">v{design.version}</span>
         </div>
         <h3>{design.name}</h3>
-        <p className="function-name"><code>{design.uid}</code> · {prettify(design.deviceType)}</p>
+        <p className="function-name"><code>{`<${design.uid}>`}</code> · {prettify(design.deviceType)}</p>
         <div className="chips">
           <span>{design.wavelength}</span><span>{design.mode}</span><span>{design.crossSection}</span>
         </div>
