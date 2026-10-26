@@ -13,7 +13,7 @@ version, and release status.
   `pdk/developing`
 - Multi-dimensional search and filtering
 - Responsive component cards and design detail drawer
-- Test-chip catalogue with permanent UIDs, revision and lineage tracking
+- Test-chip catalogue with deterministic 13-character UIDs, revision and lineage tracking
 - Function signature, default parameter, quick-start, and GitHub source views
 - GitHub Pages deployment workflow
 
@@ -36,6 +36,28 @@ executes catalogue functions with their default parameters and stores compact
 WebP raster previews in `public/previews`. These images are not layout files.
 Any persisted or downloadable photonic layout artifact must use OAS/OASIS;
 GDS/GDSII artifacts are intentionally not supported by PIC Studio.
+
+## Test-chip UID headers
+
+Test-chip metadata is read only from the Python module header. Each `MAIN`
+block represents one separately generated layout and must contain all six
+fields below. Field names are case-insensitive.
+
+```python
+"""
+MAIN: main_TE()
+PLATFORM: SiN200
+WAVELENGTHS: 520nm, 638nm, 780nm
+IOS: Grating Coupler
+TYPE: test chip
+CREATE DATA: 08/2026
+"""
+```
+
+The UID is a deterministic 13-character identifier derived from `MAIN`,
+`PLATFORM`, `WAVELENGTHS`, `IOS`, `TYPE`, and `CREATE DATA`. No value is
+inferred from paths, filenames, function bodies, or Git history. A missing or
+incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
 
 ## GitHub configuration
 

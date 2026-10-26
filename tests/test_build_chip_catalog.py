@@ -1,0 +1,59 @@
+import importlib.util
+import unittest
+from pathlib import Path
+
+
+SCRIPT = Path(__file__).parents[1] / "scripts" / "build_chip_catalog.py"
+SPEC = importlib.util.spec_from_file_location("build_chip_catalog", SCRIPT)
+MODULE = importlib.util.module_from_spec(SPEC)
+assert SPEC.loader
+SPEC.loader.exec_module(MODULE)
+
+
+class ChipHeaderTests(unittest.TestCase):
+    def test_two_main_blocks_and_case_insensitive_fields(self):
+        blocks = MODULE.parse_header(
+            '''"""
+            main: main_TE()
+            platform: SiN200
+            wavelengths: 520nm, 638nm, 780nm
+            ios: Grating Coupler
+            type: test chip
+            create data: 08/2026
+
+            MAIN: main_TM()
+            PLATFORM: SiN200
+            WAVELENGTHS: 520nm, 638nm, 780nm
+            IOS: Grating Coupler
+            TYPE: test chip
+            CREATE DATA: 08/2026
+            """'''
+        )
+        self.assertEqual(len(blocks), 2)
+        self.assertEqual(blocks[0]["MAIN"], "main_TE()")
+        self.assertEqual(blocks[1]["MAIN"], "main_TM()")
+        self.assertNotEqual(MODULE.uid_for(blocks[0]), MODULE.uid_for(blocks[1]))
+        self.assertEqual(len(MODULE.uid_for(blocks[0])), 13)
+
+    def test_missing_header_is_placeholder(self):
+        record = MODULE.record_for(Path("chip.py"), "0_SiN200_dies/chip.py", {}, 1)
+        self.assertEqual(record["uid"], "PLACEHOLDER")
+        self.assertEqual(record["uidStatus"], "placeholder")
+        self.assertEqual(record["missingMetadata"], list(MODULE.FIELD_ORDER))
+
+    def test_uid_is_deterministic_and_main_is_a_factor(self):
+        block = {
+            "MAIN": "main_TE()",
+            "PLATFORM": "SiN200",
+            "WAVELENGTHS": "520nm, 638nm, 780nm",
+            "IOS": "Grating Coupler",
+            "TYPE": "test chip",
+            "CREATE DATA": "08/2026",
+        }
+        self.assertEqual(MODULE.uid_for(block), MODULE.uid_for(dict(block)))
+        changed = dict(block, MAIN="main_TM()")
+        self.assertNotEqual(MODULE.uid_for(block), MODULE.uid_for(changed))
+
+
+if __name__ == "__main__":
+    unittest.main()

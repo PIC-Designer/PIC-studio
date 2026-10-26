@@ -1,49 +1,122 @@
 #!/usr/bin/env python3
-"""Index test-chip designs stored in PIC_library's 0_* directories."""
+"""Build the test-chip catalogue exclusively from explicit source headers."""
 
 from __future__ import annotations
 
 import argparse
 import ast
+import hashlib
 import json
 import re
-import subprocess
-from datetime import date
 from pathlib import Path
 
-WAVELENGTH_ORDER = ("520", "638", "780", "O", "C")
+FIELD_ORDER = ("MAIN", "PLATFORM", "WAVELENGTHS", "IOS", "TYPE", "CREATE DATA")
+FIELD_PATTERN = re.compile(
+    r"^\s*(MAIN|PLATFORM|WAVELENGTHS|IOS|TYPE|CREATE\s+DATA)\s*:\s*(.*?)\s*$",
+    re.IGNORECASE,
+)
+UID_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+UID_LENGTH = 13
+PLACEHOLDER_UID = "PLACEHOLDER"
 
 
-def source_date(library: Path, source: Path) -> str:
+def canonical_field(name: str) -> str:
+    return re.sub(r"\s+", " ", name.strip()).upper()
+
+
+def normalise_value(value: str) -> str:
+    return re.sub(r"\s+", " ", value.strip())
+
+
+def parse_header(text: str) -> list[dict[str, str]]:
+    """Return one metadata block per MAIN line, without inferring missing values."""
     try:
-        result = subprocess.run(
-            ["git", "log", "-1", "--format=%cs", "--", source.relative_to(library).as_posix()],
-            cwd=library, capture_output=True, check=True, text=True,
-        ).stdout.strip()
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", result):
-            return result
-    except (OSError, subprocess.CalledProcessError):
-        pass
-    prefix = re.match(r"(20\d{2})(\d{2})", source.name)
-    return f"{prefix.group(1)}-{prefix.group(2)}-01" if prefix else date.today().isoformat()
+        module_header = ast.get_docstring(ast.parse(text), clean=False)
+    except SyntaxError:
+        module_header = None
+    if not module_header:
+        return []
+    blocks: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+    for line in module_header.splitlines():
+        match = FIELD_PATTERN.match(line)
+        if not match:
+            continue
+        field = canonical_field(match.group(1))
+        value = normalise_value(match.group(2))
+        if field == "MAIN":
+            if current is not None:
+                blocks.append(current)
+            current = {field: value}
+        elif current is not None:
+            current[field] = value
+    if current is not None:
+        blocks.append(current)
+    return blocks
 
 
-def metadata(source: Path, text: str) -> tuple[str, str, list[str], str]:
-    platform = source.parent.name.removeprefix("0_").removesuffix("_dies")
-    lowered = text.lower()
-    has_gc = bool(re.search(r"(?:grating|(?:^|_)gc(?:_|\b))", lowered))
-    has_ec = bool(re.search(r"(?:edge_coupler|(?:^|_)ec(?:_|\b))", lowered))
-    io_type = "Both" if has_gc and has_ec else "EC" if has_ec else "GC"
-    wavelengths = []
-    for value in WAVELENGTH_ORDER:
-        pattern = {"C": r"cband|c_band", "O": r"oband|o_band"}.get(value, rf"{value}\s*nm|_{value}_")
-        if re.search(pattern, lowered):
-            wavelengths.append(value)
-    if not wavelengths:
-        wavelengths = ["C"]
-    filename = source.stem.lower()
-    chip_type = "OTS" if "offtheshelf" in filename else "DEMO" if "demo" in filename else "CT"
-    return platform, io_type, wavelengths, chip_type
+def canonical_identity(block: dict[str, str]) -> str:
+    return "\x1f".join(block[field] for field in FIELD_ORDER)
+
+
+def encode_base36(number: int) -> str:
+    if number == 0:
+        return "0"
+    encoded = ""
+    while number:
+        number, remainder = divmod(number, len(UID_ALPHABET))
+        encoded = UID_ALPHABET[remainder] + encoded
+    return encoded
+
+
+def uid_for(block: dict[str, str]) -> str:
+    digest = hashlib.sha256(canonical_identity(block).encode("utf-8")).digest()
+    value = int.from_bytes(digest, "big") % (len(UID_ALPHABET) ** UID_LENGTH)
+    return encode_base36(value).rjust(UID_LENGTH, "0")
+
+
+def split_wavelengths(value: str) -> list[str]:
+    return [item.strip() for item in value.split(",") if item.strip()]
+
+
+def record_for(source: Path, relative: str, block: dict[str, str], index: int) -> dict:
+    missing = [field for field in FIELD_ORDER if not block.get(field)]
+    complete = not missing
+    main_entry = block.get("MAIN", "")
+    platform = block.get("PLATFORM", "")
+    wavelengths_text = block.get("WAVELENGTHS", "")
+    io_type = block.get("IOS", "")
+    chip_type = block.get("TYPE", "")
+    created = block.get("CREATE DATA", "")
+    values = [platform, wavelengths_text, io_type, chip_type, created, main_entry]
+    return {
+        "uid": uid_for(block) if complete else PLACEHOLDER_UID,
+        "uidStatus": "generated" if complete else "placeholder",
+        "platform": platform or "Unknown",
+        "ioType": io_type or "Unknown",
+        "wavelengths": split_wavelengths(wavelengths_text) or ["Unknown"],
+        "chipType": chip_type or "Unknown",
+        "main": main_entry or "Unknown",
+        "name": "_".join(value for value in values if value) or source.stem,
+        "createdDate": created or "Unknown",
+        "lastUpdated": created or "Unknown",
+        "currentRevision": "R00",
+        "parentUid": "",
+        "parentRevision": "",
+        "description": (
+            f"Header metadata incomplete: missing {', '.join(missing)}."
+            if missing else f"Layout generated by {main_entry}."
+        ),
+        "status": "Imported" if complete else "Incomplete",
+        "source": relative,
+        "recordKey": f"{relative}#header-{index}",
+        "missingMetadata": missing,
+        "revisions": [{
+            "revision": "R00",
+            "date": created or "Unknown",
+            "change": "Imported from PIC_library header" if complete else "Awaiting complete source header",
+        }],
+    }
 
 
 def main() -> None:
@@ -53,39 +126,56 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     library = args.source.resolve()
-    registry = json.loads(args.registry.read_text(encoding="utf-8"))
-    designs = []
-    discovered = []
+    designs: list[dict] = []
+    registry_records: dict[str, dict] = {}
+    generated_uids: dict[str, str] = {}
+
     for directory in sorted(library.glob("0_*")):
         if not directory.is_dir() or directory.name.lower() == "0_dummy_dies":
             continue
         for source in sorted(directory.rglob("*.py")):
             relative = source.relative_to(library).as_posix()
-            discovered.append(relative)
-            if relative not in registry:
-                raise SystemExit(f"Missing permanent UID for {relative}; add it to {args.registry}")
-            text = source.read_text(encoding="utf-8")
-            try:
-                tree = ast.parse(text, filename=str(source))
-                entrypoints = [node.name for node in tree.body if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and not node.name.startswith("_")]
-            except SyntaxError:
-                entrypoints = []
-            platform, io_type, wavelengths, chip_type = metadata(source, text)
-            updated = source_date(library, source)
-            readable_name = f"{platform}_{io_type}_{'+'.join(wavelengths)}_{chip_type}_{updated.replace('-', '')}"
-            designs.append({
-                "uid": registry[relative], "platform": platform, "ioType": io_type,
-                "wavelengths": wavelengths, "chipType": chip_type, "name": readable_name,
-                "createdDate": updated, "lastUpdated": updated, "currentRevision": "R00",
-                "parentUid": "", "parentRevision": "", "description": source.stem.replace("_", " "),
-                "status": "Imported", "source": relative, "entrypoints": entrypoints,
-                "revisions": [{"revision": "R00", "date": updated, "change": "Imported from PIC_library"}],
-            })
-    stale = sorted(set(registry) - set(discovered))
-    payload = {"source": "PIC-Designer/PIC_library@main:0_*", "count": len(designs), "excluded": ["0_dummy_dies"], "staleRegistryEntries": stale, "designs": designs}
+            blocks = parse_header(source.read_text(encoding="utf-8")) or [{}]
+            for index, block in enumerate(blocks, start=1):
+                record = record_for(source, relative, block, index)
+                key = record["recordKey"]
+                designs.append(record)
+                registry_records[key] = {
+                    "uid": None if record["uidStatus"] == "placeholder" else record["uid"],
+                    "identity": {field: block.get(field, "") for field in FIELD_ORDER},
+                    "missingMetadata": record["missingMetadata"],
+                }
+                if record["uidStatus"] == "generated":
+                    previous = generated_uids.get(record["uid"])
+                    if previous and previous != key:
+                        raise SystemExit(f"UID collision: {record['uid']} is shared by {previous} and {key}")
+                    generated_uids[record["uid"]] = key
+
+    registry_payload = {
+        "version": 2,
+        "uidLength": UID_LENGTH,
+        "algorithm": "sha256-base36-13",
+        "factors": list(FIELD_ORDER),
+        "records": registry_records,
+    }
+    payload = {
+        "source": "PIC-Designer/PIC_library@main:0_*",
+        "count": len(designs),
+        "generatedUidCount": len(generated_uids),
+        "placeholderCount": sum(item["uidStatus"] == "placeholder" for item in designs),
+        "excluded": ["0_dummy_dies"],
+        "uidLength": UID_LENGTH,
+        "uidFactors": list(FIELD_ORDER),
+        "designs": designs,
+    }
+    args.registry.parent.mkdir(parents=True, exist_ok=True)
+    args.registry.write_text(json.dumps(registry_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {len(designs)} test-chip designs to {args.output}")
+    print(
+        f"Wrote {len(designs)} test-chip records to {args.output} "
+        f"({len(generated_uids)} generated UIDs, {payload['placeholderCount']} placeholders)"
+    )
 
 
 if __name__ == "__main__":
