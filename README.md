@@ -84,6 +84,11 @@ The browser's **Generate UID** form applies the same algorithm but is
 calculation-only: it does not create a chip, modify the catalogue, or store the
 entered values locally.
 
+The browser's **Decode UID** action performs an exact lookup in the published
+chip catalogue and displays the six stored header values for a matching UID.
+Because `PIC-UID-v1` uses a one-way SHA-256 digest, an unknown UID cannot be
+reversed without a catalogue record and is reported as not found.
+
 ## GitHub configuration
 
 The deployment workflow needs an Actions secret named `PIC_LIBRARY_TOKEN` with
