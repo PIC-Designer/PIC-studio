@@ -69,6 +69,24 @@ class ChipHeaderTests(unittest.TestCase):
         )[0]
         self.assertEqual(MODULE.uid_for(block), MODULE.uid_for(parsed))
 
+    def test_comments_are_displayed_but_do_not_change_uid(self):
+        text = '''"""
+        mAIn: main_TE()
+        plaTForm: SiN200
+        waveLENGTHS: 520nm, 638nm, 780nm
+        iOs: Grating Coupler
+        tYPe: test chip
+        CREATE DATA: 08/2026
+        coMMents: A short chip introduction.
+        """'''
+        block = MODULE.parse_header(text)[0]
+        uid_with_comment = MODULE.uid_for(block)
+        changed_comment = dict(block, COMMENTS="Completely different text and CASE.")
+        self.assertEqual(uid_with_comment, MODULE.uid_for(changed_comment))
+        record = MODULE.record_for(Path("chip.py"), "0_SiN200_dies/chip.py", block, 1)
+        self.assertEqual(record["comments"], "A short chip introduction.")
+        self.assertEqual(record["description"], "A short chip introduction.")
+
 
 if __name__ == "__main__":
     unittest.main()

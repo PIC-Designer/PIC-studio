@@ -16,6 +16,7 @@ type ChipRecord = {
   parentUid: string
   parentRevision: string
   description: string
+  comments?: string
   status: 'Active' | 'Draft' | 'Archived' | 'Imported' | 'Incomplete'
   source?: string
   recordKey?: string

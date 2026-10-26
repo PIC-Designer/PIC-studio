@@ -21,7 +21,8 @@
         "TYPE": "test chip",
         "CREATE DATA": "08/2026"
       },
-      "missingMetadata": []
+      "missingMetadata": [],
+      "comments": "Standard test unit with 1x2MMI, 2x2MMI and waveguide crossing. All component design in TE mode and connect with corresponding grating coupler"
     },
     "0_SiN200_dies/202608_MPW3_testchip.py#header-2": {
       "uid": "84VSODPWFUNYG",
@@ -33,7 +34,8 @@
         "TYPE": "test chip",
         "CREATE DATA": "08/2026"
       },
-      "missingMetadata": []
+      "missingMetadata": [],
+      "comments": "Standard test unit with 1x2MMI, 2x2MMI and waveguide crossing. All component design in TM mode and connect with corresponding grating coupler"
     },
     "0_SiN200_dies/202610_hcf_demochip.py#header-1": {
       "uid": null,
@@ -52,7 +54,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SiN300_dies/202608_MPW13_testchip.py#header-1": {
       "uid": null,
@@ -71,7 +74,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202501_MPW46_testbench_MRR.py#header-1": {
       "uid": null,
@@ -90,7 +94,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202603_EBL_testchip.py#header-1": {
       "uid": null,
@@ -109,7 +114,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202603_MPW48_demochip.py#header-1": {
       "uid": null,
@@ -128,7 +134,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202603_MPW48_testchips.py#header-1": {
       "uid": null,
@@ -147,7 +154,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202603_offtheshelf.py#header-1": {
       "uid": null,
@@ -166,7 +174,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/202610_MPW51_testchips.py#header-1": {
       "uid": null,
@@ -185,7 +194,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI220_dies/demo.py#header-1": {
       "uid": null,
@@ -204,7 +214,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     },
     "0_SOI340_dies/202604_MPW49_testchips.py#header-1": {
       "uid": null,
@@ -223,7 +234,8 @@
         "IOS",
         "TYPE",
         "CREATE DATA"
-      ]
+      ],
+      "comments": ""
     }
   }
 }

@@ -60,6 +60,11 @@ inferred from paths, filenames, function bodies, or Git history. A missing or
 incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
 All six values are case-folded before hashing, so differences such as
 `Grating Coupler` and `grating coupleR` produce the same UID.
+
+An optional, case-insensitive `COMMENTS` field belongs to its nearest preceding
+`MAIN` block. It is shown on that imported chip card as a short introduction,
+but it is deliberately excluded from the UID identity and changing it never
+changes the UID.
 The browser's **Generate UID** form applies the same algorithm but is
 calculation-only: it does not create a chip, modify the catalogue, or store the
 entered values locally.
