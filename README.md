@@ -65,6 +65,13 @@ An optional, case-insensitive `COMMENTS` field belongs to its nearest preceding
 `MAIN` block. It is shown on that imported chip card as a short introduction,
 but it is deliberately excluded from the UID identity and changing it never
 changes the UID.
+
+Comma-separated values are treated as unordered element sets before hashing.
+For example, `WAVELENGTHS: cband, oband` and `WAVELENGTHS: oband,cband`
+produce the same UID. If a module header contains only `PASS THIS DIE`
+(case-insensitive, with surrounding whitespace ignored), the complete Python
+file is omitted from the Chip Library: no imported record, UID, or placeholder
+is produced.
 The browser's **Generate UID** form applies the same algorithm but is
 calculation-only: it does not create a chip, modify the catalogue, or store the
 entered values locally.

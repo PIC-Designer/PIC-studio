@@ -87,6 +87,22 @@ class ChipHeaderTests(unittest.TestCase):
         self.assertEqual(record["comments"], "A short chip introduction.")
         self.assertEqual(record["description"], "A short chip introduction.")
 
+    def test_pass_this_die_skips_the_source(self):
+        self.assertTrue(MODULE.should_skip('''"""\n  PaSs   ThIs   DiE  \n"""\nprint("ignored")'''))
+        self.assertFalse(MODULE.should_skip('''"""\nMAIN: main()\n"""'''))
+
+    def test_comma_separated_element_order_does_not_change_uid(self):
+        block = {
+            "MAIN": "main()",
+            "PLATFORM": "SOI220",
+            "WAVELENGTHS": "cband, oband",
+            "IOS": "Grating Coupler",
+            "TYPE": "test chip",
+            "CREATE DATA": "08/2026",
+        }
+        reordered = dict(block, WAVELENGTHS="OBAND,CBAND")
+        self.assertEqual(MODULE.uid_for(block), MODULE.uid_for(reordered))
+
 
 if __name__ == "__main__":
     unittest.main()

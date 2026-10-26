@@ -28,7 +28,9 @@ const REPO = 'https://github.com/PIC-Designer/PIC_library'
 const UID_LENGTH = 13
 
 function normaliseValue(value: string) {
-  return value.trim().replace(/\s+/g, ' ').toLocaleLowerCase('en-US')
+  const elements = value.split(',')
+    .map((item) => item.trim().replace(/\s+/g, ' ').toLocaleLowerCase('en-US'))
+  return [...new Set(elements)].sort().join(',')
 }
 
 async function uidFromFactors(main: string, platform: string, wavelengths: string, ioType: string, chipType: string, createData: string) {

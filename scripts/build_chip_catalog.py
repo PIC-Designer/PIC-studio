@@ -28,17 +28,25 @@ def normalise_value(value: str) -> str:
     return re.sub(r"\s+", " ", value.strip())
 
 
+def module_header(text: str) -> str:
+    try:
+        return ast.get_docstring(ast.parse(text), clean=False) or ""
+    except SyntaxError:
+        return ""
+
+
+def should_skip(text: str) -> bool:
+    return normalise_value(module_header(text)).casefold() == "pass this die"
+
+
 def parse_header(text: str) -> list[dict[str, str]]:
     """Return one metadata block per MAIN line, without inferring missing values."""
-    try:
-        module_header = ast.get_docstring(ast.parse(text), clean=False)
-    except SyntaxError:
-        module_header = None
-    if not module_header:
+    header = module_header(text)
+    if not header:
         return []
     blocks: list[dict[str, str]] = []
     current: dict[str, str] | None = None
-    for line in module_header.splitlines():
+    for line in header.splitlines():
         match = FIELD_PATTERN.match(line)
         if not match:
             continue
@@ -56,7 +64,11 @@ def parse_header(text: str) -> list[dict[str, str]]:
 
 
 def canonical_identity(block: dict[str, str]) -> str:
-    return "\x1f".join(block[field].casefold() for field in FIELD_ORDER)
+    def canonical_elements(value: str) -> str:
+        elements = [normalise_value(item).casefold() for item in value.split(",")]
+        return ",".join(sorted(set(elements)))
+
+    return "\x1f".join(canonical_elements(block[field]) for field in FIELD_ORDER)
 
 
 def encode_base36(number: int) -> str:
@@ -137,7 +149,10 @@ def main() -> None:
             continue
         for source in sorted(directory.rglob("*.py")):
             relative = source.relative_to(library).as_posix()
-            blocks = parse_header(source.read_text(encoding="utf-8")) or [{}]
+            text = source.read_text(encoding="utf-8")
+            if should_skip(text):
+                continue
+            blocks = parse_header(text) or [{}]
             for index, block in enumerate(blocks, start=1):
                 record = record_for(source, relative, block, index)
                 key = record["recordKey"]
