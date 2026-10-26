@@ -58,6 +58,9 @@ The UID is a deterministic 13-character identifier derived from `MAIN`,
 `PLATFORM`, `WAVELENGTHS`, `IOS`, `TYPE`, and `CREATE DATA`. No value is
 inferred from paths, filenames, function bodies, or Git history. A missing or
 incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
+The browser's **Generate UID** form applies the same algorithm but is
+calculation-only: it does not create a chip, modify the catalogue, or store the
+entered values locally.
 
 ## GitHub configuration
 

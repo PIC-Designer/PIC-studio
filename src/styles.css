@@ -30,6 +30,7 @@ main { margin-left:248px; min-height:100vh; }.topbar{height:88px;border-bottom:1
 @media(max-width:900px){.chip-grid{grid-template-columns:1fr}.chip-hero{align-items:flex-start;flex-direction:column}.uid-example{min-width:0;width:100%}}
 .chip-status.incomplete{color:#ffad78;background:#482b24}
 .metadata-warning{margin-top:12px;border:1px solid #6c4430;background:#291c18;color:#ffad78;border-radius:6px;padding:8px 9px;font:8px/1.5 DM Mono}
+.copy-generated{margin-top:10px;border:1px solid #2b4b5f;background:#102638;color:#72e8dd;border-radius:6px;padding:6px 9px;display:inline-flex;align-items:center;gap:5px;font-size:8px;cursor:pointer}
 @media(max-width:760px){.chip-summary{grid-template-columns:1fr}.chip-toolbar{flex-direction:column}.new-chip{min-height:42px}.chip-form-grid{grid-template-columns:1fr}.chip-form-grid>label{grid-column:1/-1}.chip-modal{padding:28px 20px}.wavelength-options{flex-wrap:wrap}}
 
 .chip-status.imported{color:#78bfff;background:#18344c}.chip-card-foot a{margin-left:auto;color:#56dcd0;text-decoration:none;font-size:9px;display:flex;align-items:center;gap:4px}
