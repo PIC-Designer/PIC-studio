@@ -56,7 +56,7 @@ def parse_header(text: str) -> list[dict[str, str]]:
 
 
 def canonical_identity(block: dict[str, str]) -> str:
-    return "\x1f".join(block[field] for field in FIELD_ORDER)
+    return "\x1f".join(block[field].casefold() for field in FIELD_ORDER)
 
 
 def encode_base36(number: int) -> str:

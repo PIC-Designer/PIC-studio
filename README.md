@@ -41,7 +41,7 @@ GDS/GDSII artifacts are intentionally not supported by PIC Studio.
 
 Test-chip metadata is read only from the Python module header. Each `MAIN`
 block represents one separately generated layout and must contain all six
-fields below. Field names are case-insensitive.
+fields below. Field names and field values are case-insensitive.
 
 ```python
 """
@@ -58,6 +58,8 @@ The UID is a deterministic 13-character identifier derived from `MAIN`,
 `PLATFORM`, `WAVELENGTHS`, `IOS`, `TYPE`, and `CREATE DATA`. No value is
 inferred from paths, filenames, function bodies, or Git history. A missing or
 incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
+All six values are case-folded before hashing, so differences such as
+`Grating Coupler` and `grating coupleR` produce the same UID.
 The browser's **Generate UID** form applies the same algorithm but is
 calculation-only: it does not create a chip, modify the catalogue, or store the
 entered values locally.

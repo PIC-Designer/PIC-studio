@@ -54,6 +54,21 @@ class ChipHeaderTests(unittest.TestCase):
         changed = dict(block, MAIN="main_TM()")
         self.assertNotEqual(MODULE.uid_for(block), MODULE.uid_for(changed))
 
+    def test_uid_values_are_case_insensitive(self):
+        block = {
+            "MAIN": "main_TE()",
+            "PLATFORM": "SiN200",
+            "WAVELENGTHS": "520nm, 638nm, 780nm",
+            "IOS": "Grating Coupler",
+            "TYPE": "test chip",
+            "CREATE DATA": "08/2026",
+        }
+        changed_case = {key.lower(): value.swapcase() for key, value in block.items()}
+        parsed = MODULE.parse_header(
+            '\"\"\"\n' + '\n'.join(f"{key}: {value}" for key, value in changed_case.items()) + '\n\"\"\"'
+        )[0]
+        self.assertEqual(MODULE.uid_for(block), MODULE.uid_for(parsed))
+
 
 if __name__ == "__main__":
     unittest.main()

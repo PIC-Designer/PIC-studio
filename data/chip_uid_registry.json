@@ -12,7 +12,7 @@
   ],
   "records": {
     "0_SiN200_dies/202608_MPW3_testchip.py#header-1": {
-      "uid": "GIM8EWWYXIG1A",
+      "uid": "KOH4KVONXR7FS",
       "identity": {
         "MAIN": "main_TE()",
         "PLATFORM": "SiN200",
@@ -24,7 +24,7 @@
       "missingMetadata": []
     },
     "0_SiN200_dies/202608_MPW3_testchip.py#header-2": {
-      "uid": "773AAIZJE6HO1",
+      "uid": "84VSODPWFUNYG",
       "identity": {
         "MAIN": "main_TM()",
         "PLATFORM": "SiN200",
