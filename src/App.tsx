@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   Activity, ArrowUpRight, Braces, CheckCircle2, ChevronRight, CircuitBoard, Cpu,
-  FlaskConical, GitBranch, Grid2X2, Layers3, Menu, Search, SlidersHorizontal,
+  BookOpen, FlaskConical, GitBranch, Grid2X2, Layers3, Menu, Search, SlidersHorizontal,
   RefreshCw, Sparkles, Waves, X,
 } from 'lucide-react'
 import type { Catalog, Design } from './types'
 import { DesignSymbol } from './DesignSymbol'
 import { ChipLibrary } from './ChipLibrary'
+import uidCodebook from '../data/design_uid_codebook.json'
 
 const REPO = 'https://github.com/PIC-Designer/PIC_library'
 const SYNC_WORKFLOW = 'https://github.com/PIC-Designer/PIC-studio/actions/workflows/deploy.yml'
@@ -190,6 +191,39 @@ function DetailDrawer({ design, onClose }: { design: Design; onClose: () => void
   )
 }
 
+const CODEBOOK_LABELS: Record<string, string> = {
+  platform: 'Platform', wavelength: 'Wavelength', mode: 'Mode', prefix1: 'Prefix 1',
+  prefix2: 'Prefix 2', prefix3: 'Prefix 3', component: 'Component type',
+  suffix1: 'Suffix 1', suffix2: 'Suffix 2', suffix3: 'Suffix 3', version: 'Version',
+}
+
+function CodebookModal({ onClose }: { onClose: () => void }) {
+  const fields = Object.entries(uidCodebook.fields) as Array<[string, string[]]>
+  return (
+    <div className="codebook-scrim" onMouseDown={onClose}>
+      <section className="codebook-modal" onMouseDown={(event) => event.stopPropagation()} aria-modal="true" role="dialog" aria-label="Design UID codebook">
+        <button className="drawer-close" onClick={onClose} aria-label="Close UID codebook"><X size={20} /></button>
+        <span className="eyebrow">{uidCodebook.scheme}</span>
+        <h2>UID codebook</h2>
+        <p>Read-only numeric assignments used by the reversible 13-character Design UID. Duplicate component values are historical decoding aliases.</p>
+        <div className="codebook-fields">
+          {fields.map(([name, values]) => (
+            <section className={`codebook-field ${name === 'component' ? 'wide' : ''}`} key={name}>
+              <header><strong>{CODEBOOK_LABELS[name] ?? name}</strong><span>{Math.max(0, values.length - 1)} values</span></header>
+              <div className="codebook-rows">
+                {values.map((value, index) => {
+                  const firstIndex = value ? values.findIndex((entry) => entry.toLocaleLowerCase() === value.toLocaleLowerCase()) : index
+                  return <div key={`${index}-${value}`}><code>{index}</code><span>{value || 'Empty'}</span>{firstIndex !== index && <em>alias of {firstIndex}</em>}</div>
+                })}
+              </div>
+            </section>
+          ))}
+        </div>
+      </section>
+    </div>
+  )
+}
+
 export default function App() {
   const [workspace, setWorkspace] = useState<'designs' | 'chips'>('designs')
   const [catalog, setCatalog] = useState<Catalog | null>(null)
@@ -201,6 +235,7 @@ export default function App() {
   const [deviceType, setDeviceType] = useState('')
   const [status, setStatus] = useState('')
   const [selected, setSelected] = useState<Design | null>(null)
+  const [codebookOpen, setCodebookOpen] = useState(false)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [visibility, setVisibility] = useState({ filterKey: '', count: 36 })
 
@@ -269,7 +304,10 @@ export default function App() {
         <header className="topbar">
           <button className="menu-button" onClick={() => setSidebarOpen(!sidebarOpen)}><Menu /></button>
           <div><span className="eyebrow">PIC-DESIGNER / DESIGN SYSTEM</span><h1>{workspace === 'designs' ? 'Design Library' : 'Chip Library'}</h1></div>
-          <a className="repo-button" href={REPO} target="_blank" rel="noreferrer"><GitBranch size={17} /> View repository</a>
+          <div className="topbar-actions">
+            {workspace === 'designs' && <button className="codebook-button" onClick={() => setCodebookOpen(true)}><BookOpen size={17} /> UID codebook</button>}
+            <a className="repo-button" href={REPO} target="_blank" rel="noreferrer"><GitBranch size={17} /> View repository</a>
+          </div>
         </header>
 
         {workspace === 'chips' ? <ChipLibrary /> : <section className="content" id="library">
@@ -308,6 +346,7 @@ export default function App() {
         </section>}
       </main>
       {selected && <DetailDrawer design={selected} onClose={() => setSelected(null)} />}
+      {codebookOpen && <CodebookModal onClose={() => setCodebookOpen(false)} />}
     </div>
   )
 }
