@@ -1,4 +1,5 @@
 import importlib.util
+import ast
 import sys
 import unittest
 from pathlib import Path
@@ -42,6 +43,26 @@ class DesignNameParsingTests(unittest.TestCase):
         self.assertEqual(existing["fields"]["platform"][:len(original_platforms)], original_platforms)
         self.assertEqual(existing["fields"]["platform"][-1], "NEW900")
         self.assertEqual(existing["fields"]["suffix1"][-1], "new")
+
+    def test_static_component_type_has_priority_over_name_guessing(self):
+        function = ast.parse(
+            '''
+def SOI220_Half_Institution_Integrated_LD_and_GC():
+    c.info["component_type"], c.info["wavelength"] = "DFBLaser", 1550
+    return c
+'''
+        ).body[0]
+        self.assertEqual(MODULE.declared_component_type(function), "DFBLaser")
+
+    def test_single_static_component_type_assignment_is_read(self):
+        function = ast.parse(
+            '''
+def component():
+    c.info['component_type'] = 'MMI1x2'
+    return c
+'''
+        ).body[0]
+        self.assertEqual(MODULE.declared_component_type(function), "MMI1x2")
 
 
 if __name__ == "__main__":

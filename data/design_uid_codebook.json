@@ -80,7 +80,20 @@
       "Other",
       "Mode Converter",
       "MZI",
-      "Y Splitter"
+      "Y Splitter",
+      "MMI1x2",
+      "MMI2x2",
+      "GratingCoupler1D",
+      "EdgeCoupler",
+      "TOPM",
+      "Photodiode",
+      "PackagingTemplate",
+      "WaveguideConverter",
+      "Taper",
+      "EOPM",
+      "MMI1x4",
+      "MMI2x4",
+      "DFBLaser"
     ],
     "suffix1": [
       "",

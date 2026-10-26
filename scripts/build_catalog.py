@@ -141,6 +141,35 @@ def parameters(node: ast.FunctionDef) -> list[dict]:
     return result
 
 
+def info_key(node: ast.AST) -> str | None:
+    """Return the literal key from an expression such as c.info['component_type']."""
+    if not isinstance(node, ast.Subscript):
+        return None
+    if not isinstance(node.value, ast.Attribute) or node.value.attr != "info":
+        return None
+    key = node.slice
+    return key.value if isinstance(key, ast.Constant) and isinstance(key.value, str) else None
+
+
+def declared_component_type(node: ast.FunctionDef | ast.AsyncFunctionDef) -> str | None:
+    """Read a static component_type assignment without executing library code."""
+    declared = None
+    for statement in ast.walk(node):
+        if not isinstance(statement, ast.Assign) or len(statement.targets) != 1:
+            continue
+        target = statement.targets[0]
+        targets = list(target.elts) if isinstance(target, (ast.Tuple, ast.List)) else [target]
+        values = list(statement.value.elts) if isinstance(statement.value, (ast.Tuple, ast.List)) else [statement.value]
+        if len(targets) != len(values):
+            continue
+        for assigned_target, assigned_value in zip(targets, values):
+            if info_key(assigned_target) != "component_type":
+                continue
+            if isinstance(assigned_value, ast.Constant) and isinstance(assigned_value.value, str):
+                declared = assigned_value.value.strip()
+    return declared or None
+
+
 def called_function(node: ast.AST) -> str | None:
     """Return the base function called by a registry value such as foo().dup()."""
     while isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
@@ -198,6 +227,9 @@ def scan(root: Path) -> list[dict]:
                 if status == "released" and node.name not in cornerstone_functions:
                     continue
                 metadata = parse_name(node.name, source.stem)
+                component_type = declared_component_type(node)
+                if component_type:
+                    metadata["deviceType"] = component_type
                 designs.append({
                     "id": f"{status}.{source.stem}.{node.name}",
                     "name": node.name,

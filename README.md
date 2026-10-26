@@ -46,6 +46,11 @@ Field values and codebook lookup are case-insensitive. Prefix and suffix slots
 are encoded independently, so their order is preserved and distinct identity
 tuples cannot collide.
 
+The catalogue reads a literal `c.info["component_type"]` assignment directly
+from each function's AST without executing PDK code. This declared value is the
+authoritative device type (for example `DFBLaser`); name-based classification is
+used only when the function does not declare one.
+
 The append-only codebook is stored in `data/design_uid_codebook.json`. Existing
 entries must never be reordered, removed, or renamed because their numeric
 positions are part of the UID. During a normal catalogue build, previously
