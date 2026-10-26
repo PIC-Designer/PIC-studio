@@ -17,6 +17,7 @@ FIELD_PATTERN = re.compile(
 )
 UID_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 UID_LENGTH = 13
+UID_SCHEME_VERSION = "PIC-UID-v1"
 PLACEHOLDER_UID = "PLACEHOLDER"
 
 
@@ -183,6 +184,7 @@ def main() -> None:
         "version": 2,
         "uidLength": UID_LENGTH,
         "algorithm": "sha256-base36-13",
+        "uidScheme": UID_SCHEME_VERSION,
         "factors": list(FIELD_ORDER),
         "records": registry_records,
     }

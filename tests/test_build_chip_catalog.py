@@ -55,6 +55,20 @@ class ChipHeaderTests(unittest.TestCase):
         changed = dict(block, MAIN="main_TM()")
         self.assertNotEqual(MODULE.uid_for(block), MODULE.uid_for(changed))
 
+    def test_uid_v1_golden_value_is_frozen(self):
+        """Changing this value is a breaking UID-scheme change."""
+        block = {
+            "MAIN": "main_TE()",
+            "PLATFORM": "SiN200",
+            "WAVELENGTHS": "520nm, 638nm, 780nm",
+            "IOS": "Grating Coupler",
+            "TYPE": "test chip",
+            "CREATE DATA": "08/2026",
+        }
+
+        self.assertEqual(MODULE.UID_SCHEME_VERSION, "PIC-UID-v1")
+        self.assertEqual(MODULE.uid_for(block), "RIIYXH9T3TZJW")
+
     def test_uid_values_are_case_insensitive(self):
         block = {
             "MAIN": "main_TE()",

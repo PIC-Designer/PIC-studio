@@ -61,6 +61,13 @@ incomplete header produces a `PLACEHOLDER` entry that lists the missing fields.
 All six values are case-folded before hashing, so differences such as
 `Grating Coupler` and `grating coupleR` produce the same UID.
 
+The deterministic generation scheme is frozen as `PIC-UID-v1`. The same six
+header values always produce the same UID on every rebuild and machine; the
+result does not depend on the source path or a previously saved registry. A
+golden test fixes a known input to its expected UID so an accidental algorithm
+change fails CI. Changing one of the six identity values intentionally produces
+a different UID.
+
 An optional, case-insensitive `COMMENTS` field belongs to its nearest preceding
 `MAIN` block. It is shown on that imported chip card as a short introduction,
 but it is deliberately excluded from the UID identity and changing it never

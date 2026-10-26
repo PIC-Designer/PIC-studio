@@ -2,6 +2,7 @@
   "version": 2,
   "uidLength": 13,
   "algorithm": "sha256-base36-13",
+  "uidScheme": "PIC-UID-v1",
   "factors": [
     "MAIN",
     "PLATFORM",
