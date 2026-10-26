@@ -11,7 +11,7 @@ version, and release status.
 - Static AST-based catalogue generation from registered Cornerstone components
   in `pdk/cornerstone/components_in_platform.py` and all public functions in
   `pdk/developing`
-- Multi-dimensional search and filtering
+- Multi-dimensional search and filtering, including Design UID lookup
 - Responsive component cards and design detail drawer
 - Test-chip catalogue with deterministic 13-character UIDs, revision and lineage tracking
 - Function signature, default parameter, quick-start, and GitHub source views
@@ -24,7 +24,7 @@ public `developing` entries are represented as **developing**.
 
 ```powershell
 git clone https://github.com/PIC-Designer/PIC_library.git .reference-library
-python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json
+python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json --uid-codebook data/design_uid_codebook.json
 python scripts/build_chip_catalog.py --source .reference-library --registry data/chip_uid_registry.json --output public/chip_catalog.json
 python scripts/build_previews.py --catalog public/catalog.json --library .reference-library --output public/previews
 pnpm install
@@ -36,6 +36,22 @@ executes catalogue functions with their default parameters and stores compact
 WebP raster previews in `public/previews`. These images are not layout files.
 Any persisted or downloadable photonic layout artifact must use OAS/OASIS;
 GDS/GDSII artifacts are intentionally not supported by PIC Studio.
+
+## Design-component UIDs
+
+Design components use the frozen `DESIGN-UID-v2` scheme. Each 13-character UID
+reversibly encodes platform, wavelength, mode, up to three ordered prefixes,
+device type, up to three ordered suffixes, and version, followed by a checksum.
+Field values and codebook lookup are case-insensitive. Prefix and suffix slots
+are encoded independently, so their order is preserved and distinct identity
+tuples cannot collide.
+
+The append-only codebook is stored in `data/design_uid_codebook.json`. Existing
+entries must never be reordered, removed, or renamed because their numeric
+positions are part of the UID. To intentionally register new catalogue values,
+run the catalogue builder once with `--update-uid-codebook`, review and commit
+the codebook, and then run the normal build. Unknown values and more than three
+prefixes or suffixes fail the build instead of silently changing an identity.
 
 ## Test-chip UID headers
 

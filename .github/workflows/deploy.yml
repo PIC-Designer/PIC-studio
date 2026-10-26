@@ -41,7 +41,7 @@ jobs:
 
       - name: Build design catalogue
         if: ${{ env.PIC_LIBRARY_TOKEN != '' }}
-        run: python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json
+        run: python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json --uid-codebook data/design_uid_codebook.json
 
       - name: Build test-chip catalogue
         if: ${{ env.PIC_LIBRARY_TOKEN != '' }}

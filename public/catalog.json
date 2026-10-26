@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T15:37:07.026863+00:00",
+  "generatedAt": "2026-10-26T20:57:30.900359+00:00",
   "source": "PIC-Designer/PIC_library@main:pdk",
   "count": 297,
   "designs": [
@@ -13,13 +13,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 10,
       "function": "SiN200_780nm_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F2222A22273"
     },
     {
       "id": "released.SiN200.SiN200_780nm_TE_strip_1x2_MMI",
@@ -31,6 +34,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -39,7 +46,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 17,
       "function": "SiN200_780nm_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F3J2262227Z"
     },
     {
       "id": "released.SiN200.SiN200_780nm_TE_strip_2x2_MMI",
@@ -51,6 +59,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -59,7 +71,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 23,
       "function": "SiN200_780nm_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F4222622278"
     },
     {
       "id": "released.SiN200.SiN200_780nm_TE_strip_waveguide",
@@ -71,13 +84,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 29,
       "function": "SiN200_780nm_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F2222C22267"
     },
     {
       "id": "released.SiN200.SiN200_638nm_TE_strip_GC",
@@ -89,13 +105,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 35,
       "function": "SiN200_638nm_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B2222A2226W"
     },
     {
       "id": "released.SiN200.SiN200_638nm_TE_strip_1x2_MMI",
@@ -107,6 +126,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -115,7 +138,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 42,
       "function": "SiN200_638nm_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B3J22622279"
     },
     {
       "id": "released.SiN200.SiN200_638nm_TE_strip_2x2_MMI",
@@ -127,6 +151,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -135,7 +163,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 48,
       "function": "SiN200_638nm_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B4222622262"
     },
     {
       "id": "released.SiN200.SiN200_638nm_TE_strip_waveguide",
@@ -147,13 +176,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 54,
       "function": "SiN200_638nm_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B2222C2227N"
     },
     {
       "id": "released.SiN200.SiN200_520nm_TE_strip_GC",
@@ -165,13 +197,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 60,
       "function": "SiN200_520nm_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "A672222A2226F"
     },
     {
       "id": "released.SiN200.SiN200_520nm_TE_strip_1x2_MMI",
@@ -183,6 +218,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -191,7 +230,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 67,
       "function": "SiN200_520nm_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A673J22622262"
     },
     {
       "id": "released.SiN200.SiN200_520nm_TE_strip_2x2_MMI",
@@ -203,6 +243,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -211,7 +255,8 @@
       "source": "pdk/cornerstone/SiN200.py",
       "line": 73,
       "function": "SiN200_520nm_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67422262227A"
     },
     {
       "id": "released.SiN200.SiN200_520nm_TE_strip_waveguide",
@@ -223,13 +268,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 79,
       "function": "SiN200_520nm_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "A672222C2227R"
     },
     {
       "id": "released.SiN200.SiN200_Institution",
@@ -241,13 +289,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 85,
       "function": "SiN200_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6L2222G2226H"
     },
     {
       "id": "released.SiN200.SiN200_heater",
@@ -259,13 +310,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN200.py",
       "line": 91,
       "function": "SiN200_heater",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6L2222E2226Q"
     },
     {
       "id": "released.SiN300.SiN300_cband_TE_strip_GC",
@@ -277,13 +331,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 10,
       "function": "SiN300_cband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP2222A2226S"
     },
     {
       "id": "released.SiN300.SiN300_cband_TE_strip_1x2_MMI",
@@ -295,6 +352,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -303,7 +364,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 17,
       "function": "SiN300_cband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP3J2262226E"
     },
     {
       "id": "released.SiN300.SiN300_cband_TE_strip_2x2_MMI",
@@ -315,6 +377,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -323,7 +389,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 23,
       "function": "SiN300_cband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP422262227F"
     },
     {
       "id": "released.SiN300.SiN300_cband_TE_strip_90deg_bend",
@@ -335,6 +402,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -343,7 +414,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 29,
       "function": "SiN300_cband_TE_strip_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP5222J22267"
     },
     {
       "id": "released.SiN300.SiN300_cband_TE_strip_waveguide",
@@ -355,13 +427,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 35,
       "function": "SiN300_cband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP2222C2226N"
     },
     {
       "id": "released.SiN300.SiN300_oband_TE_strip_GC",
@@ -373,13 +448,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 41,
       "function": "SiN300_oband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT2222A22263"
     },
     {
       "id": "released.SiN300.SiN300_oband_TE_strip_1x2_MMI",
@@ -391,6 +469,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -399,7 +481,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 47,
       "function": "SiN300_oband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT3J22622264"
     },
     {
       "id": "released.SiN300.SiN300_oband_TE_strip_2x2_MMI",
@@ -411,6 +494,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -419,7 +506,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 53,
       "function": "SiN300_oband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT422262226B"
     },
     {
       "id": "released.SiN300.SiN300_oband_TE_strip_90deg_bend",
@@ -431,6 +519,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -439,7 +531,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 59,
       "function": "SiN300_oband_TE_strip_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT5222J2226Z"
     },
     {
       "id": "released.SiN300.SiN300_oband_TE_strip_waveguide",
@@ -451,13 +544,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 65,
       "function": "SiN300_oband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT2222C2227E"
     },
     {
       "id": "released.SiN300.SiN300_Institution",
@@ -469,13 +565,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 75,
       "function": "SiN300_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAL2222G2226U"
     },
     {
       "id": "released.SiN300.SiN300_heater",
@@ -487,13 +586,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SiN300.py",
       "line": 81,
       "function": "SiN300_heater",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAL2222E2226D"
     },
     {
       "id": "released.SiN300.SiN300_PD_FCI300B1_Plain",
@@ -505,6 +607,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Plain"
+      ],
       "variant": [
         "FCI300B1",
         "Plain"
@@ -514,7 +621,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 87,
       "function": "SiN300_PD_FCI300B1_Plain",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAL2222LA827A"
     },
     {
       "id": "released.SiN300.SiN300_PD_FCI300B1_Integrated",
@@ -526,6 +634,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Integrated"
+      ],
       "variant": [
         "FCI300B1",
         "Integrated"
@@ -535,7 +648,8 @@
       "source": "pdk/cornerstone/SiN300.py",
       "line": 93,
       "function": "SiN300_PD_FCI300B1_Integrated",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAL2222LA626X"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_GC",
@@ -547,13 +661,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 12,
       "function": "SOI220_cband_TE_rib_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222A2227K"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_1x2_MMI",
@@ -565,6 +682,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -573,7 +694,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 19,
       "function": "SOI220_cband_TE_rib_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP3J2262226R"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_2x2_MMI",
@@ -585,6 +707,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -593,7 +719,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 25,
       "function": "SOI220_cband_TE_rib_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP422262227K"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_90deg_bend",
@@ -605,6 +732,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -613,7 +744,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 31,
       "function": "SOI220_cband_TE_rib_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP5222J2226L"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_crossing",
@@ -625,13 +757,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 37,
       "function": "SOI220_cband_TE_rib_crossing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222822262"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_MM2SM_taper",
@@ -643,6 +778,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Mode Converter",
+      "prefixes": [],
+      "suffixes": [
+        "taper"
+      ],
       "variant": [
         "taper"
       ],
@@ -651,7 +790,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 44,
       "function": "SOI220_cband_TE_rib_MM2SM_taper",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222WE226Z"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_MZI",
@@ -663,13 +803,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 50,
       "function": "SOI220_cband_TE_rib_MZI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222Y22273"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib_waveguide",
@@ -681,13 +824,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 56,
       "function": "SOI220_cband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222C2226M"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_GC",
@@ -699,13 +845,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 62,
       "function": "SOI220_cband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222A2227K"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p0",
@@ -717,6 +866,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -733,7 +888,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A622AL"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_1x2_MMI",
@@ -745,6 +901,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -753,7 +913,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 111,
       "function": "SOI220_cband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP3J2262226R"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_2x2_MMI",
@@ -765,6 +926,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -773,7 +938,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 117,
       "function": "SOI220_cband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP422262227K"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_1x2_Ysplitter",
@@ -785,6 +951,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Y Splitter",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -793,7 +963,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 123,
       "function": "SOI220_cband_TE_strip_1x2_Ysplitter",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP3J2322226P"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_90deg_bend",
@@ -805,6 +976,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -813,7 +988,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 129,
       "function": "SOI220_cband_TE_strip_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP5222J2226L"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_crossing",
@@ -825,13 +1001,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 135,
       "function": "SOI220_cband_TE_strip_crossing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222822262"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_MM2SM_taper",
@@ -843,6 +1022,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Mode Converter",
+      "prefixes": [],
+      "suffixes": [
+        "taper"
+      ],
       "variant": [
         "taper"
       ],
@@ -851,7 +1034,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 142,
       "function": "SOI220_cband_TE_strip_MM2SM_taper",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222WE226Z"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_MZI",
@@ -863,13 +1047,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 148,
       "function": "SOI220_cband_TE_strip_MZI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222Y22273"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_rib2strip_taper",
@@ -881,6 +1068,11 @@
       "mode": "TE",
       "crossSection": "Unspecified",
       "deviceType": "Other",
+      "prefixes": [],
+      "suffixes": [
+        "rib2strip",
+        "taper"
+      ],
       "variant": [
         "rib2strip",
         "taper"
@@ -890,7 +1082,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 155,
       "function": "SOI220_cband_TE_rib2strip_taper",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222UCA27E"
     },
     {
       "id": "released.SOI220.SOI220_cband_TE_strip_waveguide",
@@ -902,13 +1095,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 161,
       "function": "SOI220_cband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222C2226M"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_rib_GC",
@@ -920,13 +1116,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 167,
       "function": "SOI220_oband_TE_rib_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222A22266"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_rib_1x2_MMI",
@@ -938,6 +1137,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -946,7 +1149,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 174,
       "function": "SOI220_oband_TE_rib_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT3J22622278"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_rib_2x2_MMI",
@@ -958,6 +1162,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -966,7 +1174,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 180,
       "function": "SOI220_oband_TE_rib_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT422262226R"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_rib_crossing",
@@ -978,13 +1187,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 186,
       "function": "SOI220_oband_TE_rib_crossing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT222282227Y"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_rib_waveguide",
@@ -996,13 +1208,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 193,
       "function": "SOI220_oband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222C22264"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_GC",
@@ -1014,13 +1229,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 199,
       "function": "SOI220_oband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222A22266"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_1x2_MMI",
@@ -1032,6 +1250,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -1040,7 +1262,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 240,
       "function": "SOI220_oband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT3J22622278"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_2x2_MMI",
@@ -1052,6 +1275,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -1060,7 +1287,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 246,
       "function": "SOI220_oband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT422262226R"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_1x2_Ysplitter",
@@ -1072,6 +1300,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Y Splitter",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -1080,7 +1312,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 252,
       "function": "SOI220_oband_TE_strip_1x2_Ysplitter",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT3J2322226D"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_90deg_bend",
@@ -1092,6 +1325,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -1100,7 +1337,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 258,
       "function": "SOI220_oband_TE_strip_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT5222J2226U"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_crossing",
@@ -1112,13 +1350,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 264,
       "function": "SOI220_oband_TE_strip_crossing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT222282227Y"
     },
     {
       "id": "released.SOI220.SOI220_oband_TE_strip_waveguide",
@@ -1130,13 +1371,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 271,
       "function": "SOI220_oband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222C22264"
     },
     {
       "id": "released.SOI220.SOI220_heater",
@@ -1148,13 +1392,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 277,
       "function": "SOI220_heater",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL2222E2226G"
     },
     {
       "id": "released.SOI220.SOI220_cband_Full_Packaging_Template",
@@ -1166,6 +1413,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Packaging Template",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1174,7 +1425,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 288,
       "function": "SOI220_cband_Full_Packaging_Template",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJQ7J22S2227Q"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution",
@@ -1186,6 +1438,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1194,7 +1450,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 298,
       "function": "SOI220_Full_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL7J22G2227S"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_integrated_LD",
@@ -1206,6 +1463,13 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [
+        "integrated",
+        "LD"
+      ],
       "variant": [
         "Full",
         "integrated",
@@ -1216,7 +1480,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 304,
       "function": "SOI220_Full_Institution_integrated_LD",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL7J22GJC26A"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_and_GC",
@@ -1227,20 +1492,28 @@
       "wavelengthNm": null,
       "mode": "Unspecified",
       "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Full",
-        "Institution",
+      "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [
         "Integrated",
         "LD",
-        "and"
+        "GC"
+      ],
+      "variant": [
+        "Full",
+        "Integrated",
+        "LD",
+        "GC"
       ],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 314,
       "function": "SOI220_Full_Institution_Integrated_LD_and_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL7J22GJC46U"
     },
     {
       "id": "released.SOI220.SOI220_Full_Institution_Integrated_LD_or_GC",
@@ -1251,20 +1524,28 @@
       "wavelengthNm": null,
       "mode": "Unspecified",
       "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Full",
-        "Institution",
+      "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [
         "Integrated",
         "LD",
-        "or"
+        "GC"
+      ],
+      "variant": [
+        "Full",
+        "Integrated",
+        "LD",
+        "GC"
       ],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 325,
       "function": "SOI220_Full_Institution_Integrated_LD_or_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL7J22GJC46U"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution",
@@ -1276,6 +1557,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [],
       "variant": [
         "Half"
       ],
@@ -1284,7 +1569,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 336,
       "function": "SOI220_Half_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL9J22G2226N"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD",
@@ -1296,6 +1582,13 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [
+        "Integrated",
+        "LD"
+      ],
       "variant": [
         "Half",
         "Integrated",
@@ -1306,7 +1599,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 342,
       "function": "SOI220_Half_Institution_Integrated_LD",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL9J22GJC26C"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_and_GC",
@@ -1317,20 +1611,28 @@
       "wavelengthNm": null,
       "mode": "Unspecified",
       "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Half",
-        "Institution",
+      "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [
         "Integrated",
         "LD",
-        "and"
+        "GC"
+      ],
+      "variant": [
+        "Half",
+        "Integrated",
+        "LD",
+        "GC"
       ],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 352,
       "function": "SOI220_Half_Institution_Integrated_LD_and_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL9J22GJC469"
     },
     {
       "id": "released.SOI220.SOI220_Half_Institution_Integrated_LD_or_GC",
@@ -1341,20 +1643,28 @@
       "wavelengthNm": null,
       "mode": "Unspecified",
       "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
-      "variant": [
-        "Half",
-        "Institution",
+      "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [
         "Integrated",
         "LD",
-        "or"
+        "GC"
+      ],
+      "variant": [
+        "Half",
+        "Integrated",
+        "LD",
+        "GC"
       ],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220.py",
       "line": 363,
       "function": "SOI220_Half_Institution_Integrated_LD_or_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL9J22GJC469"
     },
     {
       "id": "released.SOI220.SOI220_PD_FCI300B1_Plain",
@@ -1366,6 +1676,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Plain"
+      ],
       "variant": [
         "FCI300B1",
         "Plain"
@@ -1375,7 +1690,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 374,
       "function": "SOI220_PD_FCI300B1_Plain",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL2222LA8268"
     },
     {
       "id": "released.SOI220.SOI220_PD_FCI300B1_Integrated",
@@ -1387,6 +1703,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Integrated"
+      ],
       "variant": [
         "FCI300B1",
         "Integrated"
@@ -1396,7 +1717,8 @@
       "source": "pdk/cornerstone/SOI220.py",
       "line": 380,
       "function": "SOI220_PD_FCI300B1_Integrated",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJL2222LA626J"
     },
     {
       "id": "released.SOI220active.SOI220_cband_TE_rib_Defect_Detector",
@@ -1408,6 +1730,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Photodetector",
+      "prefixes": [
+        "Defect"
+      ],
+      "suffixes": [],
       "variant": [
         "Defect"
       ],
@@ -1416,7 +1742,8 @@
       "source": "pdk/cornerstone/SOI220active.py",
       "line": 15,
       "function": "SOI220_cband_TE_rib_Defect_Detector",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP8222L2226C"
     },
     {
       "id": "released.SOI220active.SOI220_cband_TE_rib_MZM",
@@ -1428,13 +1755,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220active.py",
       "line": 21,
       "function": "SOI220_cband_TE_rib_MZM",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222Y22273"
     },
     {
       "id": "released.SOI220active.SOI220_oband_TE_rib_Defect_Detector",
@@ -1446,6 +1776,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Photodetector",
+      "prefixes": [
+        "Defect"
+      ],
+      "suffixes": [],
       "variant": [
         "Defect"
       ],
@@ -1454,7 +1788,8 @@
       "source": "pdk/cornerstone/SOI220active.py",
       "line": 28,
       "function": "SOI220_oband_TE_rib_Defect_Detector",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT8222L2226F"
     },
     {
       "id": "released.SOI220active.SOI220_oband_TE_rib_MZM",
@@ -1466,13 +1801,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI220active.py",
       "line": 34,
       "function": "SOI220_oband_TE_rib_MZM",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222Y22274"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_GC",
@@ -1484,13 +1822,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 10,
       "function": "SOI340_cband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222A2226E"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_1x2_MMI",
@@ -1502,6 +1843,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -1510,7 +1855,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 17,
       "function": "SOI340_cband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP3J2262227T"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_2x2_MMI",
@@ -1522,6 +1868,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -1530,7 +1880,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 23,
       "function": "SOI340_cband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP422262227J"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_MZI",
@@ -1542,13 +1893,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 29,
       "function": "SOI340_cband_TE_strip_MZI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222Y2226R"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_strip_waveguide",
@@ -1560,13 +1914,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 36,
       "function": "SOI340_cband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222C2226V"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_rib2strip_taper",
@@ -1578,6 +1935,11 @@
       "mode": "TE",
       "crossSection": "Unspecified",
       "deviceType": "Other",
+      "prefixes": [],
+      "suffixes": [
+        "rib2strip",
+        "taper"
+      ],
       "variant": [
         "rib2strip",
         "taper"
@@ -1587,7 +1949,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 42,
       "function": "SOI340_cband_TE_rib2strip_taper",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222UCA265"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_rib_90deg_bend",
@@ -1599,6 +1962,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -1607,7 +1974,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 48,
       "function": "SOI340_cband_TE_rib_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP5222J2227N"
     },
     {
       "id": "released.SOI340.SOI340_cband_TE_rib_waveguide",
@@ -1619,13 +1987,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 54,
       "function": "SOI340_cband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222C2226V"
     },
     {
       "id": "released.SOI340.SOI340_oband_TE_strip_GC",
@@ -1637,13 +2008,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 60,
       "function": "SOI340_oband_TE_strip_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANT2222A2227N"
     },
     {
       "id": "released.SOI340.SOI340_oband_TE_strip_1x2_MMI",
@@ -1655,6 +2029,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -1663,7 +2041,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 67,
       "function": "SOI340_oband_TE_strip_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANT3J2262227T"
     },
     {
       "id": "released.SOI340.SOI340_oband_TE_strip_2x2_MMI",
@@ -1675,6 +2054,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -1683,7 +2066,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 73,
       "function": "SOI340_oband_TE_strip_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANT422262227H"
     },
     {
       "id": "released.SOI340.SOI340_oband_TE_strip_waveguide",
@@ -1695,13 +2079,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 79,
       "function": "SOI340_oband_TE_strip_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANT2222C2226K"
     },
     {
       "id": "released.SOI340.SOI340_heater",
@@ -1713,13 +2100,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI340.py",
       "line": 86,
       "function": "SOI340_heater",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL2222E2226M"
     },
     {
       "id": "released.SOI340.SOI340_heater_with_isolation",
@@ -1731,6 +2121,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [
+        "with",
+        "isolation"
+      ],
       "variant": [
         "with",
         "isolation"
@@ -1740,7 +2135,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 91,
       "function": "SOI340_heater_with_isolation",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL2222ELG274"
     },
     {
       "id": "released.SOI340.SOI340_cband_Full_Packaging_Template",
@@ -1752,6 +2148,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Packaging Template",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1760,7 +2160,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 97,
       "function": "SOI340_cband_Full_Packaging_Template",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANQ7J22S22275"
     },
     {
       "id": "released.SOI340.SOI340_Full_Institution",
@@ -1772,6 +2173,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1780,7 +2185,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 107,
       "function": "SOI340_Full_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL7J22G2227N"
     },
     {
       "id": "released.SOI340.SOI340_Half_Institution",
@@ -1792,6 +2198,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [],
       "variant": [
         "Half"
       ],
@@ -1800,7 +2210,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 145,
       "function": "SOI340_Half_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL9J22G2227D"
     },
     {
       "id": "released.SOI340.SOI340_PD_FCI300B1_Plain",
@@ -1812,6 +2223,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Plain"
+      ],
       "variant": [
         "FCI300B1",
         "Plain"
@@ -1821,7 +2237,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 183,
       "function": "SOI340_PD_FCI300B1_Plain",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL2222LA827S"
     },
     {
       "id": "released.SOI340.SOI340_PD_FCI300B1_Integrated",
@@ -1833,6 +2250,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Integrated"
+      ],
       "variant": [
         "FCI300B1",
         "Integrated"
@@ -1842,7 +2264,8 @@
       "source": "pdk/cornerstone/SOI340.py",
       "line": 189,
       "function": "SOI340_PD_FCI300B1_Integrated",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANL2222LA626N"
     },
     {
       "id": "released.SOI500.SOI500_cband_TE_rib_GC",
@@ -1854,13 +2277,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI500.py",
       "line": 8,
       "function": "SOI500_cband_TE_rib_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP2222A2226V"
     },
     {
       "id": "released.SOI500.SOI500_cband_TE_rib_1x2_MMI",
@@ -1872,6 +2298,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -1880,7 +2310,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 15,
       "function": "SOI500_cband_TE_rib_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP3J22622266"
     },
     {
       "id": "released.SOI500.SOI500_cband_TE_rib_2x2_MMI",
@@ -1892,6 +2323,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -1900,7 +2335,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 21,
       "function": "SOI500_cband_TE_rib_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP422262227T"
     },
     {
       "id": "released.SOI500.SOI500_cband_TE_rib_90deg_bend",
@@ -1912,6 +2348,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -1920,7 +2360,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 27,
       "function": "SOI500_cband_TE_rib_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP5222J22262"
     },
     {
       "id": "released.SOI500.SOI500_cband_TE_rib_waveguide",
@@ -1932,13 +2373,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI500.py",
       "line": 33,
       "function": "SOI500_cband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP2222C2226Y"
     },
     {
       "id": "released.SOI500.SOI500_heater",
@@ -1950,13 +2394,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Heater",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI500.py",
       "line": 40,
       "function": "SOI500_heater",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL2222E22269"
     },
     {
       "id": "released.SOI500.SOI500_cband_Full_Packaging_Template",
@@ -1968,6 +2415,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Packaging Template",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1976,7 +2427,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 46,
       "function": "SOI500_cband_Full_Packaging_Template",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASQ7J22S22266"
     },
     {
       "id": "released.SOI500.SOI500_Full_Institution",
@@ -1988,6 +2440,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [],
       "variant": [
         "Full"
       ],
@@ -1996,7 +2452,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 52,
       "function": "SOI500_Full_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL7J22G2227J"
     },
     {
       "id": "released.SOI500.SOI500_Full_Institution_with_LD_GC",
@@ -2007,19 +2464,28 @@
       "wavelengthNm": null,
       "mode": "Unspecified",
       "crossSection": "Unspecified",
-      "deviceType": "Grating Coupler",
+      "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [
+        "with",
+        "LD",
+        "GC"
+      ],
       "variant": [
         "Full",
-        "Institution",
         "with",
-        "LD"
+        "LD",
+        "GC"
       ],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOI500.py",
       "line": 58,
       "function": "SOI500_Full_Institution_with_LD_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL7J22GLC46C"
     },
     {
       "id": "released.SOI500.SOI500_Full_Institution_with_LD",
@@ -2031,6 +2497,13 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Full"
+      ],
+      "suffixes": [
+        "with",
+        "LD"
+      ],
       "variant": [
         "Full",
         "with",
@@ -2041,7 +2514,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 69,
       "function": "SOI500_Full_Institution_with_LD",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL7J22GLC26R"
     },
     {
       "id": "released.SOI500.SOI500_Half_Institution",
@@ -2053,6 +2527,10 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [
+        "Half"
+      ],
+      "suffixes": [],
       "variant": [
         "Half"
       ],
@@ -2061,7 +2539,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 79,
       "function": "SOI500_Half_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL9J22G2226M"
     },
     {
       "id": "released.SOI500.SOI500_PD_FCI300B1_Plain",
@@ -2073,6 +2552,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Plain"
+      ],
       "variant": [
         "FCI300B1",
         "Plain"
@@ -2082,7 +2566,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 85,
       "function": "SOI500_PD_FCI300B1_Plain",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL2222LA8266"
     },
     {
       "id": "released.SOI500.SOI500_PD_FCI300B1_Integrated",
@@ -2094,6 +2579,11 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Photodetector",
+      "prefixes": [],
+      "suffixes": [
+        "FCI300B1",
+        "Integrated"
+      ],
       "variant": [
         "FCI300B1",
         "Integrated"
@@ -2103,7 +2593,8 @@
       "source": "pdk/cornerstone/SOI500.py",
       "line": 91,
       "function": "SOI500_PD_FCI300B1_Integrated",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASL2222LA626D"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_GC",
@@ -2115,13 +2606,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 9,
       "function": "StudentSOI_cband_TE_rib_GC",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP2222A2227F"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_1x2_MMI",
@@ -2133,6 +2627,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -2141,7 +2639,8 @@
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 18,
       "function": "StudentSOI_cband_TE_rib_1x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP3J2262226H"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_2x2_MMI",
@@ -2153,6 +2652,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -2161,7 +2664,8 @@
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 24,
       "function": "StudentSOI_cband_TE_rib_2x2_MMI",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP4222622276"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_waveguide",
@@ -2173,13 +2677,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 30,
       "function": "StudentSOI_cband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP2222C2227Y"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_90deg_bend",
@@ -2191,6 +2698,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -2199,7 +2710,8 @@
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 36,
       "function": "StudentSOI_cband_TE_rib_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP5222J22265"
     },
     {
       "id": "released.SOIStudent.StudentSOI_cband_TE_rib_crossing",
@@ -2211,13 +2723,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 42,
       "function": "StudentSOI_cband_TE_rib_crossing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWP2222822268"
     },
     {
       "id": "released.SOIStudent.StudentSOI_Institution",
@@ -2229,13 +2744,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/SOIStudent.py",
       "line": 49,
       "function": "StudentSOI_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "AWL2222G2226E"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pE",
@@ -2247,6 +2765,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "oprop"
+      ],
+      "suffixes": [],
       "variant": [
         "oprop"
       ],
@@ -2268,7 +2790,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAJ22A222PH"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_GC_v1pB",
@@ -2280,6 +2803,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "oprop"
+      ],
+      "suffixes": [],
       "variant": [
         "oprop"
       ],
@@ -2301,7 +2828,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAJ22A222QL"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_apodised_GC_compact_v1p0",
@@ -2313,6 +2841,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "oprop",
+        "apodised"
+      ],
+      "suffixes": [
+        "compact"
+      ],
       "variant": [
         "oprop",
         "apodised",
@@ -2336,7 +2871,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAKJ2AN22AL"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_apodised_GC_v1p0",
@@ -2348,6 +2884,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "oprop",
+        "apodised"
+      ],
+      "suffixes": [],
       "variant": [
         "oprop",
         "apodised"
@@ -2370,7 +2911,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAKJ2A222BZ"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_apodised_GC_compact_v1p0",
@@ -2382,6 +2924,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "eprop",
+        "apodised"
+      ],
+      "suffixes": [
+        "compact"
+      ],
       "variant": [
         "eprop",
         "apodised",
@@ -2405,7 +2954,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PA3J2AN22BP"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_apodised_GC_v1p0",
@@ -2417,6 +2967,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "eprop",
+        "apodised"
+      ],
+      "suffixes": [],
       "variant": [
         "eprop",
         "apodised"
@@ -2439,7 +2994,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PA3J2A222A7"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_GC_v1pE",
@@ -2451,6 +3007,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "eprop"
+      ],
+      "suffixes": [],
       "variant": [
         "eprop"
       ],
@@ -2472,7 +3032,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PA222A222P4"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_1x2_MMI",
@@ -2484,6 +3045,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "oprop",
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "oprop",
         "1x2"
@@ -2506,7 +3072,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAJJ262227S"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_1x2_MMI",
@@ -2518,6 +3085,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "eprop",
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "eprop",
         "1x2"
@@ -2540,7 +3112,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PA2J262227K"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_oprop_2x2_MMI",
@@ -2552,6 +3125,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "oprop",
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "oprop",
         "2x2"
@@ -2574,7 +3152,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PAK2262226S"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_eprop_2x2_MMI",
@@ -2586,6 +3165,11 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "eprop",
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "eprop",
         "2x2"
@@ -2602,7 +3186,8 @@
           "default": "True",
           "required": false
         }
-      ]
+      ],
+      "uid": "B2PA32262227A"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_90deg_bend",
@@ -2614,6 +3199,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Bend",
+      "prefixes": [
+        "90°"
+      ],
+      "suffixes": [],
       "variant": [
         "90°"
       ],
@@ -2622,7 +3211,8 @@
       "source": "pdk/cornerstone/TFLN300.py",
       "line": 293,
       "function": "TFLN300_cband_TE_rib_90deg_bend",
-      "parameters": []
+      "parameters": [],
+      "uid": "B2P5222J2226A"
     },
     {
       "id": "released.TFLN300.TFLN300_cband_TE_rib_waveguide",
@@ -2634,13 +3224,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Waveguide",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/TFLN300.py",
       "line": 299,
       "function": "TFLN300_cband_TE_rib_waveguide",
-      "parameters": []
+      "parameters": [],
+      "uid": "B2P2222C2226B"
     },
     {
       "id": "released.TFLN300.TFLN300_Institution",
@@ -2652,13 +3245,16 @@
       "mode": "Unspecified",
       "crossSection": "Unspecified",
       "deviceType": "Institution Layout",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "—",
       "status": "released",
       "source": "pdk/cornerstone/TFLN300.py",
       "line": 306,
       "function": "TFLN300_Institution",
-      "parameters": []
+      "parameters": [],
+      "uid": "B2L2222G2227F"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TE_strip_GC_focusing",
@@ -2670,6 +3266,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -2678,7 +3278,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 13,
       "function": "SiN200_780nm_TE_strip_GC_focusing",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F2222A6226F"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_v0p0",
@@ -2690,13 +3291,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 20,
       "function": "SiN200_780nm_TM_strip_GC_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FJ222A2225Z"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_focusing_v0p0",
@@ -2708,6 +3312,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -2716,7 +3324,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 26,
       "function": "SiN200_780nm_TM_strip_GC_focusing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FJ222A6225H"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_GC_v0p1",
@@ -2728,13 +3337,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 32,
       "function": "SiN200_780nm_TM_strip_GC_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FJ222A22288"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_1x2_MMI_v0p0",
@@ -2746,6 +3358,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -2754,7 +3370,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 39,
       "function": "SiN200_780nm_TM_strip_1x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FKJ2262224Z"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_2x2_MMI_v0p0",
@@ -2766,6 +3383,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -2774,7 +3395,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 44,
       "function": "SiN200_780nm_TM_strip_2x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FL22262224M"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TE_strip_1x2_MMI_v0p1",
@@ -2786,6 +3408,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -2801,7 +3427,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6F3J2262229Y"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TE_strip_2x2_MMI_v0p1",
@@ -2813,6 +3440,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -2828,7 +3459,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6F422262229U"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_1x2_MMI_v0p1",
@@ -2840,6 +3472,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -2855,7 +3491,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6FKJ22622289"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_2x2_MMI_v0p1",
@@ -2867,6 +3504,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -2882,7 +3523,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6FL22262229S"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_dual_strip_inverse_EC_v0p0",
@@ -2894,6 +3536,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "inverse"
+      ],
+      "suffixes": [],
       "variant": [
         "inverse"
       ],
@@ -2909,7 +3555,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6EJJ2242225Q"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_dual_strip_trident_EC_HCF_v0p0",
@@ -2921,6 +3568,12 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "trident"
+      ],
+      "suffixes": [
+        "HCF"
+      ],
       "variant": [
         "trident",
         "HCF"
@@ -2937,7 +3590,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6EK22244225R"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TE_strip_Crossing_v0p0",
@@ -2949,13 +3603,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 83,
       "function": "SiN200_780nm_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6F2222822257"
     },
     {
       "id": "developing.SiN200.SiN200_780nm_TM_strip_Crossing_v0p0",
@@ -2967,13 +3624,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 89,
       "function": "SiN200_780nm_TM_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6FJ22282225W"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TE_strip_GC_focusing",
@@ -2985,6 +3645,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -2993,7 +3657,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 98,
       "function": "SiN200_638nm_TE_strip_GC_focusing",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B2222A6226K"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_GC_v0p0",
@@ -3005,13 +3670,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 105,
       "function": "SiN200_638nm_TM_strip_GC_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6BJ222A2224G"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_GC_focusing_v0p0",
@@ -3023,6 +3691,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -3031,7 +3703,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 111,
       "function": "SiN200_638nm_TM_strip_GC_focusing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6BJ222A6224R"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_1x2_MMI_v0p0",
@@ -3043,6 +3716,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3051,7 +3728,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 118,
       "function": "SiN200_638nm_TM_strip_1x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6BKJ22622247"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_2x2_MMI_v0p0",
@@ -3063,6 +3741,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3071,7 +3753,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 123,
       "function": "SiN200_638nm_TM_strip_2x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6BL222622253"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TE_strip_1x2_MMI_v0p1",
@@ -3083,6 +3766,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3098,7 +3785,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6B3J2262228R"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TE_strip_2x2_MMI_v0p1",
@@ -3110,6 +3798,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3125,7 +3817,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6B422262228A"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_1x2_MMI_v0p1",
@@ -3137,6 +3830,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3152,7 +3849,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6BKJ2262228U"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_2x2_MMI_v0p1",
@@ -3164,6 +3862,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3179,7 +3881,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6BL22262228T"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_dual_strip_inverse_EC_v0p0",
@@ -3191,6 +3894,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "inverse"
+      ],
+      "suffixes": [],
       "variant": [
         "inverse"
       ],
@@ -3206,7 +3913,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6AJJ2242225B"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_dual_strip_trident_EC_HCF_v0p0",
@@ -3218,6 +3926,12 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "trident"
+      ],
+      "suffixes": [
+        "HCF"
+      ],
       "variant": [
         "trident",
         "HCF"
@@ -3234,7 +3948,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A6AK222442246"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TE_strip_Crossing_v0p0",
@@ -3246,13 +3961,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 163,
       "function": "SiN200_638nm_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6B222282225Q"
     },
     {
       "id": "developing.SiN200.SiN200_638nm_TM_strip_Crossing_v0p0",
@@ -3264,13 +3982,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 169,
       "function": "SiN200_638nm_TM_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A6BJ22282225V"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TE_strip_GC_focusing",
@@ -3282,6 +4003,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -3290,7 +4015,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 178,
       "function": "SiN200_520nm_TE_strip_GC_focusing",
-      "parameters": []
+      "parameters": [],
+      "uid": "A672222A6226J"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_GC_v0p0",
@@ -3302,13 +4028,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 185,
       "function": "SiN200_520nm_TM_strip_GC_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67J222A2225M"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_GC_focusing_v0p0",
@@ -3320,6 +4049,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -3328,7 +4061,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 191,
       "function": "SiN200_520nm_TM_strip_GC_focusing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67J222A6225V"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_1x2_MMI_v0p0",
@@ -3340,6 +4074,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3348,7 +4086,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 198,
       "function": "SiN200_520nm_TM_strip_1x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67KJ22622248"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_2x2_MMI_v0p0",
@@ -3360,6 +4099,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3368,7 +4111,8 @@
       "source": "pdk/developing/SiN200.py",
       "line": 203,
       "function": "SiN200_520nm_TM_strip_2x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67L22262225X"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TE_strip_1x2_MMI_v0p1",
@@ -3380,6 +4124,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3395,7 +4143,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A673J2262229F"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TE_strip_2x2_MMI_v0p1",
@@ -3407,6 +4156,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3422,7 +4175,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A674222622282"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_1x2_MMI_v0p1",
@@ -3434,6 +4188,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3449,7 +4207,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A67KJ2262229Z"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_2x2_MMI_v0p1",
@@ -3461,6 +4220,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -3476,7 +4239,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A67L222622284"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_dual_strip_inverse_EC_v0p0",
@@ -3488,6 +4252,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "inverse"
+      ],
+      "suffixes": [],
       "variant": [
         "inverse"
       ],
@@ -3503,7 +4271,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A66JJ2242225Z"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_dual_strip_trident_EC_HCF_v0p0",
@@ -3515,6 +4284,12 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "trident"
+      ],
+      "suffixes": [
+        "HCF"
+      ],
       "variant": [
         "trident",
         "HCF"
@@ -3531,7 +4306,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "A66K22244224X"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TE_strip_Crossing_v0p0",
@@ -3543,13 +4319,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 243,
       "function": "SiN200_520nm_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67222282225E"
     },
     {
       "id": "developing.SiN200.SiN200_520nm_TM_strip_Crossing_v0p0",
@@ -3561,13 +4340,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN200.py",
       "line": 249,
       "function": "SiN200_520nm_TM_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "A67J22282225G"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_GC_focusing_v0p0",
@@ -3579,6 +4361,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -3587,7 +4373,8 @@
       "source": "pdk/developing/SiN300.py",
       "line": 12,
       "function": "SiN300_cband_TE_strip_GC_focusing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP2222A6225A"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p0",
@@ -3599,6 +4386,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -3614,7 +4405,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A2225S"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p0",
@@ -3626,6 +4418,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -3642,7 +4440,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A6224X"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_apodized_GC_v0p0",
@@ -3654,6 +4453,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -3669,7 +4472,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAPMJ22A22259"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_apodized_GC_focusing_v0p0",
@@ -3681,6 +4485,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -3697,7 +4507,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAPMJ22A6225K"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p1",
@@ -3709,6 +4520,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -3724,7 +4539,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A2229Z"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p1",
@@ -3736,6 +4552,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -3752,7 +4574,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A6228X"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_v0p2",
@@ -3764,6 +4587,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -3779,7 +4606,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A222C6"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_v0p2",
@@ -3791,6 +4619,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -3807,7 +4641,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A622DV"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_EBL_v1p0",
@@ -3819,6 +4654,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -3835,7 +4676,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A822AV"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
@@ -3847,6 +4689,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -3864,7 +4713,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP5J22A642AS"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_Crossing_v0p0",
@@ -3876,13 +4726,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300.py",
       "line": 105,
       "function": "SiN300_cband_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAP222282225V"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_Crossing_v0p0",
@@ -3894,13 +4747,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300.py",
       "line": 111,
       "function": "SiN300_cband_TM_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAPJ22282225J"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_1x2_MMI_v0p0",
@@ -3912,6 +4768,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3927,7 +4787,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAPKJ2262224A"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TM_strip_1x2_MMI_v0p1",
@@ -3939,6 +4800,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3954,7 +4819,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAPKJ2262228C"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_1x2_MMI_v0p1",
@@ -3966,6 +4832,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -3981,7 +4851,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP3J2262228T"
     },
     {
       "id": "developing.SiN300.SiN300_cband_dual_strip_inverse_EC_v0p0",
@@ -3993,6 +4864,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "inverse"
+      ],
+      "suffixes": [],
       "variant": [
         "inverse"
       ],
@@ -4008,7 +4883,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AANJJ22422249"
     },
     {
       "id": "developing.SiN300.SiN300_cband_dual_strip_trident_EC_v0p0",
@@ -4020,6 +4896,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "trident"
+      ],
+      "suffixes": [],
       "variant": [
         "trident"
       ],
@@ -4035,7 +4915,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AANK222422255"
     },
     {
       "id": "developing.SiN300.SiN300_cband_dual_strip_dielectric_EC_v0p0",
@@ -4047,6 +4928,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "dielectric"
+      ],
+      "suffixes": [],
       "variant": [
         "dielectric"
       ],
@@ -4062,7 +4947,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AANLJ2242225X"
     },
     {
       "id": "developing.SiN300.SiN300_cband_TE_strip_octopus_EC_v0p1",
@@ -4074,6 +4960,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "octopus"
+      ],
+      "suffixes": [],
       "variant": [
         "octopus"
       ],
@@ -4089,7 +4979,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAP622242228E"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_GC_focusing_v0p0",
@@ -4101,6 +4992,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -4109,7 +5004,8 @@
       "source": "pdk/developing/SiN300.py",
       "line": 165,
       "function": "SiN300_oband_TE_strip_GC_focusing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT2222A6225E"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_apodized_GC_v0p0",
@@ -4121,6 +5017,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -4136,7 +5036,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAT5J22A2225P"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_apodized_GC_focusing_v0p0",
@@ -4148,6 +5049,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -4164,7 +5071,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAT5J22A62246"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_apodized_GC_v0p0",
@@ -4176,6 +5084,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -4191,7 +5103,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AATMJ22A2225G"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_apodized_GC_focusing_v0p0",
@@ -4203,6 +5116,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -4219,7 +5138,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AATMJ22A6224F"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_Crossing_v0p0",
@@ -4231,13 +5151,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300.py",
       "line": 205,
       "function": "SiN300_oband_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AAT2222822256"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_Crossing_v0p0",
@@ -4249,13 +5172,16 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300.py",
       "line": 211,
       "function": "SiN300_oband_TM_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AATJ222822252"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TE_strip_1x2_MMI_v0p1",
@@ -4267,6 +5193,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -4282,7 +5212,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AAT3J2262229Z"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_1x2_MMI_v0p1",
@@ -4294,6 +5225,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -4309,7 +5244,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AATKJ22622292"
     },
     {
       "id": "developing.SiN300.SiN300_oband_TM_strip_2x2_MMI_v0p1",
@@ -4321,6 +5257,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -4336,7 +5276,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AATL22262228D"
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
@@ -4348,15 +5289,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Interlayer Coupler",
-      "variant": [
-        "coupler"
-      ],
+      "prefixes": [],
+      "suffixes": [],
+      "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300onSOI220.py",
       "line": 10,
       "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AEP2222N2224R"
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
@@ -4368,15 +5310,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Interlayer Coupler",
-      "variant": [
-        "coupler"
-      ],
+      "prefixes": [],
+      "suffixes": [],
+      "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SiN300onSOI220.py",
       "line": 15,
       "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AET2222N2225J"
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
@@ -4388,15 +5331,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Interlayer Coupler",
-      "variant": [
-        "coupler"
-      ],
+      "prefixes": [],
+      "suffixes": [],
+      "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SiN300onSOI220.py",
       "line": 23,
       "function": "SiNonSOI_cband_strip_TE_interlayer_coupler_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "AEP2222N2229M"
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
@@ -4408,15 +5352,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Interlayer Coupler",
-      "variant": [
-        "coupler"
-      ],
+      "prefixes": [],
+      "suffixes": [],
+      "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SiN300onSOI220.py",
       "line": 28,
       "function": "SiNonSOI_oband_strip_TE_interlayer_coupler_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "AET2222N2228M"
     },
     {
       "id": "developing.SiN300onSOI220.SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
@@ -4428,15 +5373,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Interlayer Coupler",
-      "variant": [
-        "coupler"
-      ],
+      "prefixes": [],
+      "suffixes": [],
+      "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SiN300onSOI220.py",
       "line": 34,
       "function": "SiNonSOI_oband_strip_TE_vertical_coupler_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "AET2222N2228M"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p0",
@@ -4448,6 +5394,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4465,7 +5418,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A642AP"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_EBL_v1p0",
@@ -4477,6 +5431,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4493,7 +5453,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A822B4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_rib_apodized_GC_focusing_EBL_v1p0",
@@ -4505,6 +5466,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4522,7 +5490,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A642AP"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_rib_apodized_GC_EBL_v1p0",
@@ -4534,6 +5503,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4550,7 +5525,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A822B4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_focusing_EBL_v1p0",
@@ -4562,6 +5538,13 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4579,7 +5562,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A642A4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_EBL_v1p0",
@@ -4591,6 +5575,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4607,7 +5597,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A822AX"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_focusing_EBL_v1p0",
@@ -4619,6 +5610,13 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4636,7 +5634,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A642A4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_EBL_v1p0",
@@ -4648,6 +5647,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4664,7 +5669,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A822AX"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_strip_apodized_GC_focusing_EBL_v1p0",
@@ -4676,6 +5682,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4693,7 +5706,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJT5J22A642BS"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_strip_apodized_GC_EBL_v1p0",
@@ -4705,6 +5719,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4721,7 +5741,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJT5J22A822AX"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_rib_apodized_GC_focusing_EBL_v1p0",
@@ -4733,6 +5754,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4750,7 +5778,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJT5J22A642BS"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_rib_apodized_GC_EBL_v1p0",
@@ -4762,6 +5791,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4778,7 +5813,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJT5J22A822AX"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TM_strip_apodized_GC_focusing_EBL_v1p0",
@@ -4790,6 +5826,13 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4807,7 +5850,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJTMJ22A642AQ"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TM_strip_apodized_GC_EBL_v1p0",
@@ -4819,6 +5863,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4835,7 +5885,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJTMJ22A822A4"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TM_rib_apodized_GC_focusing_EBL_v1p0",
@@ -4847,6 +5898,13 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -4864,7 +5922,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJTMJ22A642AQ"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TM_rib_apodized_GC_EBL_v1p0",
@@ -4876,6 +5935,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -4892,7 +5957,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJTMJ22A822A4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_focusing_v1p0",
@@ -4904,6 +5970,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -4926,7 +5998,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A622BV"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_apodized_GC_v1p0",
@@ -4938,6 +6011,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -4959,7 +6036,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A222BJ"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_focusing_v1p0",
@@ -4971,6 +6049,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -4993,7 +6077,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A622BV"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_rib_apodized_GC_v1p0",
@@ -5005,6 +6090,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5026,7 +6115,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJPMJ22A222BJ"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p1",
@@ -5038,6 +6128,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5054,7 +6150,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A622GS"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p1",
@@ -5066,6 +6163,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5081,7 +6182,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A222H4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p2",
@@ -5093,6 +6195,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5109,7 +6217,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A622F4"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p2",
@@ -5121,6 +6230,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5136,7 +6249,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A222F3"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_EBL_v1p2",
@@ -5148,6 +6262,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing",
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "focusing",
@@ -5165,7 +6286,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A642EU"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_EBL_v1p2",
@@ -5177,6 +6299,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -5193,7 +6321,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A822EL"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v1p3",
@@ -5205,6 +6334,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5221,7 +6356,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A622KL"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v1p3",
@@ -5233,6 +6369,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5248,7 +6388,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A222JD"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_focusing_v2p0",
@@ -5260,6 +6401,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5276,7 +6423,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A622LH"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_apodized_GC_v2p0",
@@ -5288,6 +6436,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5303,7 +6455,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJP5J22A222MM"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_inverse_EC_v0p0",
@@ -5315,6 +6468,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "inverse"
+      ],
+      "suffixes": [],
       "variant": [
         "inverse"
       ],
@@ -5330,7 +6487,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNJJ2242224J"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_octopus_EC_v0p0",
@@ -5342,6 +6500,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "octopus"
+      ],
+      "suffixes": [],
       "variant": [
         "octopus"
       ],
@@ -5357,7 +6519,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNN22242224E"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_trident_EC_v0p0",
@@ -5369,6 +6532,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "trident"
+      ],
+      "suffixes": [],
       "variant": [
         "trident"
       ],
@@ -5384,7 +6551,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNK22242225Y"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_dielectric_EC_v0p0",
@@ -5396,6 +6564,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Edge Coupler",
+      "prefixes": [
+        "dielectric"
+      ],
+      "suffixes": [],
       "variant": [
         "dielectric"
       ],
@@ -5411,7 +6583,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNLJ2242225T"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_nanobridge_PBS_v0p0",
@@ -5423,6 +6596,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Polarisation Rotator/Splitter",
+      "prefixes": [
+        "nanobridge"
+      ],
+      "suffixes": [],
       "variant": [
         "nanobridge"
       ],
@@ -5438,7 +6615,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNP222Q22255"
     },
     {
       "id": "developing.SOI220.SOI220_cband_dual_strip_md_PBRS_v0p0",
@@ -5450,6 +6628,10 @@
       "mode": "DUAL",
       "crossSection": "Dual",
       "deviceType": "Polarisation Rotator/Splitter",
+      "prefixes": [
+        "md"
+      ],
+      "suffixes": [],
       "variant": [
         "md"
       ],
@@ -5465,7 +6647,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "AJNNJ22Q2224U"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_1x2_MMI_v0p0",
@@ -5477,6 +6660,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -5485,7 +6672,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 347,
       "function": "SOI220_cband_TM_strip_1x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJPKJ22622244"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_2x2_MMI_v0p0",
@@ -5497,6 +6685,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -5505,7 +6697,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 353,
       "function": "SOI220_cband_TM_strip_2x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJPL22262225Z"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_1x4_MMI_v0p0",
@@ -5517,6 +6710,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x4"
+      ],
+      "suffixes": [],
       "variant": [
         "1x4"
       ],
@@ -5525,7 +6722,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 359,
       "function": "SOI220_cband_TM_strip_1x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJPQJ2262225J"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TM_strip_2x4_MMI_v0p0",
@@ -5537,6 +6735,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x4"
+      ],
+      "suffixes": [],
       "variant": [
         "2x4"
       ],
@@ -5545,7 +6747,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 365,
       "function": "SOI220_cband_TM_strip_2x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJPR22262224U"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_strip_GC_focusing",
@@ -5557,6 +6760,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -5565,7 +6772,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 373,
       "function": "SOI220_oband_TE_strip_GC_focusing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222A6226B"
     },
     {
       "id": "developing.SOI220.SOI220_oband_TE_rib_GC_focusing",
@@ -5577,6 +6785,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "focusing"
       ],
@@ -5585,7 +6797,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 379,
       "function": "SOI220_oband_TE_rib_GC_focusing",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJT2222A6226B"
     },
     {
       "id": "developing.SOI220.SOI220_cband_TE_strip_MZI_filter",
@@ -5597,6 +6810,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MZI",
+      "prefixes": [],
+      "suffixes": [
+        "filter"
+      ],
       "variant": [
         "filter"
       ],
@@ -5605,7 +6822,8 @@
       "source": "pdk/developing/SOI220.py",
       "line": 385,
       "function": "SOI220_cband_TE_strip_MZI_filter",
-      "parameters": []
+      "parameters": [],
+      "uid": "AJP2222YG226J"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_focusing_v0p0",
@@ -5617,6 +6835,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5639,7 +6863,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A6225C"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_v0p0",
@@ -5651,6 +6876,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5672,7 +6901,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A2224N"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_focusing_v0p0",
@@ -5684,6 +6914,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5706,7 +6942,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A6225C"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_v0p0",
@@ -5718,6 +6955,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5739,7 +6980,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A2224N"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_focusing_v0p0",
@@ -5751,6 +6993,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5773,7 +7021,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A6225C"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_v0p0",
@@ -5785,6 +7034,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5806,7 +7059,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A22255"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_focusing_v0p0",
@@ -5818,6 +7072,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5840,7 +7100,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A6225C"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_v0p0",
@@ -5852,6 +7113,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5873,7 +7138,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A22255"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_focusing_v0p0",
@@ -5885,6 +7151,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5907,7 +7179,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A6225H"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_v0p0",
@@ -5919,6 +7192,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -5940,7 +7217,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A2225A"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_focusing_v0p0",
@@ -5952,6 +7230,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -5974,7 +7258,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A6225H"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_v0p0",
@@ -5986,6 +7271,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -6007,7 +7296,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A2225A"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_focusing_v0p0",
@@ -6019,6 +7309,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -6041,7 +7337,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A6224S"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_v0p0",
@@ -6053,6 +7350,10 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -6074,7 +7375,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A2224H"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_focusing_v0p0",
@@ -6086,6 +7388,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -6108,7 +7416,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A6224S"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_v0p0",
@@ -6120,6 +7429,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -6141,7 +7454,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A2224H"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_EBL_focusing_v0p0",
@@ -6153,6 +7467,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6176,7 +7497,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A8E24V"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_apodized_GC_EBL_v0p0",
@@ -6188,6 +7510,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6210,7 +7538,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A82257"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_EBL_focusing_v0p0",
@@ -6222,6 +7551,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6245,7 +7581,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A8E24V"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_apodized_GC_EBL_v0p0",
@@ -6257,6 +7594,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6279,7 +7622,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANP5J22A82257"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_EBL_focusing_v0p0",
@@ -6291,6 +7635,13 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6314,7 +7665,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A8E244"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_strip_apodized_GC_EBL_v0p0",
@@ -6326,6 +7678,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6348,7 +7706,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A8225L"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_EBL_focusing_v0p0",
@@ -6360,6 +7719,13 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6383,7 +7749,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A8E244"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TM_rib_apodized_GC_EBL_v0p0",
@@ -6395,6 +7762,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6417,7 +7790,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANPMJ22A8225L"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_EBL_focusing_v0p0",
@@ -6429,6 +7803,13 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6452,7 +7833,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A8E248"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_strip_apodized_GC_EBL_v0p0",
@@ -6464,6 +7846,12 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6486,7 +7874,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A8224W"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_EBL_focusing_v0p0",
@@ -6498,6 +7887,13 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6521,7 +7917,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A8E248"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TE_rib_apodized_GC_EBL_v0p0",
@@ -6533,6 +7930,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6555,7 +7958,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANT5J22A8224W"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_EBL_focusing_v0p0",
@@ -6567,6 +7971,13 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6590,7 +8001,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A8E24F"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_strip_apodized_GC_EBL_v0p0",
@@ -6602,6 +8014,12 @@
       "mode": "TM",
       "crossSection": "Strip",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6624,7 +8042,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A8225G"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_EBL_focusing_v0p0",
@@ -6636,6 +8055,13 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL",
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "EBL",
@@ -6659,7 +8085,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A8E24F"
     },
     {
       "id": "developing.SOI340.SOI340_oband_TM_rib_apodized_GC_EBL_v0p0",
@@ -6671,6 +8098,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "EBL"
+      ],
       "variant": [
         "apodized",
         "EBL"
@@ -6693,7 +8126,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ANTMJ22A8225G"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_GC_v0p0",
@@ -6705,13 +8139,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SOI340.py",
       "line": 292,
       "function": "SOI340_cband_TE_rib_GC_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP2222A2224Z"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_1x2_MMI_v0p0",
@@ -6723,6 +8160,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x2"
+      ],
+      "suffixes": [],
       "variant": [
         "1x2"
       ],
@@ -6731,7 +8172,8 @@
       "source": "pdk/developing/SOI340.py",
       "line": 301,
       "function": "SOI340_cband_TE_rib_1x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP3J2262225V"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_2x2_MMI_v0p0",
@@ -6743,6 +8185,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x2"
+      ],
+      "suffixes": [],
       "variant": [
         "2x2"
       ],
@@ -6751,7 +8197,8 @@
       "source": "pdk/developing/SOI340.py",
       "line": 307,
       "function": "SOI340_cband_TE_rib_2x2_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP422262225W"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_1x4_MMI_v0p0",
@@ -6763,6 +8210,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x4"
+      ],
+      "suffixes": [],
       "variant": [
         "1x4"
       ],
@@ -6771,7 +8222,8 @@
       "source": "pdk/developing/SOI340.py",
       "line": 313,
       "function": "SOI340_cband_TE_strip_1x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP8J2262225E"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_2x4_MMI_v0p0",
@@ -6783,6 +8235,10 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x4"
+      ],
+      "suffixes": [],
       "variant": [
         "2x4"
       ],
@@ -6791,7 +8247,8 @@
       "source": "pdk/developing/SOI340.py",
       "line": 319,
       "function": "SOI340_cband_TE_strip_2x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP922262225E"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_Crossing_v0p0",
@@ -6803,13 +8260,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SOI340.py",
       "line": 325,
       "function": "SOI340_cband_TE_rib_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP222282224V"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_rib_Crossing_v0p1",
@@ -6821,13 +8281,16 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SOI340.py",
       "line": 332,
       "function": "SOI340_cband_TE_rib_Crossing_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP222282229C"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_Crossing_v0p0",
@@ -6839,13 +8302,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.0",
       "status": "developing",
       "source": "pdk/developing/SOI340.py",
       "line": 339,
       "function": "SOI340_cband_TE_strip_Crossing_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP222282224V"
     },
     {
       "id": "developing.SOI340.SOI340_cband_TE_strip_Crossing_v0p1",
@@ -6857,13 +8323,16 @@
       "mode": "TE",
       "crossSection": "Strip",
       "deviceType": "Crossing",
+      "prefixes": [],
+      "suffixes": [],
       "variant": [],
       "version": "0.1",
       "status": "developing",
       "source": "pdk/developing/SOI340.py",
       "line": 346,
       "function": "SOI340_cband_TE_strip_Crossing_v0p1",
-      "parameters": []
+      "parameters": [],
+      "uid": "ANP222282229C"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TE_rib_apodized_GC_focusing_v1p0",
@@ -6875,6 +8344,12 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -6897,7 +8372,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASP5J22A622BZ"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TE_rib_apodized_GC_v1p0",
@@ -6909,6 +8385,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -6930,7 +8410,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASP5J22A222A5"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TM_rib_apodized_GC_focusing_v1p0",
@@ -6942,6 +8423,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -6964,7 +8451,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASPMJ22A622BG"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TM_rib_apodized_GC_v1p0",
@@ -6976,6 +8464,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -6997,7 +8489,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASPMJ22A222BJ"
     },
     {
       "id": "developing.SOI500.SOI500_oband_TM_rib_apodized_GC_focusing_v1p0",
@@ -7009,6 +8502,12 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [
+        "focusing"
+      ],
       "variant": [
         "apodized",
         "focusing"
@@ -7031,7 +8530,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASTMJ22A622AV"
     },
     {
       "id": "developing.SOI500.SOI500_oband_TM_rib_apodized_GC_v1p0",
@@ -7043,6 +8543,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "Grating Coupler",
+      "prefixes": [
+        "apodized"
+      ],
+      "suffixes": [],
       "variant": [
         "apodized"
       ],
@@ -7064,7 +8568,8 @@
           "default": null,
           "required": false
         }
-      ]
+      ],
+      "uid": "ASTMJ22A222BF"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TE_rib_1x4_MMI_v0p0",
@@ -7076,6 +8581,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x4"
+      ],
+      "suffixes": [],
       "variant": [
         "1x4"
       ],
@@ -7084,7 +8593,8 @@
       "source": "pdk/developing/SOI500.py",
       "line": 67,
       "function": "SOI500_cband_TE_rib_1x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP8J22622247"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TM_rib_1x4_MMI_v0p0",
@@ -7096,6 +8606,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "1x4"
+      ],
+      "suffixes": [],
       "variant": [
         "1x4"
       ],
@@ -7104,7 +8618,8 @@
       "source": "pdk/developing/SOI500.py",
       "line": 73,
       "function": "SOI500_cband_TM_rib_1x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASPQJ2262225E"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TE_rib_2x4_MMI_v0p0",
@@ -7116,6 +8631,10 @@
       "mode": "TE",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x4"
+      ],
+      "suffixes": [],
       "variant": [
         "2x4"
       ],
@@ -7124,7 +8643,8 @@
       "source": "pdk/developing/SOI500.py",
       "line": 79,
       "function": "SOI500_cband_TE_rib_2x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASP922262225B"
     },
     {
       "id": "developing.SOI500.SOI500_cband_TM_rib_2x4_MMI_v0p0",
@@ -7136,6 +8656,10 @@
       "mode": "TM",
       "crossSection": "Rib",
       "deviceType": "MMI",
+      "prefixes": [
+        "2x4"
+      ],
+      "suffixes": [],
       "variant": [
         "2x4"
       ],
@@ -7144,7 +8668,8 @@
       "source": "pdk/developing/SOI500.py",
       "line": 85,
       "function": "SOI500_cband_TM_rib_2x4_MMI_v0p0",
-      "parameters": []
+      "parameters": [],
+      "uid": "ASPR22262225V"
     }
   ]
 }

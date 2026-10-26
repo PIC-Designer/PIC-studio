@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "scheme": "DESIGN-UID-v2",
+  "appendOnly": true,
+  "fields": {
+    "platform": [
+      "",
+      "SiN200",
+      "SiN300",
+      "SiNonSOI",
+      "SOI220",
+      "SOI340",
+      "SOI500",
+      "StudentSOI",
+      "TFLN300"
+    ],
+    "wavelength": [
+      "",
+      "520 nm",
+      "638 nm",
+      "780 nm",
+      "Unspecified",
+      "1550 nm",
+      "1310 nm"
+    ],
+    "mode": [
+      "",
+      "DUAL",
+      "TE",
+      "TM",
+      "Unspecified"
+    ],
+    "prefix1": [
+      "",
+      "inverse",
+      "trident",
+      "1x2",
+      "2x2",
+      "dielectric",
+      "90°",
+      "apodized",
+      "octopus",
+      "md",
+      "nanobridge",
+      "Full",
+      "Defect",
+      "1x4",
+      "2x4",
+      "Half",
+      "eprop",
+      "oprop"
+    ],
+    "prefix2": [
+      "",
+      "1x2",
+      "2x2",
+      "apodised"
+    ],
+    "prefix3": [
+      ""
+    ],
+    "component": [
+      "",
+      "Edge Coupler",
+      "MMI",
+      "Crossing",
+      "Grating Coupler",
+      "Waveguide",
+      "Heater",
+      "Institution Layout",
+      "Bend",
+      "Photodetector",
+      "Interlayer Coupler",
+      "Polarisation Rotator/Splitter",
+      "Packaging Template",
+      "Other",
+      "Mode Converter",
+      "MZI",
+      "Y Splitter"
+    ],
+    "suffix1": [
+      "",
+      "HCF",
+      "focusing",
+      "EBL",
+      "FCI300B1",
+      "rib2strip",
+      "taper",
+      "filter",
+      "integrated",
+      "with",
+      "compact"
+    ],
+    "suffix2": [
+      "",
+      "EBL",
+      "Integrated",
+      "Plain",
+      "taper",
+      "LD",
+      "focusing",
+      "isolation"
+    ],
+    "suffix3": [
+      "",
+      "GC"
+    ],
+    "version": [
+      "",
+      "0.0",
+      "—",
+      "0.1",
+      "1.0",
+      "0.2",
+      "1.2",
+      "1.1",
+      "1.3",
+      "2.0",
+      "1.E",
+      "1.B"
+    ]
+  }
+}

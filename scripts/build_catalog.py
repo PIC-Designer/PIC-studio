@@ -10,6 +10,8 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from design_uid import decode_uid, empty_codebook, encode_uid, identity_fields, load_codebook, update_codebook
+
 DEVICE_PATTERNS = [
     ("Packaging Template", ("packaging", "template")),
     ("Photodetector", ("pd", "detector")),
@@ -73,15 +75,34 @@ def parse_name(name: str, platform_hint: str) -> dict:
     cross_section = next((token.title() for token in lowered if token in {"strip", "rib", "dual", "slab"}), "Unspecified")
     device_type = "Other"
     matched = set()
-    for label, patterns in DEVICE_PATTERNS:
-        if any(pattern in lowered for pattern in patterns):
-            device_type = label
-            matched.update(patterns)
-            break
+    component_index = -1
+    candidates = []
+    for priority, (label, patterns) in enumerate(DEVICE_PATTERNS):
+        matching_indexes = [lowered.index(pattern) for pattern in patterns if pattern in lowered]
+        if matching_indexes:
+            candidates.append((min(matching_indexes), priority, label, patterns))
+    if candidates:
+        component_index, _, device_type, selected_patterns = min(candidates)
+        matched.update(selected_patterns)
     version_match = re.search(r"_v(\d+)p([A-Za-z0-9]+)$", name, re.IGNORECASE)
     version = f"{version_match.group(1)}.{version_match.group(2)}" if version_match else "—"
-    structural = {platform.lower(), "cband", "oband", "te", "tm", "dual", "strip", "rib", "slab"} | matched
-    variant = [token.replace("deg", "°") for token in tokens[1:] if token.lower() not in structural and not re.fullmatch(r"v\d+p\w+", token, re.I) and not re.fullmatch(r"\d+nm", token, re.I)]
+    structural = {platform.lower(), "cband", "oband", "te", "tm", "dual", "strip", "rib", "slab", "and", "or"} | matched
+    component_end = component_index
+    component_tail = {"coupler", "converter", "splitter", "template", "resonator"}
+    if component_index >= 0 and component_index + 1 < len(lowered) and lowered[component_index + 1] in component_tail:
+        component_end += 1
+        structural.add(lowered[component_end])
+
+    descriptors = [
+        (index, token.replace("deg", "°"))
+        for index, token in enumerate(tokens[1:], start=1)
+        if token.lower() not in structural
+        and not re.fullmatch(r"v\d+p\w+", token, re.I)
+        and not re.fullmatch(r"\d+nm", token, re.I)
+    ]
+    prefixes = [token for index, token in descriptors if component_index >= 0 and index < component_index]
+    suffixes = [token for index, token in descriptors if component_index < 0 or index > component_end]
+    variant = prefixes + suffixes
     return {
         "platform": platform,
         "material": material,
@@ -90,6 +111,8 @@ def parse_name(name: str, platform_hint: str) -> dict:
         "mode": mode,
         "crossSection": cross_section,
         "deviceType": device_type,
+        "prefixes": prefixes,
+        "suffixes": suffixes,
         "variant": variant,
         "version": version,
     }
@@ -189,8 +212,33 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--uid-codebook", type=Path, required=True)
+    parser.add_argument("--update-uid-codebook", action="store_true")
     args = parser.parse_args()
     designs = scan(args.source.resolve())
+    if args.uid_codebook.exists():
+        codebook = load_codebook(args.uid_codebook)
+    elif args.update_uid_codebook:
+        codebook = empty_codebook()
+    else:
+        raise SystemExit(f"Design UID codebook does not exist: {args.uid_codebook}")
+
+    if args.update_uid_codebook:
+        update_codebook(codebook, designs)
+        args.uid_codebook.parent.mkdir(parents=True, exist_ok=True)
+        args.uid_codebook.write_text(json.dumps(codebook, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    identities_by_uid: dict[str, dict] = {}
+    for design in designs:
+        design["uid"] = encode_uid(codebook, design)
+        identity = identity_fields(design)
+        decoded = decode_uid(codebook, design["uid"])
+        if encode_uid(codebook, decoded) != design["uid"]:
+            raise ValueError(f"Design UID round-trip failed for {design['id']}")
+        previous = identities_by_uid.get(design["uid"])
+        if previous is not None and previous != identity:
+            raise ValueError(f"Design UID collision for {design['uid']}: {previous!r} != {identity!r}")
+        identities_by_uid[design["uid"]] = identity
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "source": "PIC-Designer/PIC_library@main:pdk",

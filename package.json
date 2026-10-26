@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "catalog": "python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json",
+    "catalog": "python scripts/build_catalog.py --source .reference-library/pdk --output public/catalog.json --uid-codebook data/design_uid_codebook.json",
     "chip-catalog": "python scripts/build_chip_catalog.py --source .reference-library --registry data/chip_uid_registry.json --output public/chip_catalog.json",
     "previews": "python scripts/build_previews.py --catalog public/catalog.json --library .reference-library --output public/previews",
     "check:layouts": "python scripts/check_layout_formats.py public",

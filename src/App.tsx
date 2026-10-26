@@ -123,8 +123,8 @@ function DesignCard({ design, onOpen }: { design: Design; onOpen: () => void }) 
           <span className={`status ${design.status}`}>{design.status === 'released' ? 'Cornerstone' : 'Developing'}</span>
           <span className="version">v{design.version}</span>
         </div>
-        <h3>{prettify(design.deviceType)}</h3>
-        <p className="function-name">{design.name}</p>
+        <h3>{design.name}</h3>
+        <p className="function-name"><code>{design.uid}</code> · {prettify(design.deviceType)}</p>
         <div className="chips">
           <span>{design.wavelength}</span><span>{design.mode}</span><span>{design.crossSection}</span>
         </div>
@@ -217,7 +217,7 @@ export default function App() {
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
     return designs.filter((design) =>
-      (!term || [design.name, design.platform, design.deviceType, ...design.variant].join(' ').toLowerCase().includes(term)) &&
+      (!term || [design.uid, design.name, design.platform, design.deviceType, ...design.variant].join(' ').toLowerCase().includes(term)) &&
       (!platform || design.platform === platform) && (!wavelength || design.wavelength === wavelength) &&
       (!mode || design.mode === mode) && (!deviceType || design.deviceType === deviceType) &&
       (!status || design.status === status),
@@ -227,7 +227,7 @@ export default function App() {
     const counts = new Map<string, number>()
     const chartDesigns = deviceType ? designs.filter((design) => {
       const term = query.trim().toLowerCase()
-      return (!term || [design.name, design.platform, design.deviceType, ...design.variant].join(' ').toLowerCase().includes(term)) &&
+      return (!term || [design.uid, design.name, design.platform, design.deviceType, ...design.variant].join(' ').toLowerCase().includes(term)) &&
         (!wavelength || design.wavelength === wavelength) && (!mode || design.mode === mode) &&
         design.deviceType === deviceType && (!status || design.status === status)
     }) : filtered
@@ -287,7 +287,7 @@ export default function App() {
 
           <section className="library-panel">
             <div className="search-row">
-              <label className="search"><Search size={19} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search component, platform or variant…" /></label>
+              <label className="search"><Search size={19} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search UID, component, platform or variant…" /></label>
               <button className="filter-count"><SlidersHorizontal size={17} /> Filters {filtersActive > 0 && <span>{filtersActive}</span>}</button>
             </div>
             <div className="filter-row">

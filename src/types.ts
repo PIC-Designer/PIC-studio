@@ -9,6 +9,7 @@ export interface Parameter {
 
 export interface Design {
   id: string
+  uid: string
   name: string
   platform: string
   material: string
@@ -17,6 +18,8 @@ export interface Design {
   mode: string
   crossSection: string
   deviceType: string
+  prefixes: string[]
+  suffixes: string[]
   variant: string[]
   version: string
   status: DesignStatus
