@@ -26,7 +26,10 @@ DEVICE_PATTERNS = [
     ("Bend", ("bend",)),
     ("Waveguide", ("waveguide",)),
     ("Heater", ("heater",)),
-    ("Institution Layout", ("institution",)),
+    # Institution names describe full/half layout assemblies rather than a
+    # component family. Keep the token as a structural anchor while encoding
+    # the actual LD/GC composition as ordered suffixes.
+    ("Other", ("institution",)),
     ("Interlayer Coupler", ("interlayer", "vertical")),
 ]
 
