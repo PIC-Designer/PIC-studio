@@ -2,13 +2,14 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   Activity, ArrowUpRight, Braces, CheckCircle2, ChevronRight, CircuitBoard, Cpu,
   FlaskConical, GitBranch, Grid2X2, Layers3, Menu, Search, SlidersHorizontal,
-  Sparkles, Waves, X,
+  RefreshCw, Sparkles, Waves, X,
 } from 'lucide-react'
 import type { Catalog, Design } from './types'
 import { DesignSymbol } from './DesignSymbol'
 import { ChipLibrary } from './ChipLibrary'
 
 const REPO = 'https://github.com/PIC-Designer/PIC_library'
+const SYNC_WORKFLOW = 'https://github.com/PIC-Designer/PIC-studio/actions/workflows/deploy.yml'
 
 function unique(values: string[]) {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b))
@@ -261,7 +262,7 @@ export default function App() {
           <p>Source</p>
           <a href={REPO} target="_blank" rel="noreferrer"><GitBranch size={18} /> PIC_library <ArrowUpRight size={14} /></a>
         </nav>
-        <div className="sync-card"><Sparkles size={18} /><div><strong>Library connected</strong><span>{catalog ? `${catalog.count} designs indexed` : 'Loading catalogue…'}</span></div></div>
+        <div className="sync-card"><Sparkles size={18} /><div><strong>Library connected</strong><span>{catalog ? `${catalog.count} designs indexed` : 'Loading catalogue…'}</span><a href={SYNC_WORKFLOW} target="_blank" rel="noreferrer" title="Authorized members can run the catalogue sync workflow on GitHub"><RefreshCw size={13} /> Sync libraries</a></div></div>
       </aside>
 
       <main>

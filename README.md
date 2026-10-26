@@ -84,6 +84,12 @@ The browser's **Generate UID** form applies the same algorithm but is
 calculation-only: it does not create a chip, modify the catalogue, or store the
 entered values locally.
 
+The Workspace sidebar's **Sync libraries** action opens the authorized GitHub
+Actions workflow. Running that workflow checks out the private `PIC_library`,
+regenerates both catalogues, and deploys the refreshed site. Manual sync fails
+explicitly when the `PIC_LIBRARY_TOKEN` Actions secret is unavailable, rather
+than silently publishing stale catalogue data.
+
 ## GitHub configuration
 
 The deployment workflow needs an Actions secret named `PIC_LIBRARY_TOKEN` with

@@ -23,6 +23,13 @@ jobs:
       - name: Checkout PIC Studio
         uses: actions/checkout@v4
 
+      - name: Require private library access for manual sync
+        if: ${{ github.event_name == 'workflow_dispatch' && env.PIC_LIBRARY_TOKEN == '' }}
+        run: |
+          echo "PIC_LIBRARY_TOKEN is required to sync PIC_library."
+          echo "Add it under Settings > Secrets and variables > Actions, then run this workflow again."
+          exit 1
+
       - name: Checkout private PIC library
         if: ${{ env.PIC_LIBRARY_TOKEN != '' }}
         uses: actions/checkout@v4
