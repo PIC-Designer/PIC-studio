@@ -46,9 +46,18 @@ def parse_header(text: str) -> list[dict[str, str]]:
         return []
     blocks: list[dict[str, str]] = []
     current: dict[str, str] | None = None
+    active_field: str | None = None
     for line in header.splitlines():
         match = FIELD_PATTERN.match(line)
         if not match:
+            # COMMENTS may span indented lines. Other fields deliberately stay
+            # single-line so a prose paragraph cannot accidentally become UID
+            # metadata.
+            continuation = normalise_value(line)
+            if current is not None and active_field == "COMMENTS" and continuation:
+                current["COMMENTS"] = normalise_value(
+                    f'{current.get("COMMENTS", "")} {continuation}'
+                )
             continue
         field = canonical_field(match.group(1))
         value = normalise_value(match.group(2))
@@ -58,6 +67,7 @@ def parse_header(text: str) -> list[dict[str, str]]:
             current = {field: value}
         elif current is not None:
             current[field] = value
+        active_field = field
     if current is not None:
         blocks.append(current)
     return blocks

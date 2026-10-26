@@ -64,7 +64,8 @@ All six values are case-folded before hashing, so differences such as
 An optional, case-insensitive `COMMENTS` field belongs to its nearest preceding
 `MAIN` block. It is shown on that imported chip card as a short introduction,
 but it is deliberately excluded from the UID identity and changing it never
-changes the UID.
+changes the UID. A comment may continue on following lines; continuation lines
+are joined with spaces until the next recognised metadata field.
 
 Comma-separated values are treated as unordered element sets before hashing.
 For example, `WAVELENGTHS: cband, oband` and `WAVELENGTHS: oband,cband`

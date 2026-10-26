@@ -1,4 +1,5 @@
 import importlib.util
+import textwrap
 import unittest
 from pathlib import Path
 
@@ -86,6 +87,32 @@ class ChipHeaderTests(unittest.TestCase):
         record = MODULE.record_for(Path("chip.py"), "0_SiN200_dies/chip.py", block, 1)
         self.assertEqual(record["comments"], "A short chip introduction.")
         self.assertEqual(record["description"], "A short chip introduction.")
+
+    def test_multiline_comments_are_joined_without_affecting_completeness(self):
+        source = textwrap.dedent(
+            '''\
+            """
+            MAIN: playground()
+            PLATFORM: SiN200
+            WAVELENGTHS: 520nm, 638nm
+            IOS: Edge Coupler
+            TYPE: demo chip
+            create data: 10/2026
+            COMMENTS: Demonstrative chip for hollow-core-fiber interconnect.
+                Two types of logos and multi-mode delay lines are prepared.
+            """
+            '''
+        )
+        block = MODULE.parse_header(source)[0]
+        record = MODULE.record_for(Path("demo.py"), "demo.py", block, 0)
+
+        self.assertEqual(record["uidStatus"], "generated")
+        self.assertEqual(
+            record["comments"],
+            "Demonstrative chip for hollow-core-fiber interconnect. "
+            "Two types of logos and multi-mode delay lines are prepared.",
+        )
+        self.assertEqual(record["description"], record["comments"])
 
     def test_pass_this_die_skips_the_source(self):
         self.assertTrue(MODULE.should_skip('''"""\n  PaSs   ThIs   DiE  \n"""\nprint("ignored")'''))

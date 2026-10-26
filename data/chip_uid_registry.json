@@ -48,7 +48,7 @@
         "CREATE DATA": "10/2026"
       },
       "missingMetadata": [],
-      "comments": "Demonstrative chip for Hollow-core-fiber interconnect with vis-SiN-PIC by using DOE Edge coupler."
+      "comments": "Demonstrative chip for Hollow-core-fiber interconnect with vis-SiN-PIC by using DOE Edge coupler. Two type of logos, diffractive and SM waveguide, are prepared. Single and Multi-Mode delay lines used to perform the light scattering from sidewall."
     },
     "0_SiN300_dies/202608_MPW13_testchip.py#header-1": {
       "uid": "RAI08RATTCPUH",
@@ -61,7 +61,7 @@
         "CREATE DATA": "08/2026"
       },
       "missingMetadata": [],
-      "comments": "Test chip with inversely designed Grating Coupler, Waveguide Crossing, 1X2 MMI and 2x2 MMI For oband and cband wavelengths."
+      "comments": "Test chip with inversely designed Grating Coupler, Waveguide Crossing, 1X2 MMI and 2x2 MMI For oband and cband wavelengths. 3 type of Edge couplers, inversely, trident, octopus, are connected with Grating coupler. Ring resonator array and standard delay lines are used to figure out the performance of group index and propagation loss."
     },
     "0_SOI220_dies/202501_MPW46_testbench_MRR.py#header-1": {
       "uid": "TEE49LJ4178SA",
@@ -87,7 +87,7 @@
         "CREATE DATA": "03/2026"
       },
       "missingMetadata": [],
-      "comments": "Ebeam lithographic based test chip with loopback grating coupler and edge coupler array."
+      "comments": "Ebeam lithographic based test chip with loopback grating coupler and edge coupler array. With standard propagation loss test group and all standard components. Fine-tuning ring resonator with ring-based-DMDM are employed."
     },
     "0_SOI220_dies/202603_MPW48_demochip.py#header-1": {
       "uid": "R0JMCDY92MCB2",
@@ -113,7 +113,7 @@
         "CREATE DATA": "03/2026"
       },
       "missingMetadata": [],
-      "comments": "Standard delay lines and ring resonator are used to figure out propagation loss and group index. PBS and PBRC are initialized."
+      "comments": "Standard delay lines and ring resonator are used to figure out propagation loss and group index. PBS and PBRC are initialized. Inversely and Octopus edge couplers connect with grating coupler as test patterns"
     },
     "0_SOI220_dies/202603_MPW48_testchips.py#header-2": {
       "uid": "JNFTRNSL3EC8Y",
@@ -126,7 +126,7 @@
         "CREATE DATA": "03/2026"
       },
       "missingMetadata": [],
-      "comments": "Loopback unit with grating couplers in strip and rib waveguide under cband and oband wavelength conditions."
+      "comments": "Loopback unit with grating couplers in strip and rib waveguide under cband and oband wavelength conditions. 5 different PID grating couplers with strip and rib waveguide of 70-nm, 120-nm and full etched gratings. trident and dielectric-matched edge couplers connect with grating coupler as test patterns"
     },
     "0_SOI220_dies/202603_offtheshelf.py#header-1": {
       "uid": "IRDMUEXCDALR8",
@@ -139,7 +139,7 @@
         "CREATE DATA": "03/2026"
       },
       "missingMetadata": [],
-      "comments": "Cornerstone off-the-shelf chip with all standard component in PIC-library by following the Phix packaging protocol. With 127- and 250-nm pitch loopback grating coupler arrays."
+      "comments": "Cornerstone off-the-shelf chip with all standard component in PIC-library by following the Phix packaging protocol. With 127- and 250-nm pitch loopback grating coupler arrays. directional coupler and ring resonator to characterize the waveguide and coupling conditions. Two type of delay line: spiral and racetrack for line-distance performance."
     },
     "0_SOI220_dies/202610_MPW51_testchips.py#header-1": {
       "uid": "IZ7AD2SPRT3AX",
