@@ -216,17 +216,19 @@ def main() -> None:
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--uid-codebook", type=Path, required=True)
-    parser.add_argument("--update-uid-codebook", action="store_true")
+    parser.add_argument(
+        "--strict-uid-codebook",
+        action="store_true",
+        help="Reject values missing from the codebook instead of appending them",
+    )
     args = parser.parse_args()
     designs = scan(args.source.resolve())
     if args.uid_codebook.exists():
         codebook = load_codebook(args.uid_codebook)
-    elif args.update_uid_codebook:
-        codebook = empty_codebook()
     else:
-        raise SystemExit(f"Design UID codebook does not exist: {args.uid_codebook}")
+        codebook = empty_codebook()
 
-    if args.update_uid_codebook:
+    if not args.strict_uid_codebook:
         update_codebook(codebook, designs)
         args.uid_codebook.parent.mkdir(parents=True, exist_ok=True)
         args.uid_codebook.write_text(json.dumps(codebook, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

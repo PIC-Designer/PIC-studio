@@ -48,10 +48,12 @@ tuples cannot collide.
 
 The append-only codebook is stored in `data/design_uid_codebook.json`. Existing
 entries must never be reordered, removed, or renamed because their numeric
-positions are part of the UID. To intentionally register new catalogue values,
-run the catalogue builder once with `--update-uid-codebook`, review and commit
-the codebook, and then run the normal build. Unknown values and more than three
-prefixes or suffixes fail the build instead of silently changing an identity.
+positions are part of the UID. During a normal catalogue build, previously
+unknown values are automatically appended to the relevant field in stable
+component-name order; existing codes never move. Review and commit an extended
+codebook after a local sync so those assignments remain part of the repository.
+Use `--strict-uid-codebook` when a validation run should reject unknown values
+instead. More than three prefixes or suffixes always fails clearly.
 
 ## Test-chip UID headers
 

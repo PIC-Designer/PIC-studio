@@ -28,6 +28,21 @@ class DesignNameParsingTests(unittest.TestCase):
         self.assertEqual(parsed["prefixes"], ["Half"])
         self.assertEqual(parsed["suffixes"], [])
 
+    def test_codebook_extension_is_append_only(self):
+        existing = MODULE.empty_codebook()
+        first = MODULE.parse_name("SiN200_780nm_TE_strip_GC", "SiN200")
+        first["name"] = "SiN200_780nm_TE_strip_GC"
+        MODULE.update_codebook(existing, [first])
+        original_platforms = list(existing["fields"]["platform"])
+
+        new_design = MODULE.parse_name("NEW900_980nm_TM_strip_GC_new", "NEW900")
+        new_design["name"] = "NEW900_980nm_TM_strip_GC_new"
+        MODULE.update_codebook(existing, [new_design])
+
+        self.assertEqual(existing["fields"]["platform"][:len(original_platforms)], original_platforms)
+        self.assertEqual(existing["fields"]["platform"][-1], "NEW900")
+        self.assertEqual(existing["fields"]["suffix1"][-1], "new")
+
 
 if __name__ == "__main__":
     unittest.main()
