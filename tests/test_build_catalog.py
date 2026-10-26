@@ -64,6 +64,14 @@ def component():
         ).body[0]
         self.assertEqual(MODULE.declared_component_type(function), "MMI1x2")
 
+    def test_mmi_subtypes_share_the_mmi_uid_type(self):
+        for value in ("MMI1x2", "MMI2x2", "MMI1x4", "MMI2x4", "mmi2X8"):
+            self.assertEqual(MODULE.normalized_component_type(value), "MMI")
+
+    def test_legacy_component_types_map_to_metadata_vocabulary(self):
+        self.assertEqual(MODULE.normalized_component_type("Grating Coupler"), "GratingCoupler1D")
+        self.assertEqual(MODULE.normalized_component_type("Edge Coupler"), "EdgeCoupler")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -34,6 +34,14 @@ DEVICE_PATTERNS = [
 ]
 
 BAND_NM = {"cband": 1550, "oband": 1310}
+COMPONENT_TYPE_ALIASES = {
+    "edge coupler": "EdgeCoupler",
+    "grating coupler": "GratingCoupler1D",
+    "heater": "TOPM",
+    "photodetector": "Photodiode",
+    "packaging template": "PackagingTemplate",
+    "mode converter": "Taper",
+}
 IGNORE_FILES = {"__init__.py", "CORNERSTONE.py", "components_lookup.py", "components_in_platform.py"}
 IGNORE_FUNCTIONS = {"export_gds_fils", "mono_layer_designations", "std_component_lookup_dict", "PLATFORM"}
 
@@ -52,6 +60,14 @@ def prefer_first_conflict_side(text: str) -> str:
         elif state != "second":
             output.append(line)
     return "\n".join(output)
+
+
+def normalized_component_type(value: str) -> str:
+    """Map legacy/display types to the canonical component UID vocabulary."""
+    clean = value.strip()
+    if re.fullmatch(r"MMI\d+x\d+", clean, re.IGNORECASE):
+        return "MMI"
+    return COMPONENT_TYPE_ALIASES.get(clean.casefold(), clean)
 
 
 def rendered(node: ast.AST | None) -> str | None:
@@ -113,7 +129,7 @@ def parse_name(name: str, platform_hint: str) -> dict:
         "wavelengthNm": wavelength_nm,
         "mode": mode,
         "crossSection": cross_section,
-        "deviceType": device_type,
+        "deviceType": normalized_component_type(device_type),
         "prefixes": prefixes,
         "suffixes": suffixes,
         "variant": variant,
@@ -229,7 +245,7 @@ def scan(root: Path) -> list[dict]:
                 metadata = parse_name(node.name, source.stem)
                 component_type = declared_component_type(node)
                 if component_type:
-                    metadata["deviceType"] = component_type
+                    metadata["deviceType"] = normalized_component_type(component_type)
                 designs.append({
                     "id": f"{status}.{source.stem}.{node.name}",
                     "name": node.name,

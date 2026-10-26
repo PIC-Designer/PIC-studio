@@ -72,6 +72,14 @@ class DesignUidTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "checksum"):
             MODULE.decode_uid(codebook, uid[:-1] + replacement)
 
+    def test_component_alias_slots_decode_but_encoding_uses_first_slot(self):
+        design = sample(deviceType="MMI", prefixes=[], suffixes=[])
+        codebook = self.codebook(design)
+        codebook["fields"]["component"].append("MMI")
+        uid = MODULE.encode_uid(codebook, design)
+        self.assertEqual(MODULE.decode_uid(codebook, uid)["deviceType"], "MMI")
+        self.assertEqual(MODULE._field_codes(codebook, design)[6], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -51,6 +51,13 @@ from each function's AST without executing PDK code. This declared value is the
 authoritative device type (for example `DFBLaser`); name-based classification is
 used only when the function does not declare one.
 
+Legacy component-type slots are migrated in place to the metadata vocabulary
+(`GratingCoupler1D`, `EdgeCoupler`, `TOPM`, and so on). All declared MMI
+subtypes such as `MMI1x2` and `MMI2x4` normalize to `MMI`. When more than one
+historical slot maps to the same canonical type, the slots remain as decoding
+aliases so already published UIDs retain their meaning; new UIDs use the first
+canonical slot.
+
 The append-only codebook is stored in `data/design_uid_codebook.json`. Existing
 entries must never be reordered, removed, or renamed because their numeric
 positions are part of the UID. During a normal catalogue build, previously

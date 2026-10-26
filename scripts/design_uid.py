@@ -55,7 +55,9 @@ def load_codebook(path: Path) -> dict:
         if len(values) > (1 << width):
             raise ValueError(f"Codebook field {name} exceeds its {width}-bit capacity")
         keys = [canonical(value) for value in values]
-        if len(keys) != len(set(keys)):
+        # Component aliases may intentionally occupy multiple historical code
+        # slots after a vocabulary migration. Other fields remain unique.
+        if name != "component" and len(keys) != len(set(keys)):
             raise ValueError(f"Codebook field {name} contains duplicate canonical values")
     return payload
 
@@ -104,7 +106,11 @@ def _field_codes(codebook: dict, design: dict) -> list[int]:
     identity = identity_fields(design)
     codes = []
     for name, _ in FIELD_LAYOUT:
-        reverse = {canonical(value): index for index, value in enumerate(codebook["fields"][name])}
+        reverse = {}
+        for index, value in enumerate(codebook["fields"][name]):
+            # Prefer the earliest slot so new UIDs use the canonical legacy
+            # position while older alias slots remain decodable.
+            reverse.setdefault(canonical(value), index)
         key = canonical(identity[name])
         if key not in reverse:
             raise ValueError(f"{design.get('name')}: {name} value {identity[name]!r} is not registered")
