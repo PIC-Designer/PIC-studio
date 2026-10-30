@@ -17,6 +17,7 @@ type ChipRecord = {
   parentRevision: string
   description: string
   comments?: string
+  derivedFrom?: string
   status: 'Active' | 'Draft' | 'Archived' | 'Imported' | 'Incomplete'
   source?: string
   recordKey?: string
@@ -90,7 +91,7 @@ export function ChipLibrary() {
   const allRecords = importedRecords
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
-    return allRecords.filter((record) => !term || [record.uid, record.name, record.main, record.description, record.currentRevision].join(' ').toLowerCase().includes(term))
+    return allRecords.filter((record) => !term || [record.uid, record.name, record.main, record.description, record.currentRevision, record.derivedFrom].join(' ').toLowerCase().includes(term))
   }, [allRecords, query])
 
   return <section className="content chip-library">
@@ -100,7 +101,7 @@ export function ChipLibrary() {
     </div>
     <div className="chip-summary">
       <div><Cpu /><span><strong>{allRecords.length}</strong> chip designs</span></div>
-      <div><GitFork /><span><strong>{allRecords.filter((record) => record.parentUid).length}</strong> derived designs</span></div>
+      <div><GitFork /><span><strong>{allRecords.filter((record) => record.derivedFrom || record.parentUid).length}</strong> derived designs</span></div>
       <div><CalendarDays /><span><strong>{allRecords.reduce((sum, record) => sum + record.revisions.length, 0)}</strong> revisions</span></div>
     </div>
     <div className="chip-toolbar">
@@ -108,14 +109,17 @@ export function ChipLibrary() {
       <button className="new-chip" onClick={() => setGenerating(true)}><Fingerprint size={17} /> Generate UID</button>
     </div>
     {filtered.length ? <div className="chip-grid">{filtered.map((record) => <article className="chip-card" key={record.recordKey ?? record.uid}>
-      <div className="chip-card-head"><span className={`chip-status ${record.status.toLowerCase()}`}>{record.status}</span><code>{record.currentRevision}</code></div>
+      <div className="chip-card-head">
+        {record.uidStatus === 'placeholder' ? <span className="chip-status incomplete">Incomplete</span> : <div className="chip-provenance"><span>Release date: <strong>{record.createdDate}</strong></span>{record.derivedFrom && <span>Derived from: <strong>{record.derivedFrom}</strong></span>}</div>}
+        <code>{record.currentRevision}</code>
+      </div>
       <div className="uid-row"><strong>{`<${record.uid}>`}</strong>{record.uidStatus !== 'placeholder' && <button title="Copy UID" onClick={() => navigator.clipboard.writeText(record.uid)}><Copy size={14} /></button>}</div>
       <p className="chip-name">{record.name}</p>
       <p className="chip-description">{record.description || 'No description supplied.'}</p>
       <div className="chip-tags"><span>MAIN: {record.main}</span><span>{record.platform}</span><span>{record.ioType}</span><span>{record.wavelengths.join('+')}</span><span>{record.chipType}</span></div>
       {!!record.missingMetadata?.length && <div className="metadata-warning">Missing: {record.missingMetadata.join(', ')}</div>}
       {record.parentUid && <div className="parent-chip"><GitFork size={13} /> Parent {record.parentUid} / {record.parentRevision}</div>}
-      <div className="chip-card-foot"><span>Updated {record.lastUpdated}</span>{record.source && <a href={`${REPO}/blob/main/${record.source}`} target="_blank" rel="noreferrer">Source <ArrowUpRight size={12} /></a>}</div>
+      <div className="chip-card-foot">{record.uidStatus === 'placeholder' && <span>Updated {record.lastUpdated}</span>}{record.source && <a href={`${REPO}/blob/main/${record.source}`} target="_blank" rel="noreferrer">Source <ArrowUpRight size={12} /></a>}</div>
     </article>)}</div> : <div className="empty chip-empty"><Cpu size={34} /><strong>{allRecords.length ? 'No matching chips' : 'No test chips yet'}</strong><span>{allRecords.length ? 'Try another UID, MAIN, chip name or description.' : 'No imported test-chip records are available.'}</span></div>}
     {generating && <UidGenerator onClose={() => setGenerating(false)} />}
   </section>

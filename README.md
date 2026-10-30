@@ -105,6 +105,11 @@ but it is deliberately excluded from the UID identity and changing it never
 changes the UID. A comment may continue on following lines; continuation lines
 are joined with spaces until the next recognised metadata field.
 
+An optional, case-insensitive `DERIVED FROM` field records design lineage for
+the nearest preceding `MAIN` block. It is shown only when present and is also
+excluded from UID generation. Successful Chip Library cards show `CREATE DATA`
+as their release date instead of displaying an `IMPORTED` badge.
+
 Comma-separated values are treated as unordered element sets before hashing.
 For example, `WAVELENGTHS: cband, oband` and `WAVELENGTHS: oband,cband`
 produce the same UID. If a module header contains only `PASS THIS DIE`

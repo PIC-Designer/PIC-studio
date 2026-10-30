@@ -102,6 +102,23 @@ class ChipHeaderTests(unittest.TestCase):
         self.assertEqual(record["comments"], "A short chip introduction.")
         self.assertEqual(record["description"], "A short chip introduction.")
 
+    def test_optional_derived_from_is_displayed_but_not_part_of_uid(self):
+        source = '''"""
+        MAIN: main()
+        PLATFORM: SOI220
+        WAVELENGTHS: cband
+        IOS: Grating Coupler
+        TYPE: test chip
+        CREATE DATA: 10/2026
+        dErIvEd FrOm: MPW48 reference design
+        """'''
+        block = MODULE.parse_header(source)[0]
+        without_lineage = {key: value for key, value in block.items() if key != "DERIVED FROM"}
+        self.assertEqual(block["DERIVED FROM"], "MPW48 reference design")
+        self.assertEqual(MODULE.uid_for(block), MODULE.uid_for(without_lineage))
+        record = MODULE.record_for(Path("chip.py"), "chip.py", block, 1)
+        self.assertEqual(record["derivedFrom"], "MPW48 reference design")
+
     def test_multiline_comments_are_joined_without_affecting_completeness(self):
         source = textwrap.dedent(
             '''\
