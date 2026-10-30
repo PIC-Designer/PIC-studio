@@ -6,6 +6,8 @@ indexes GDSFactory component definitions without executing library code and
 presents them by platform, wavelength, mode, cross-section, device family,
 version, and release status.
 
+Using the url: https://pic-designer.github.io/PIC-studio/ to view the dashboard
+
 ## Current playground
 
 - Static AST-based catalogue generation from registered Cornerstone components
